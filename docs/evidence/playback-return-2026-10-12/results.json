@@ -1,0 +1,178 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "cases": [
+      {
+        "slug": "sarv",
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "boreal",
+        "url": "https://real-estate-website-blond-phi.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "lumiere",
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "harvest",
+        "url": "https://harvest-bloom.vercel.app/?v=2842544",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      }
+    ],
+    "hiddenPause": true,
+    "pageRestore": true,
+    "freezeRestore": true,
+    "userPauseRespected": true,
+    "offscreenPause": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "cases": [
+      {
+        "slug": "sarv",
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "boreal",
+        "url": "https://real-estate-website-blond-phi.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "lumiere",
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "harvest",
+        "url": "https://harvest-bloom.vercel.app/?v=2842544",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      }
+    ],
+    "hiddenPause": true,
+    "pageRestore": true,
+    "freezeRestore": true,
+    "userPauseRespected": true,
+    "offscreenPause": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "cases": [
+      {
+        "slug": "sarv",
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "boreal",
+        "url": "https://real-estate-website-blond-phi.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "lumiere",
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "harvest",
+        "url": "https://harvest-bloom.vercel.app/?v=2842544",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      }
+    ],
+    "hiddenPause": true,
+    "pageRestore": true,
+    "freezeRestore": true,
+    "userPauseRespected": true,
+    "offscreenPause": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "cases": [
+      {
+        "slug": "sarv",
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "boreal",
+        "url": "https://real-estate-website-blond-phi.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "lumiere",
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      },
+      {
+        "slug": "harvest",
+        "url": "https://harvest-bloom.vercel.app/?v=2842544",
+        "naturalReturn": true,
+        "noReplayClick": true,
+        "latePauseRecovery": true,
+        "decodedFrames": true
+      }
+    ],
+    "hiddenPause": true,
+    "pageRestore": true,
+    "freezeRestore": true,
+    "userPauseRespected": true,
+    "offscreenPause": true,
+    "errors": []
+  }
+]

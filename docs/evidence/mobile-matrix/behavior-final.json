@@ -1,0 +1,18 @@
+{
+  "touchTargets": true,
+  "touchSwipe": true,
+  "previewPlayback": true,
+  "offscreenPause": true,
+  "mobileMenu": true,
+  "keyboardSizedViewport": {
+    "dialogFits": true,
+    "composerFits": true
+  },
+  "videoWithoutWebGL": true,
+  "cpu4x": {
+    "median": 16.699999999999818,
+    "p95": 33.19999999999982,
+    "over50ms": 2
+  },
+  "note": "Headless Chromium stress test. Raw CDP swipe and native preview taps are checked in separate documents because mixing their input streams suppressed the next compatibility click in this harness. Resized viewport simulates keyboard space; no real iOS/Android OS keyboard or handset is claimed."
+}

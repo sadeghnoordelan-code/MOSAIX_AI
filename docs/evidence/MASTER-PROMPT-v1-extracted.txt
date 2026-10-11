@@ -1,0 +1,232 @@
+MOSAIXOFFICIAL WEBSITE
+MASTER BUILD PROMPT  •  v1.0  •  FLAGSHIP EXPERIENCE
+Design × AI × Technology — a cinematic, interactive, serious, production-grade digital flagship.
+0. EXECUTION CONTRACT
+You are building the official MOSAIX website. This is not a generic agency landing page and not a visual mockup. It is a flagship interactive product that must simultaneously prove MOSAIX's design taste, technical ability, AI capability, motion craft, and professional seriousness.
+The implementation must be real, responsive, maintainable, accessible, crawlable, deployable, and stable. Do not fake functionality, project links, pricing, statistics, client claims, delivery times, integrations, or technical capabilities.
+Sadegh is the final approval authority for creative direction and material changes. If performance, browser compatibility, mobile constraints, implementation complexity, or stability suggest simplifying, removing, replacing, or materially changing an approved visual or interaction, STOP and report: (1) the exact issue, (2) evidence, (3) impact, (4) options, and (5) your recommendation. Do not silently simplify.
+Hero and Service Cards are PRIORITY ZERO. They are the visual and experiential center of the entire website. Do not treat them as ordinary sections and do not compromise their quality to finish secondary sections faster.
+1. PRODUCT POSITIONING
+MOSAIX is an AI Product Studio operating at the intersection of design, software, AI, interaction and digital experience.
+Primary brand language: black / chromatic black / deep navy / white / restrained MOSAIX blue / chrome-metallic accents.
+Tone: premium, intelligent, cinematic, precise, experimental but credible. Never childish, gimmicky, noisy, template-like or 'AI-generated looking'.
+Tagline available for use where compositionally appropriate: AUTOMATE A BRIGHTER TOMORROW.
+Core experience principle: information remains understandable while interaction makes it more compelling.
+2. EXPERIENCE DNA
+Build the site around a coherent MOSAIX experience system, not a collection of unrelated effects.
+Dual realities: surface ↔ hidden layer, physical ↔ digital, object ↔ data, darkness ↔ revealed world.
+A recurring MOSAIX Signature Object / ribbon language may transform between contexts. It is inspired by the brand geometry but must not merely be a 3D logo spinning everywhere.
+Motion must have narrative purpose. Avoid effect stacking: particles + glow + parallax + noise + shaders + 3D simply because they are available.
+Typography, lighting, object motion, video, glass and background reactions should feel choreographed as one system.
+Narrative motion is conceptually invariant; interaction implementation can only be adapted after Sadegh approves the proposed adaptation.
+3. GLOBAL LIVING BACKGROUND
+The entire public-facing site should feel alive even when the user is not hovering a card or interacting with the Hero, but the background must remain lightweight and subordinate to content.
+Create a persistent low-amplitude ambient system: extremely slow chromatic-black/deep-navy tonal drift, restrained blue light breathing, soft gradient/light-field movement, subtle depth response and optional very fine material/grain texture.
+No constant heavy particle simulation. No full-screen WebGL scene merely to prove WebGL usage.
+Ambient motion must never compete with typography, project videos or Service Cards.
+Transitions between major worlds may influence the ambient field: web can feel planar/digital; automation can feel orbital/data-like; Lab can feel modular/experimental — without becoming five unrelated themes.
+Prefer GPU-friendly transforms/compositing and a small number of persistent layers. Avoid React state updates on every pointer/scroll frame.
+Reduced-motion behavior must preserve the visual composition while removing nonessential continuous motion.
+4. PRIORITY ZERO — HERO SECTION
+The Hero is the first proof that MOSAIX is different. It must feel tactile, cinematic and physically believable, not like a circular CSS spotlight placed over a video.
+4.1 Hero visual premise
+The supplied Hero video is continuously playing behind an opaque or near-opaque chromatic-black surface from the moment the Hero is ready. The user does NOT start or pause the film. The black surface hides it. Light reveals it locally.
+Conceptual layer order:
+Layer A — continuously playing Hero video, cover-fitted and visually pristine.
+Layer B — black/chromatic-black concealment material covering the video.
+Layer C — physically inspired interactive illumination/reveal field.
+Layer D — real HTML typography, brand marks and interaction cues.
+Layer E — optional restrained atmospheric response such as bloom/haze/refraction only where it improves realism.
+4.2 The reveal rule — non-negotiable
+Where light falls, the black concealment layer must become optically revealed so the already-playing video underneath appears in that illuminated region. Outside the illuminated region, the video remains hidden by the black material. This is not a video opacity fade for the whole Hero and not a simple hard circular clip.
+The reveal mask should behave like light: high exposure near the source, soft penumbra/falloff, irregularly organic but controlled edge softness, subtle luminance spill, and optional local chromatic response. The result should make the viewer feel that light is exposing a hidden moving world beneath a dark physical surface.
+4.3 Light behavior
+Desktop primary interaction: pointer-driven / mouse-down-and-drag light exploration. Do not depend on right-click.
+Mobile equivalent: touch/drag. It must remain discoverable and comfortable.
+Light position should have slight inertial lag and damping so it feels like a physical lamp/light source, not a cursor sticker.
+Use smooth interpolation through requestAnimationFrame or GSAP ticker; never direct jittery pointer-to-DOM updates.
+Natural light hierarchy: compact bright core → soft illuminated body → wide weak spill. Avoid a uniform radial-gradient look.
+Introduce subtle surface response around the illuminated area: extremely restrained specular sheen, edge scattering, local haze or refraction where technically appropriate.
+Do not over-bloom. Black must remain rich and controlled; blue should be MOSAIX accent light, not neon cyberpunk everywhere.
+Movement must remain fluid during fast pointer motion and reverse direction immediately without visible stepping.
+Typography must remain legible. Light can interact with text composition, but must not make the primary message unreadable.
+4.4 Hero choreography
+Initial state: almost-dark, confident, sparse. No overwhelming information dump.
+A minimal cue communicates that the surface can be explored.
+As the user moves the light, fragments of the continuously moving film are discovered.
+The reveal should lead attention toward the MOSAIX identity / Signature Object rather than behave as a purposeless flashlight toy.
+Scroll should transition out of the Hero as a composed cinematic handoff into the next world; do not abruptly cut to a normal webpage section.
+4.5 Hero engineering
+Keep meaningful text and controls as semantic HTML; never bake critical copy into the video.
+Video: muted, inline, looping as required, with explicit preload strategy and robust first-frame/poster behavior. Do not show native controls.
+Do not restart the video every time the light moves. Video playback and reveal are independent systems.
+Implement the conceal/reveal using the most appropriate tested technique (CSS masking, Canvas/WebGL compositing, shader mask, or hybrid). Choose based on visual fidelity and measured performance, not convenience.
+If Safari/mobile/browser limitations require a different technique, present the proposed equivalent to Sadegh before changing the approved visual behavior.
+Clean up all RAF/ticker/listener/video resources correctly on unmount/navigation.
+Hero must be tested for fast pointer movement, resizing, orientation change, tab visibility changes, touch, high-DPI displays, and route return.
+5. PRIORITY ZERO — SERVICE CARDS
+The Service Cards are the second signature interaction. Their default state must be clean glass. No visible thumbnail and no permanently exposed service image/video.
+5.1 Current five services — exact
+Website Design & Development
+Application Design & Development
+AI Automation Design & Development
+Advertising & Custom Video Design & Production
+AI Tools — MOSAIX LAB
+5.2 Card material and default state
+Premium glass material derived from black, white, deep navy and MOSAIX blue. Avoid generic frosted-glass SaaS cards.
+Default: typography + restrained metadata/CTA + glass. The service video is visually concealed.
+Cards must have confident proportions, excellent type hierarchy and enough negative space without becoming huge empty boxes.
+All five belong to one design family; their videos/objects distinguish the service, not five unrelated card templates.
+5.3 Hover reveal
+On pointer enter, do NOT pop in a thumbnail. The glass itself should appear to change optically: it subtly becomes more transparent / transmissive and the corresponding pre-made service video is revealed as if it has always existed behind or inside the glass. The video begins/continues playback smoothly. On pointer leave, the material returns to clean glass and the video is concealed; playback behavior may pause/reset only if that produces the approved experience.
+No abrupt display:none/image swap feeling.
+Use a controlled material transition: opacity/transmission, contrast, subtle reflection/specular shift, perhaps a tiny depth response.
+Video must stay clipped perfectly to the card and must never flash outside bounds.
+Hover state must remain readable; text cannot disappear into the film.
+Click enters the corresponding Service World/Page.
+Touch devices need an intentional equivalent; do not blindly rely on hover.
+5.4 Card video lifecycle
+Do not decode/play every service video at maximum cost all the time merely because the cards exist.
+Design a lifecycle strategy for readiness, hover response and memory use. Any strategy that changes the visible behavior must be approved by Sadegh.
+No black flash, late poster flash, first-hover stutter or audio.
+Pre-made videos are assets, not live-generated video.
+6. SERVICE WORLDS
+Each service opens into a distinct but related MOSAIX world. Do not fall back to a generic white service-detail template.
+Clear service proposition and real explanatory copy.
+Capabilities / what MOSAIX can deliver.
+Relevant process / how collaboration works.
+Relevant Projects with video previews and case-study links.
+Useful FAQs where real answers exist.
+End with START A PROJECT.
+Do not publish fixed service prices. Project pricing is scope-dependent.
+Do not invent delivery times, technologies, results or client claims.
+7. PROJECTS — PORTFOLIO SYSTEM
+Projects must prove that MOSAIX work is real. Do not reduce the portfolio to a generic grid or carousel. The exact final spatial composition may be designed during the dedicated Projects milestone, but the content and navigation model below is required.
+7.1 Three-layer project experience
+Layer 1 — MOSAIX Preview: short optimized screen recording / cinematic preview inside the MOSAIX experience. This lets visitors understand the project without leaving the site.
+Layer 2 — Case Study: an internal MOSAIX page explaining project, challenge, approach, interaction/experience, selected screens/video, technology only when verified, related services and final CTA.
+Layer 3 — Live Experience / Demo / Download: when a real public deployment exists, expose a real link. Never fabricate a live URL.
+7.2 Project availability types
+LIVE PROJECT — real public deployed URL.
+INTERACTIVE DEMO — controlled public demonstration.
+CASE STUDY ONLY — video/images/text; no public live link.
+DOWNLOADABLE APP — only when a real downloadable build exists; binaries should not be committed into the main website repository.
+7.3 GitHub / deployment model
+Projects may currently exist only locally and/or on GitHub. A GitHub repository is not automatically a live website. When a project is approved for public access, deploy it through an appropriate hosting pipeline and store its verified public URL in the Projects registry. The MOSAIX UI must render LIVE EXPERIENCE only when that URL exists.
+Screen recording and live link are complementary: preview earns attention; case study explains value; live link proves the work.
+7.4 Connected portfolio graph
+Projects are not an isolated gallery. Build relationships:
+SERVICE ↔ PROJECT ↔ CASE STUDY ↔ RELATED SERVICE / RELATED PROJECT ↔ START A PROJECT
+A Service page should surface relevant work. A Case Study should surface relevant services and related projects.
+8. ABOUT — PEOPLE BEHIND MOSAIX
+Use the approved founders imagery when supplied to the implementation workspace.
+Direction: PEOPLE BEHIND MOSAIX; dark controlled reveal, subtle MOSAIX blue edge/light response, concise credible copy.
+Founders: MohammadHossein Rabanizadeh — Co-Founder; Sadegh Noordelan — Co-Founder.
+Keep biography concise. Avoid unsupported degrees, awards or claims.
+Connect the founders to the intersection of architecture, design, AI and technology without overclaiming.
+9. MOSAIX LAB
+Lab is distinct from client portfolio. It is the home for MOSAIX-built tools, prototypes, experiments and emerging ideas.
+Examples may include AI tools, interactive 3D experiments, generative design explorations, image transformation experiments or prototypes — only when they actually exist.
+Home may present a lightweight portal/entry to Lab; experiments should live in their own routes/worlds rather than all executing on Home.
+The fifth Service Card — AI Tools — MOSAIX LAB — should connect naturally to this ecosystem.
+10. PROJECT REQUEST + APPOINTMENT
+End relevant Service pages with START A PROJECT.
+Preselect the service based on the page/context.
+Suggested fields: name, company/project, need/brief, preferred timeline, optional budget range, email/WhatsApp, optional attachment where implemented securely.
+Submission should reach a real configured destination (email and/or database/admin). Do not claim success if backend delivery is not configured.
+Appointment is a separate optional next action: BOOK A MEETING.
+No public fixed pricing.
+11. MOSAIX ASSISTANT
+Design a dedicated MOSAIX Assistant rather than a generic corner chatbot. It should answer only from approved MOSAIX knowledge and route users to relevant Services, Projects and Project Request.
+Never invent prices, timelines, project facts, client names, capabilities or availability.
+Knowledge should be maintainable through a controlled source / future Admin knowledge area.
+Assistant implementation can use a server-side AI provider; provider choice must be explicit and configurable.
+Treat user-submitted chat/project data as real user data and design security/privacy accordingly.
+12. ADMIN — INTENTIONALLY BORING
+The Admin exists to operate the website, not to impress visitors. Keep it fast, clear and simple. No cinematic motion, 3D, elaborate glass choreography or decorative GPU work.
+Overview
+Project Requests
+Appointments
+Projects / Portfolio
+Services
+MOSAIX Lab
+Chatbot Knowledge
+Messages / Website Content as actually implemented
+Prefer a data-driven registry/CMS model so a verified new Project can be added with title, category/services, cover, preview video, description/case-study data and live URL, then propagate to relevant public surfaces.
+13. SEO, SEARCH & SEMANTIC LAYER
+All critical content must exist in semantic HTML even when a cinematic layer sits above it.
+Use real heading hierarchy, descriptive copy, internal links and crawlable Service/Project/Case Study routes.
+Generate correct metadata, canonical URLs, Open Graph data, sitemap and robots configuration.
+Add appropriate structured data only when supported by actual content.
+Do not hide the meaning of MOSAIX behind slogans alone. Clearly state what MOSAIX builds, for whom, and show evidence.
+Do not block legitimate search crawlers intentionally unless explicitly required.
+Canvas/WebGL/video are presentation layers, never the only source of important information.
+14. RESPONSIVE / ACCESSIBILITY
+Desktop, laptop, tablet and mobile are first-class targets.
+Keyboard focus, semantic controls, contrast and reduced-motion support are required.
+Pointer-only interactions need a meaningful touch/keyboard equivalent where they communicate content.
+Do not shrink the desktop composition mechanically. Recompose deliberately for smaller viewports.
+Any material change to an approved interaction for mobile must be proposed to Sadegh before implementation.
+15. TECHNICAL FOUNDATION
+Recommended foundation unless the approved architecture report establishes a better fit: modern Next.js + TypeScript, componentized styling/design tokens, GSAP for orchestrated motion, Three.js / React Three Fiber or custom WebGL only where it creates measurable visual value, and a backend/data layer appropriate to Project Requests, Admin, Appointments and Assistant.
+Keep animation state outside React render loops where high-frequency updates are required.
+Use refs, RAF/tickers, GPU-friendly transforms and deliberate compositing.
+Lazy route boundaries and media loading are engineering tools, but must not silently alter the approved visible experience.
+Use one clear source of truth for Services and Projects.
+Centralize asset metadata and avoid hard-coded duplicate project/service content.
+Handle errors and unavailable media gracefully without pretending functionality exists.
+No secrets in client bundles. Use environment variables/server-side boundaries appropriately.
+16. MODEL / AGENT ROUTING
+Do not silently switch model/effort. Recommend the least expensive model likely to pass the acceptance criteria; Sadegh approves material routing decisions.
+GPT-6 Astra, High or higher when justified: foundation architecture, expensive-to-reverse decisions, hardest Hero/light compositing architecture, complex motion/performance conflicts, difficult cross-system debugging.
+Current approved Sol-class implementation model: primary multi-file implementation, components, service worlds, portfolio system, integrations, responsive work and substantial bounded debugging.
+Luna-class model: narrow repetitive edits, structured content work and low-risk mechanical tasks.
+Tania / ChatGPT Work: supervision, GitHub/cloud/deployment and multi-step operational coordination.
+Codex: repository implementation, terminal, build, tests, local code execution and debugging.
+Do not run heavy Debug/Security/Deploy runbooks merely because a task is difficult or a build fails. Those dedicated runbooks require Sadegh's explicit request.
+17. BUILD MILESTONES — DO NOT BIG-BANG
+M0 — Foundation Architecture Report. STOP for Sadegh approval before full implementation.
+M1 — Core foundation: routes, design tokens, typography, semantic shell, data registries, baseline responsive architecture.
+M2 — HERO ONLY to production-level visual fidelity. Validate light physics illusion, reveal compositing, playback, input behavior and transitions. Sadegh approves.
+M3 — SERVICE CARDS ONLY to production-level fidelity. Validate glass/video reveal and touch equivalent. Sadegh approves.
+M4 — Service Worlds.
+M5 — Projects / Preview / Case Studies / verified Live Experience links.
+M6 — Project Request, Appointment and operational backend/admin.
+M7 — MOSAIX Assistant.
+M8 — About, Lab, ending/footer and full-site choreography.
+M9 — Integration verification and approved optimization.
+Do not use completion of a milestone as permission to redesign another approved milestone.
+18. HERO ACCEPTANCE TESTS
+Video is visibly moving underneath the concealment surface before/while reveal occurs; reveal does not start playback.
+Only illuminated regions reveal the film; darkness remains convincingly opaque/controlled.
+Falloff looks like light, not a hard circle or cheap CSS spotlight.
+No pointer jitter, delayed jumps, tearing, flashing or reveal-mask stepping.
+Fast pointer movement remains smooth and beautiful.
+Light has believable core/body/spill hierarchy and restrained MOSAIX blue response.
+No native video controls, unexpected audio or black loading flash.
+Hero remains usable on touch devices and after resize/orientation/navigation return.
+Typography remains clear and the interaction tells a brand story rather than becoming a toy.
+19. SERVICE CARD ACCEPTANCE TESTS
+Default state contains no visible thumbnail/video.
+Hover makes the glass reveal the correct corresponding service film from behind/within the material.
+No abrupt image swap, video flash, clipping bug or first-hover hitch.
+Text remains readable throughout transition.
+Pointer leave restores the clean glass state elegantly.
+Click routes to the correct Service World.
+Touch behavior is intentionally designed and verified.
+All five cards feel like one MOSAIX family.
+20. GLOBAL QUALITY GATES
+No dead buttons, fake CTAs, placeholder links presented as real, console spam, hydration errors or unhandled promise errors.
+No tiny horizontal overflow, clipped text, z-index leaks, sticky-section jumps or scroll lock traps.
+No accidental animation conflicts from multiple competing scroll/motion controllers.
+No project is labeled LIVE unless the URL is verified.
+No fabricated metrics, prices, delivery times, testimonials or client claims.
+No generic template sections introduced merely to finish faster.
+Every major interaction must have a cleanup lifecycle and route-return behavior.
+Status reporting must distinguish IMPLEMENTED, VERIFIED, PARTIAL, BLOCKED and PROPOSED.
+21. FIRST TASK TO THE IMPLEMENTATION TEAM
+Before writing the full website, inspect the repository, available MOSAIX rules, supplied Hero/service media assets and current deployment context. Produce a concise FOUNDATION ARCHITECTURE REPORT covering: proposed stack; route/data model; Hero compositing approach with at least two viable techniques and tradeoffs; Service Card media/material architecture; global living-background architecture; motion ownership; responsive/touch strategy; media lifecycle; SEO/semantic strategy; Projects/Case Study registry; backend/admin boundaries; deployment plan; primary technical risks; and exact acceptance tests.
+Then STOP. Do not begin full implementation until Sadegh approves the foundation and specifically approves the proposed Hero/light technique and Service Card architecture.
+22. FINAL CREATIVE DIRECTIVE
+MOSAIX must feel alive before the visitor understands why. Then it must become increasingly clear, credible and useful as they move through it. The Hero should make darkness feel like a material that can be illuminated. The Service Cards should make glass feel like a boundary hiding living worlds. Projects should turn visual attraction into proof. The business layer should turn proof into action.
+Do not chase novelty at the expense of control. Do not chase performance by silently deleting the identity. Build a website whose motion, light, typography, media, interaction and engineering all appear to have been designed by the same intelligence.

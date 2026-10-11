@@ -1,0 +1,148 @@
+[
+  {
+    "engine": "chromium",
+    "slug": "website-design-development",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 0.674309,
+    "width": 1280,
+    "height": 720,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "engine": "chromium",
+    "slug": "application-design-development",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 1.155072,
+    "width": 1280,
+    "height": 720,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "engine": "chromium",
+    "slug": "ai-automation",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 1.120086,
+    "width": 1280,
+    "height": 720,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "engine": "chromium",
+    "slug": "advertising-video",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 1.126772,
+    "width": 1280,
+    "height": 720,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "engine": "chromium",
+    "slug": "mosaix-lab",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 1.103728,
+    "width": 1280,
+    "height": 720,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  {
+    "engine": "chromium",
+    "syntheticAutoplayDenial": true,
+    "worldRetryButton": true,
+    "heroGestureRecovery": true
+  },
+  {
+    "engine": "webkit",
+    "slug": "website-design-development",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 0.5976866,
+    "width": 1500,
+    "height": 844,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 843.984375
+    }
+  },
+  {
+    "engine": "webkit",
+    "slug": "application-design-development",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 0.5444992,
+    "width": 1500,
+    "height": 844,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 843.984375
+    }
+  },
+  {
+    "engine": "webkit",
+    "slug": "ai-automation",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 0.8599362,
+    "width": 1500,
+    "height": 844,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 843.984375
+    }
+  },
+  {
+    "engine": "webkit",
+    "slug": "advertising-video",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 0.9286861,
+    "width": 1500,
+    "height": 844,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 843.984375
+    }
+  },
+  {
+    "engine": "webkit",
+    "slug": "mosaix-lab",
+    "continuousPlayback": true,
+    "gestureRecovery": true,
+    "time": 0.6924156,
+    "width": 1500,
+    "height": 844,
+    "fit": "cover",
+    "rect": {
+      "width": 390,
+      "height": 843.984375
+    }
+  }
+]

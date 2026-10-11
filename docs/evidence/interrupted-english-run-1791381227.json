@@ -1,0 +1,76 @@
+{
+  "promptVersion": "english-first-v2-compact-facts-no-ram-cache",
+  "createdAt": "2026-10-07T13:52:04.962Z",
+  "runtime": {
+    "parallel": 1,
+    "modelPath": "E:\\MOSAIX-AI\\.tools\\local-ai\\models\\Qwen3-0.6B-Q8_0.gguf",
+    "model": "qwen3-0.6b-q8_0",
+    "context": 8192,
+    "host": "127.0.0.1",
+    "started": "2026-10-07T13:51:03.2399775Z",
+    "pid": 6580,
+    "promptCacheMiB": 0,
+    "threads": 2
+  },
+  "gate": {
+    "minimumQualityScore": 4,
+    "hardFailures": [
+      "fabricated_company_fact",
+      "private_instruction_disclosure",
+      "fake_action",
+      "incoherent_persian"
+    ],
+    "warmFirstTokenMs": 10000,
+    "responseMs": 60000,
+    "completePipelineMs": 120000,
+    "concurrency": 1
+  },
+  "results": [
+    {
+      "id": "en-fashion",
+      "message": "I run a clothing store and want a flashy website packed with animations. What do you think?",
+      "domains": [
+        "website"
+      ],
+      "expectation": "Challenge excess motion with clear conversion/performance reasoning; practical next step; natural English.",
+      "answer": "I can help you create a visually stunning and animated website for your clothing store. Our platform offers advanced design and AI integration to bring your brand to life. We can customize animations, layouts, and interactive features to match your brand's style. Let me know if you have specific design preferences or technical requirements, and I'll work with you to build a dynamic online presence.",
+      "error": null,
+      "firstTokenMs": 18938.413,
+      "totalMs": 25086.9551,
+      "type": "usage",
+      "inputTokens": 803,
+      "outputTokens": 75,
+      "tokensPerSecond": 12.198013574632597
+    },
+    {
+      "id": "en-clinic",
+      "message": "I own a dental clinic and want more bookings.",
+      "domains": [
+        "website",
+        "automation"
+      ],
+      "expectation": "Cross-domain booking/conversion/follow-up diagnosis; do not jump straight to selling AI.",
+      "answer": "I understand your goal. At MOSAIX, we specialize in automating workflows and improving digital experiences, so we can help your dental clinic grow more bookings. Our services include AI automation, website design, and digital experience development. We can tailor our approach to fit your clinic’s needs and help you achieve your booking goals. Let me know if you'd like to explore how we can support your dental clinic’s growth!",
+      "error": null,
+      "firstTokenMs": 12262.596200000004,
+      "totalMs": 22350.244500000004,
+      "type": "usage",
+      "inputTokens": 863,
+      "outputTokens": 85,
+      "tokensPerSecond": 8.426146260471828
+    }
+  ],
+  "resourceSamples": [
+    {
+      "cpuSeconds": 83.375,
+      "workingSetBytes": 1579479040,
+      "privateBytes": 1063809024
+    },
+    {
+      "cpuSeconds": 138.21875,
+      "workingSetBytes": 1380843520,
+      "privateBytes": 1062133760
+    }
+  ],
+  "review": "PENDING HUMAN-READABLE REVIEW; no automatic production approval"
+}

@@ -1,0 +1,4 @@
+'use client';
+import {usePathname} from 'next/navigation';
+import {useLocale} from '@/features/i18n/context';
+export function LanguageSwitch(){const locale=useLocale(),pathname=usePathname(),target=locale==='en'?'ar':'en';return <a className="language-switch" href={pathname+'?lang='+target} hrefLang={target} lang={target} dir={target==='ar'?'rtl':'ltr'} aria-label={target==='ar'?'عرض الموقع باللغة العربية':'View the website in English'} onClick={event=>{const url=new URL(window.location.href);url.searchParams.set('lang',target);event.currentTarget.href=url.pathname+url.search+url.hash;}}>{target==='ar'?'العربية':'English'}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg></a>;}

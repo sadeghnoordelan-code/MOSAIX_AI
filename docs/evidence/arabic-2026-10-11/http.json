@@ -1,0 +1,12 @@
+{
+  "SSRArabic": true,
+  "preferenceCookie": true,
+  "headerSpoofIgnored": true,
+  "invalidLocaleFallback": true,
+  "privateAdminEnglish": true,
+  "CSPPreserved": true,
+  "noindexPreserved": true,
+  "apiArabicEnglishAccepted": true,
+  "persianRejected": true,
+  "realModelConfigured": false
+}

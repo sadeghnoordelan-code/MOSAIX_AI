@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const base='http://127.0.0.1:4180',headers={Origin:base,'Content-Type':'application/json'};
+const credentials=await readFile('.local-admin/owner-credentials.txt','utf8');
+const email=credentials.match(/^Email: (.+)$/m)?.[1],password=credentials.match(/^Password: (.+)$/m)?.[1];
+assert.ok(email&&password);
+assert.equal((await fetch(base+'/admin')).status,200);
+assert.equal((await fetch(base+'/api/admin/content')).status,401);
+assert.equal((await fetch(base+'/api/admin/session',{method:'POST',headers:{...headers,Origin:'https://evil.example'},body:JSON.stringify({email,password})})).status,403);
+assert.equal((await fetch(base+'/api/admin/session',{method:'POST',headers,body:JSON.stringify({email,password:'wrong-test-password'})})).status,401);
+const login=await fetch(base+'/api/admin/session',{method:'POST',headers,body:JSON.stringify({email,password})});assert.equal(login.status,200);
+const setCookie=login.headers.get('set-cookie');assert.ok(setCookie?.includes('HttpOnly'));assert.ok(setCookie?.toLowerCase().includes('samesite=strict'));const cookie=setCookie.split(';')[0];
+const session=await(await fetch(base+'/api/admin/session',{headers:{Cookie:cookie}})).json();assert.equal(session.authenticated,true);
+const initial=await(await fetch(base+'/api/admin/content',{headers:{Cookie:cookie}})).json();
+const writeHeaders={...headers,Cookie:cookie,'X-MOSAIX-CSRF':session.csrf};
+assert.equal((await fetch(base+'/api/admin/content',{method:'PUT',headers:{...headers,Cookie:cookie},body:JSON.stringify(initial)})).status,403);
+const invalid=structuredClone(initial.content);invalid.hero.video='javascript:alert(1)';assert.equal((await fetch(base+'/api/admin/content',{method:'PUT',headers:writeHeaders,body:JSON.stringify({content:invalid,revision:initial.revision})})).status,400);
+const changed=structuredClone(initial.content);changed.hero.headline[0]='MOSAIX persistence verification';let saved=false;
+try{const result=await fetch(base+'/api/admin/content',{method:'PUT',headers:writeHeaders,body:JSON.stringify({content:changed,revision:initial.revision})});assert.equal(result.status,200);saved=true;assert.equal((await fetch(base+'/api/admin/content',{method:'PUT',headers:writeHeaders,body:JSON.stringify({content:changed,revision:initial.revision})})).status,409);const home=await(await fetch(base+'/')).text();assert.ok(home.includes('MOSAIX persistence verification'));}finally{if(saved){const latest=await(await fetch(base+'/api/admin/content',{headers:{Cookie:cookie}})).json();assert.equal((await fetch(base+'/api/admin/content',{method:'PUT',headers:writeHeaders,body:JSON.stringify({content:initial.content,revision:latest.revision})})).status,200);}}
+const status=await(await fetch(base+'/api/admin/connection',{headers:{Cookie:cookie}})).json();assert.equal(status.api,'not_configured');
+assert.equal((await fetch(base+'/api/admin/media',{method:'POST',headers,body:JSON.stringify({type:'blob.generate-client-token',payload:{pathname:'mosaix/test.png',clientPayload:session.csrf}})})).status,400);
+assert.equal((await fetch(base+'/api/admin/session',{method:'DELETE',headers:writeHeaders})).status,200);
+assert.equal((await fetch(base+'/api/admin/content',{headers:{Cookie:cookie}})).status,401);
+assert.equal((await(await fetch(base+'/api/ai/chat')).json()).available,false);
+for(const route of['/','/about','/services','/services/ai-automation','/projects','/lab','/start-a-project','/book-a-meeting'])assert.equal((await fetch(base+route)).status,200,route);
+assert.equal((await fetch(base+'/projects/nonexistent')).status,404);
+assert.equal((await fetch(base+'/admin/nonexistent')).status,404);
+console.log('HTTP verification passed: owner login, cookie flags, cross-origin rejection, unauthorized writes, invalid media, stale revision, real public content update/restoration, logout and public routes. No credentials printed. OpenAI remains unconnected.');

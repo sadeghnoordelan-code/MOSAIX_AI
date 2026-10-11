@@ -1,0 +1,98 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 1000,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "height": 844,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 740,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "height": 390,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 1000,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "height": 844,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 740,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "height": 390,
+    "scrollControlClear": true,
+    "overflow": false,
+    "chat": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "errors": []
+  }
+]

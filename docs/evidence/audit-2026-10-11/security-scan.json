@@ -1,0 +1,114 @@
+{
+  "sourceFindings": [],
+  "history": {
+    "commits": 0,
+    "findings": [],
+    "note": "Repository has no commits; no historical snapshots exist to scan."
+  },
+  "clientBundleFindings": [],
+  "environmentVariables": [
+    {
+      "name": "ADMIN_EMAIL",
+      "visibility": "server"
+    },
+    {
+      "name": "ADMIN_PASSWORD_HASH",
+      "visibility": "server"
+    },
+    {
+      "name": "ADMIN_SESSION_SECRET",
+      "visibility": "server"
+    },
+    {
+      "name": "BLOB_READ_WRITE_TOKEN",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_AI_DAILY_REQUEST_LIMIT",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_AI_ENABLED",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_AI_MODEL",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_AI_PROVIDER",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_AI_RUNTIME",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_AI_TRUST_PROXY",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_DATA_NAMESPACE",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_MODEL_URL",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_OPENAI_MODEL",
+      "visibility": "server"
+    },
+    {
+      "name": "MOSAIX_RUNTIME_KEY",
+      "visibility": "server"
+    },
+    {
+      "name": "NODE_ENV",
+      "visibility": "server"
+    },
+    {
+      "name": "OPENAI_API_KEY",
+      "visibility": "server"
+    },
+    {
+      "name": "SITE_INDEXABLE",
+      "visibility": "server"
+    },
+    {
+      "name": "SITE_URL",
+      "visibility": "server"
+    },
+    {
+      "name": "UPSTASH_REDIS_REST_TOKEN",
+      "visibility": "server"
+    },
+    {
+      "name": "UPSTASH_REDIS_REST_URL",
+      "visibility": "server"
+    },
+    {
+      "name": "VERCEL",
+      "visibility": "server"
+    },
+    {
+      "name": "VERCEL_BRANCH_URL",
+      "visibility": "server"
+    },
+    {
+      "name": "VERCEL_ENV",
+      "visibility": "server"
+    },
+    {
+      "name": "VERCEL_GIT_COMMIT_REF",
+      "visibility": "server"
+    },
+    {
+      "name": "VERCEL_URL",
+      "visibility": "server"
+    }
+  ],
+  "javascriptBytes": 838039,
+  "budget": "No declared total-bundle budget; recorded as baseline.",
+  "secretValuesPrinted": false
+}

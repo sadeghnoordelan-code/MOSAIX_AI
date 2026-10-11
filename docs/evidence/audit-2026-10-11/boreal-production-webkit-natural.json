@@ -1,0 +1,51 @@
+{
+  "engine": "webkit",
+  "artificialNetworkDelay": false,
+  "seekComplete": true,
+  "status": "unconfirmed",
+  "samples": [
+    {
+      "diag": {
+        "target": 0,
+        "current": 0,
+        "shown": 0,
+        "seeks": 1,
+        "done": 0,
+        "skipped": 0,
+        "mode": "video"
+      },
+      "video": [
+        {
+          "time": 0.016666666666666666,
+          "ready": 2,
+          "seeking": true,
+          "duration": 13.034,
+          "src": "https://real-estate-website-blond-phi.vercel.app/assets/video/hero-md.mp4"
+        }
+      ],
+      "y": 0
+    },
+    {
+      "diag": {
+        "target": 175.08463841735082,
+        "current": 175.08463841735082,
+        "shown": 175.07288531278164,
+        "seeks": 5,
+        "done": 2,
+        "skipped": 86,
+        "mode": "video"
+      },
+      "video": [
+        {
+          "time": 0.4279747,
+          "ready": 2,
+          "seeking": false,
+          "duration": 13.034,
+          "src": "https://real-estate-website-blond-phi.vercel.app/assets/video/hero-md.mp4"
+        }
+      ],
+      "y": 0
+    }
+  ],
+  "errors": []
+}

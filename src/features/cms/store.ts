@@ -1,0 +1,11 @@
+import {cache} from 'react';
+import {defaultContent,type SiteContent} from './defaults.ts';
+import {validateContent,merge,diff} from './schema.ts';
+import {readValue,writeValue,redis,key,serial} from '../../lib/storage.ts';
+export type ContentDocument={revision:number;updatedAt:string;editor:string;overrides:unknown};
+const initial:ContentDocument={revision:0,updatedAt:'',editor:'',overrides:{}};
+export async function contentDocument(){return await readValue<ContentDocument>('content',true)||initial;}
+export const getContent=cache(async():Promise<SiteContent>=>{try{return validateContent(merge(defaultContent,(await contentDocument()).overrides));}catch{return structuredClone(defaultContent);}});
+export async function history(){return await readValue<ContentDocument[]>('content-history',true)||[];}
+export async function saveContent(value:unknown,expected:number,email:string){const content=validateContent(value);const document={revision:expected+1,updatedAt:new Date().toISOString(),editor:email,overrides:diff(content,defaultContent)||{}};const remote=redis();if(remote){const success=await remote.eval<unknown[],number>("local old=redis.call('GET',KEYS[1]); local previous=cjson.decode(ARGV[3]); if old then previous=cjson.decode(old) end; if previous.revision~=tonumber(ARGV[1]) then return 0 end; local h=redis.call('GET',KEYS[2]); local history={}; if h then history=cjson.decode(h) end; table.insert(history,1,previous); while #history>20 do table.remove(history) end; redis.call('SET',KEYS[2],cjson.encode(history)); redis.call('SET',KEYS[1],ARGV[2]); return 1",[key('content'),key('content-history')],[expected,JSON.stringify(document),JSON.stringify(initial)]);if(!success)throw new Error('conflict');}else await serial(async()=>{const previous=await contentDocument();if(previous.revision!==expected)throw new Error('conflict');await writeValue('content-history',[previous,...await history()].slice(0,20),undefined,true);await writeValue('content',document,undefined,true);});return document;}
+export function publicContent(content:SiteContent){return{...content,websitePortfolio:{...content.websitePortfolio,items:content.websitePortfolio.items.filter(p=>p.published)},projects:content.projects.filter(p=>p.published),lab:content.lab.filter(p=>p.published)};}
