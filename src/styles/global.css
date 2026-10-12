@@ -428,14 +428,14 @@
 @media(max-height:480px){.assistant-teaser{bottom:20px;right:142px}.assistant-teaser::after{display:none}}
 .world-film-retry{position:fixed;left:max(20px,env(safe-area-inset-left));bottom:max(20px,env(safe-area-inset-bottom));z-index:5;border:1px solid #87cfff66;border-radius:24px;background:#071625ee;color:#dcefff;padding:12px 18px;min-height:44px;font-size:13px;cursor:pointer}.error-page{padding-block:120px;display:grid;gap:28px;max-width:900px}.error-page h1{font-size:clamp(36px,6vw,70px)}
 /* Locale controls retain a generous target on small screens. */
-.language-switch{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:86px;min-height:44px;padding:9px 13px;border:1px solid #91bfff40;border-radius:24px;background:#7aafff0b;font:500 13px/1.6 'Noto Sans Arabic Variable','Raleway',Arial,sans-serif;white-space:nowrap;flex-shrink:0;transition:border-color .2s,background .2s}
+.language-switch{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:86px;min-height:44px;padding:9px 13px;border:1px solid #91bfff40;border-radius:24px;background:#7aafff0b;font:500 13px/1.6 'Changa Variable','Raleway',Arial,sans-serif;white-space:nowrap;flex-shrink:0;transition:border-color .2s,background .2s}
 .language-switch svg{width:17px;height:17px;flex-shrink:0}
 .language-switch:hover{background:#80baff1c;border-color:#add9ff80}
 @media(min-width:1001px){.site-header{gap:22px}.desktop-nav{gap:25px}}
 @media(max-width:1000px) and (min-width:901px){.site-header{gap:14px}.desktop-nav{gap:16px}.header-cta{gap:10px}}
 @media(max-width:900px){.language-switch{margin-inline-start:auto}.site-header{gap:15px}.mobile-navigation summary{gap:12px}}
 @media(max-width:380px){.site-header{gap:10px}.language-switch{min-width:76px;padding:8px 10px;gap:6px}.language-switch svg{width:15px}.mobile-navigation summary{gap:7px;font-size:11px}}
-html[lang='ar']{--font-sans:'Noto Sans Arabic Variable',Tahoma,Arial,sans-serif;--font-mono:'Noto Sans Arabic Variable',Tahoma,Arial,sans-serif}
+html[lang='ar']{--font-sans:'Changa Variable',Tahoma,Arial,sans-serif;--font-mono:'Changa Variable',Tahoma,Arial,sans-serif}
 html[lang='ar'] :is(h1,h2,h3,p,a,button,span,li){letter-spacing:normal}
 html[lang='ar'] :is(h1,h2,h3){line-height:1.5}
 html[lang='ar'] :is(.brand-mark,.intro-name,.entry-curtain-mark,.mosaix-orb-label){direction:ltr;font-family:'Raleway',Arial,sans-serif}
@@ -459,7 +459,7 @@ html[lang='ar'] .work-preview{margin:24px 24px 24px 0}
 html[lang='ar'] .work-preview-control{left:auto;right:18px}
 html[lang='ar'] .work-features li{padding-left:0;padding-inline-start:19px}
 html[lang='ar'] .work-features li::before{left:auto;right:0}
-html[lang='ar'] .work-copy h3{font-family:'Raleway','Noto Sans Arabic Variable',Arial,sans-serif;direction:ltr;text-align:start;line-height:1.25}
+html[lang='ar'] .work-copy h3{font-family:'Raleway','Changa Variable',Arial,sans-serif;direction:ltr;text-align:start;line-height:1.25}
 html[lang='ar'] .work-features strong{line-height:1.8}
 html[lang='ar'] :is(.arrow-icon,.work-visit>span[aria-hidden]){transform:scaleX(-1)}
 html[lang='ar'] .work-visit:hover>span[aria-hidden]{transform:scaleX(-1) translate(3px,-3px)}
@@ -468,7 +468,7 @@ html[lang='ar'] .assistant-teaser-action{padding-left:35px;padding-right:14px;fo
 html[lang='ar'] :is(.assistant-teaser-dismiss,.assistant-greeting-dismiss){right:auto;left:0}
 html[lang='ar'] .intro-tagline{font-size:15px;line-height:1.9}
 html[lang='ar'] .intro-caption{font-size:12px;line-height:1.9}
-.ai-workspace[lang='ar']{font-family:'Noto Sans Arabic Variable',Tahoma,Arial,sans-serif}
+.ai-workspace[lang='ar']{font-family:'Changa Variable',Tahoma,Arial,sans-serif}
 .ai-workspace[lang='ar'] :is(h2,p,button,a,span){letter-spacing:normal}
 .ai-workspace[lang='ar'] .ai-introduction h2{line-height:1.6}
 .ai-workspace[lang='ar'] :is(.ai-introduction>p,.ai-starters button,.ai-prose,.ai-privacy,.ai-pricing-note,.ai-error){line-height:1.85}
@@ -484,3 +484,12 @@ html[lang='ar'] .work-copy h3{text-align:right}
 html[lang='ar'] .assistant-teaser{padding:18px 19px 18px 42px}
 html[lang='ar'] .assistant-teaser-action{padding:0;text-align:start}
 @media(max-width:600px){html[lang='ar'] .assistant-teaser{padding-block:15px}}
+
+/* Only the partially visible service carousel owns this viewport alignment control. */
+.carousel-align{position:fixed;z-index:45;bottom:max(22px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;flex-direction:column;gap:8px;padding:12px 18px 10px;border:1px solid #9cdeff75;border-radius:24px;background:linear-gradient(145deg,#153651d9,#071321eb);color:#d9f5ff;box-shadow:0 0 26px #43aaff44,inset 0 1px #d7f4ff30;backdrop-filter:blur(12px);cursor:pointer;animation:carousel-align-enter .3s ease both}
+.carousel-align span{font-size:12px;line-height:1.4;white-space:nowrap;letter-spacing:.02em}.carousel-align svg{width:48px;height:48px;filter:drop-shadow(0 0 9px #55bcff);animation:carousel-align-arrow 2.4s ease-in-out infinite}
+.carousel-align:hover{border-color:#d2f4ff;box-shadow:0 0 38px #43aaff66}.carousel-align:focus-visible{outline:2px solid #e0f8ff;outline-offset:5px}
+@keyframes carousel-align-enter{from{opacity:0}to{opacity:1}}@keyframes carousel-align-arrow{0%,100%{transform:translateY(-3px)}50%{transform:translateY(3px)}}
+@media(prefers-reduced-motion:reduce){.carousel-align,.carousel-align svg{animation:none}}
+
+

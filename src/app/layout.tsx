@@ -4,7 +4,7 @@ import {SiteChrome} from '@/components/site-chrome';
 import {publicContent} from '@/features/cms/store';
 import {getContent,getLocale,getTranslator} from '@/features/i18n/server';
 import {approvedOrigin,isIndexable} from '@/lib/site';
-import '@fontsource-variable/noto-sans-arabic/wght.css';
+import '@/styles/changa.css';
 import '@fontsource/raleway/latin-300.css';
 import '@fontsource/raleway/latin-400.css';
 import '@fontsource/raleway/latin-500.css';
