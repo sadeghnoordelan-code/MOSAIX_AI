@@ -1,0 +1,1 @@
+export const contact={email:'mosaix07@gmail.com',phone:'+49 177 6681427',tel:'tel:+491776681427',whatsapp:'https://wa.me/491776681427',instagram:'https://instagram.com/mosaix_ai',handle:'@mosaix_ai',location:'Wiesbaden, Germany'};

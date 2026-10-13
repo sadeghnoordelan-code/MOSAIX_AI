@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),{chromium}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await chromium.launch({headless:true,channel:'msedge'});const page=await browser.newPage({viewport:{width:1440,height:1000}});
+const urls=[['harvest','https://harvest-bloom.vercel.app/?v=2842544'],['lumiere','https://lumiere-dental-clinic-seven.vercel.app/']];
+await fs.mkdir('docs/evidence/portfolio-research',{recursive:true});
+for(const[name,url]of urls){try{const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});await page.waitForTimeout(1500);const data=await page.evaluate(()=>({title:document.title,text:document.body.innerText,links:[...document.querySelectorAll('a[href]')].map(a=>({text:a.innerText,url:a.href})),buttons:[...document.querySelectorAll('button')].map(b=>b.innerText)}));await fs.writeFile('docs/evidence/portfolio-research/'+name+'.json',JSON.stringify({url,status:response.status(),...data},null,2));await page.screenshot({path:'docs/evidence/portfolio-research/'+name+'.png'});console.log(JSON.stringify({name,status:response.status(),...data}));}catch(e){console.log(JSON.stringify({name,error:e.message.slice(0,350)}));}}
+await browser.close();
