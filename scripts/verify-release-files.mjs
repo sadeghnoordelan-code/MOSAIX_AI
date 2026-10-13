@@ -20,7 +20,7 @@ const env=await fs.readFile('.env.local','utf8');
 const keys=['OPENAI_API_KEY','UPSTASH_REDIS_REST_URL','UPSTASH_REDIS_REST_TOKEN','BLOB_READ_WRITE_TOKEN','ADMIN_EMAIL','ADMIN_PASSWORD_HASH','ADMIN_SESSION_SECRET'];
 const configured=Object.fromEntries(keys.map(key=>{const row=env.split(/\r?\n/).find(line=>line.startsWith(key+'='));return [key,!!row&&row.slice(key.length+1).trim().replace(/^['"]|['"]$/g,'').length>0];}));
 const result={files:files.length,bytes,large,secretFindings:findings,privateDirectoriesExcluded:true,configured};
-await fs.writeFile('docs/evidence/final-playback-2026-10-12/release-audit.json',JSON.stringify(result,null,2));
+await fs.writeFile((process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/final-playback-2026-10-12')+'/release-audit.json',JSON.stringify(result,null,2));
 console.log(JSON.stringify(result));assert.equal(large.length,0);assert.deepEqual(findings,[]);
 
 

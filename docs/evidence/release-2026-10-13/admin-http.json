@@ -1,0 +1,11 @@
+{
+  "ownerLoginAndRead": true,
+  "privateCookies": true,
+  "originAndCsrfRejected": true,
+  "logoutInvalidatesSession": true,
+  "currentContentFont": "Space Grotesk Variable",
+  "contentNotModified": true,
+  "apiState": "not_configured",
+  "fontCspSelf": true,
+  "noindex": true
+}

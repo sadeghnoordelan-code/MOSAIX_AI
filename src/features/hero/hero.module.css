@@ -85,7 +85,7 @@
 .scrollCue { margin-inline-end:140px; }
 @media(max-width:700px){.footer{grid-template-columns:1fr;padding-inline-end:112px}.scrollCue{grid-row:2;grid-column:1;justify-self:start;margin-inline-end:0}.exploration{grid-row:3;grid-column:1;display:block}.status{margin-top:4px}}
 /* Arabic joins need natural tracking and more vertical room than Latin capitals. */
-:global(html[lang='ar']) .heading{font-family:'Noto Sans Arabic Variable',Tahoma,Arial,sans-serif;font-size:clamp(48px,7.5vw,116px);line-height:1.45;letter-spacing:normal;max-width:18ch;margin-top:clamp(35px,5vh,76px)}
+:global(html[lang='ar']) .heading{font-family:var(--font-sans);font-size:clamp(48px,7.5vw,116px);line-height:1.45;letter-spacing:normal;max-width:18ch;margin-top:clamp(35px,5vh,76px)}
 :global(html[lang='ar']) .heading>span:nth-child(2){padding-left:0;padding-inline-start:8%}
 :global(html[lang='ar']) :is(.coordinates,.index,.scrollCue,.control,.status){letter-spacing:normal;line-height:1.9}
 :global(html[lang='ar']) .bottom>p{line-height:1.95}

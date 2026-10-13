@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';import fs from 'node:fs/promises';import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url),{chromium,webkit}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const out='docs/evidence/carousel-navigation-2026-10-13';await fs.mkdir(out,{recursive:true});const report=[];
+const out=process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/carousel-navigation-2026-10-13';await fs.mkdir(out,{recursive:true});const report=[];
 for(const[name,engine]of(process.argv.includes('--webkit-only')?[['webkit',webkit]]:[['chromium',chromium],['webkit',webkit]])){
  const browser=await engine.launch(name==='chromium'?{headless:true,channel:'msedge'}:{headless:true});
  for(const[width,height,lang]of[[1440,900,'en'],[1280,720,'en'],[390,844,'en'],[390,667,'ar'],[320,740,'ar']]){

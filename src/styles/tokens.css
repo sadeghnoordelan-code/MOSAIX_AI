@@ -3,7 +3,7 @@
  --color-ink:#04060a; --color-navy:#091122; --color-surface:#0c1018;
  --color-paper:#e8eef6; --color-muted:#a0a7b4; --color-dim:#737d91; --color-blue:#4b8dff;
  --color-line:rgba(199,216,255,.16); --color-line-strong:rgba(199,216,255,.3);
- --font-sans:'Raleway','Helvetica Neue',sans-serif; --font-mono:'Raleway','Helvetica Neue',sans-serif;
+ --font-sans:'Space Grotesk Variable','Helvetica Neue',sans-serif; --font-mono:'Space Grotesk Variable','Helvetica Neue',sans-serif;
  --gutter:clamp(24px,5vw,88px); --width-content:1520px; --space-section:clamp(80px,11vw,176px); --radius-glass:3px;
 }
 

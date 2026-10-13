@@ -5,6 +5,8 @@ import {publicContent} from '@/features/cms/store';
 import {getContent,getLocale,getTranslator} from '@/features/i18n/server';
 import {approvedOrigin,isIndexable} from '@/lib/site';
 import '@/styles/changa.css';
+import '@/styles/space-grotesk.css';
+// Keep previously supported owner font choices available without changing the default.
 import '@fontsource/raleway/latin-300.css';
 import '@fontsource/raleway/latin-400.css';
 import '@fontsource/raleway/latin-500.css';
