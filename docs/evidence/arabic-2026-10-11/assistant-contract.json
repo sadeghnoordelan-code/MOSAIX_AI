@@ -1,0 +1,56 @@
+[
+  {
+    "engine": "chromium",
+    "arabicChatRequest": true,
+    "arabicBriefRequest": true,
+    "editableMailDraft": true,
+    "englishSwitch": true,
+    "clearContext": true,
+    "arabicMobileMenu": true,
+    "clientPageTransition": true,
+    "arabicCardEntry": true,
+    "modelCalls": 0,
+    "requests": [
+      {
+        "action": "chat",
+        "language": "ar"
+      },
+      {
+        "action": "brief",
+        "language": "ar"
+      },
+      {
+        "action": "chat",
+        "language": "en"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "arabicChatRequest": true,
+    "arabicBriefRequest": true,
+    "editableMailDraft": true,
+    "englishSwitch": true,
+    "clearContext": true,
+    "arabicMobileMenu": true,
+    "clientPageTransition": true,
+    "arabicCardEntry": true,
+    "modelCalls": 0,
+    "requests": [
+      {
+        "action": "chat",
+        "language": "ar"
+      },
+      {
+        "action": "brief",
+        "language": "ar"
+      },
+      {
+        "action": "chat",
+        "language": "en"
+      }
+    ],
+    "errors": []
+  }
+]

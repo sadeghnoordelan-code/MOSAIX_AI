@@ -1,0 +1,12 @@
+[
+  {
+    "case": "Arabic welcome and manual entry",
+    "passed": true,
+    "errors": []
+  },
+  {
+    "case": "320px English header and Arabic SSR switch without JavaScript",
+    "passed": true,
+    "width": 320
+  }
+]
