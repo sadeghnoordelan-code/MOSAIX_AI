@@ -1,0 +1,457 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lang": "en",
+    "route": "/",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "5.7px",
+    "brandSize": "19px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "renderedWeight": {
+      "light": 646330,
+      "semibold": 1481468,
+      "ratio": 2.2921232187891634
+    },
+    "card": {
+      "width": 400,
+      "height": 550
+    },
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lang": "en",
+    "route": "/about",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "5.7px",
+    "brandSize": "19px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lang": "en",
+    "route": "/services/website-design-development",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "5.7px",
+    "brandSize": "19px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "lang": "en",
+    "route": "/",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "4.8px",
+    "brandSize": "16px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "renderedWeight": {
+      "light": 646330,
+      "semibold": 1481468,
+      "ratio": 2.2921232187891634
+    },
+    "card": {
+      "width": 273,
+      "height": 430
+    },
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "lang": "en",
+    "route": "/about",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "4.8px",
+    "brandSize": "16px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "lang": "en",
+    "route": "/services/website-design-development",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "4.8px",
+    "brandSize": "16px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "lang": "en",
+    "route": "/",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "3.6px",
+    "brandSize": "12px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "renderedWeight": {
+      "light": 646330,
+      "semibold": 1481468,
+      "ratio": 2.2921232187891634
+    },
+    "card": {
+      "width": 224,
+      "height": 430
+    },
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "lang": "en",
+    "route": "/about",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "3.6px",
+    "brandSize": "12px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "lang": "en",
+    "route": "/services/website-design-development",
+    "overflow": false,
+    "heading": "\"Josefin Sans\", Arial, sans-serif",
+    "paragraph": "\"Josefin Sans\", Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "3.6px",
+    "brandSize": "12px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "\"Josefin Sans\", Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "lang": "ar",
+    "width": 390,
+    "font": "\"Changa Variable\", \"Josefin Sans\", Tahoma, Arial, sans-serif",
+    "spacing": "normal",
+    "overflow": false
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "lang": "en",
+    "route": "/",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "5.7px",
+    "brandSize": "19px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "renderedWeight": {
+      "light": 660248,
+      "semibold": 1497481,
+      "ratio": 2.268058365947341
+    },
+    "card": {
+      "width": 400,
+      "height": 550
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "lang": "en",
+    "route": "/about",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "5.7px",
+    "brandSize": "19px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "lang": "en",
+    "route": "/services/website-design-development",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "5.7px",
+    "brandSize": "19px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "lang": "en",
+    "route": "/",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "4.8px",
+    "brandSize": "16px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "renderedWeight": {
+      "light": 660248,
+      "semibold": 1497481,
+      "ratio": 2.268058365947341
+    },
+    "card": {
+      "width": 273,
+      "height": 430
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "lang": "en",
+    "route": "/about",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "4.8px",
+    "brandSize": "16px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "lang": "en",
+    "route": "/services/website-design-development",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "4.8px",
+    "brandSize": "16px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "lang": "en",
+    "route": "/",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "3.6px",
+    "brandSize": "12px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "renderedWeight": {
+      "light": 660248,
+      "semibold": 1497481,
+      "ratio": 2.268058365947341
+    },
+    "card": {
+      "width": 224,
+      "height": 430
+    },
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "lang": "en",
+    "route": "/about",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "3.6px",
+    "brandSize": "12px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "lang": "en",
+    "route": "/services/website-design-development",
+    "overflow": false,
+    "heading": "Josefin Sans, Arial, sans-serif",
+    "paragraph": "Josefin Sans, Arial, sans-serif",
+    "headingTracking": "normal",
+    "paragraphTracking": "normal",
+    "brandTracking": "3.6px",
+    "brandSize": "12px",
+    "loaded": [
+      "Changa Variable",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans",
+      "Josefin Sans"
+    ],
+    "number": "Josefin Sans, Arial, sans-serif",
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "lang": "ar",
+    "width": 390,
+    "font": "Changa Variable, Josefin Sans, Tahoma, Arial, sans-serif",
+    "spacing": "normal",
+    "overflow": false
+  }
+]
