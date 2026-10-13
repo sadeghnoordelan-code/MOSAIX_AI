@@ -1,0 +1,68 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "cards": 4,
+    "hoverOrTouchPlayback": true,
+    "exclusivePlayback": true,
+    "pause": true,
+    "lazySources": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "cards": 4,
+    "hoverOrTouchPlayback": true,
+    "exclusivePlayback": true,
+    "pause": true,
+    "lazySources": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "cards": 4,
+    "hoverOrTouchPlayback": true,
+    "exclusivePlayback": true,
+    "pause": true,
+    "lazySources": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "cards": 4,
+    "hoverOrTouchPlayback": true,
+    "exclusivePlayback": true,
+    "pause": true,
+    "lazySources": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "cards": 4,
+    "hoverOrTouchPlayback": true,
+    "exclusivePlayback": true,
+    "pause": true,
+    "lazySources": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "cards": 4,
+    "hoverOrTouchPlayback": true,
+    "exclusivePlayback": true,
+    "pause": true,
+    "lazySources": true,
+    "overflow": false,
+    "errors": []
+  }
+]

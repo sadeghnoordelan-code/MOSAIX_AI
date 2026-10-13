@@ -1,0 +1,15 @@
+{
+  "label": "before",
+  "adminUncovered": false,
+  "mobileOverflow": false,
+  "errors": [],
+  "metrics": {
+    "frames": 256,
+    "medianFrameMs": 16.700000000000728,
+    "p95FrameMs": 33.5,
+    "over50ms": 7,
+    "playingVideos": 1,
+    "cardBackground": "rgb(8, 16, 26)"
+  },
+  "environment": "Headless Microsoft Edge, 1440x1000, DPR 1. Frame timing is synthetic browser evidence, not a claim about every physical device."
+}
