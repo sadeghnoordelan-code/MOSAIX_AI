@@ -1,0 +1,174 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "cases": [
+      {
+        "slug": "sarv",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      },
+      {
+        "slug": "boreal",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      },
+      {
+        "slug": "lumiere",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      },
+      {
+        "slug": "harvest",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "cases": [
+      {
+        "slug": "sarv",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      },
+      {
+        "slug": "boreal",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      },
+      {
+        "slug": "lumiere",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      },
+      {
+        "slug": "harvest",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "cases": [
+      {
+        "slug": "sarv",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      },
+      {
+        "slug": "boreal",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      },
+      {
+        "slug": "lumiere",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      },
+      {
+        "slug": "harvest",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "20px"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "cases": [
+      {
+        "slug": "sarv",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      },
+      {
+        "slug": "boreal",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      },
+      {
+        "slug": "lumiere",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      },
+      {
+        "slug": "harvest",
+        "hiddenResume": true,
+        "focusResume": true,
+        "pageRestore": true,
+        "realLinkReturn": true,
+        "glassButtonHeight": 71,
+        "fontSize": "17px"
+      }
+    ],
+    "errors": []
+  }
+]

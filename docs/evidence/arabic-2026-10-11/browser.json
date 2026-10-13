@@ -1,0 +1,1474 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 257.984375,
+          "width": 1110.015625,
+          "height": 469.78125,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 118.796875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 118.796875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.75,
+          "width": 641.25,
+          "height": 232.09375,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.75,
+          "width": 641.25,
+          "height": 232.09375,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.75,
+          "width": 641.25,
+          "height": 232.09371948242188,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.75,
+          "width": 641.25,
+          "height": 348.140625,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.75,
+          "width": 641.25,
+          "height": 348.140625,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 118.796875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 118.796875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 118.796875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 118.796875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.21875,
+          "width": 994.78125,
+          "height": 237.59375,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 181.3125,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 108,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 108,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 117.78123474121094,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 117.78126525878906,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 117.78125,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 176.671875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 176.67189025878906,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 108,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 167.390625,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 108,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 117.78126525878906,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 54,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 108,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 151.21875,
+          "width": 650.59375,
+          "height": 275.296875,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 218.6875,
+          "width": 583.125,
+          "height": 69.625,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 425.984375,
+          "width": 375.828125,
+          "height": 136.03125,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 218.6875,
+          "width": 583.125,
+          "height": 69.625,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 218.6875,
+          "width": 583.125,
+          "height": 139.25,
+          "font": "\"Noto Sans Arabic Variable\", Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 257.984375,
+          "width": 1110.015625,
+          "height": 469.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 118.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 118.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.65625,
+          "width": 641.34375,
+          "height": 232.09375,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.65625,
+          "width": 641.34375,
+          "height": 232.09375,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.65625,
+          "width": 641.34375,
+          "height": 232.09375,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.65625,
+          "width": 641.34375,
+          "height": 348.1406555175781,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 726.65625,
+          "width": 641.34375,
+          "height": 348.140625,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 118.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 118.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 118.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 118.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 1440,
+        "scrollWidth": 1440,
+        "heading": {
+          "x": 373.09375,
+          "width": 994.90625,
+          "height": 237.5625,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 72.015625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 104
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 181.3125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 108,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 108,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 117.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 117.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 117.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 176.671875,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 40.53125,
+          "width": 325.46875,
+          "height": 176.67185974121094,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 54,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 390,
+        "scrollWidth": 390,
+        "heading": {
+          "x": 24,
+          "width": 342,
+          "height": 108,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.578125,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 167.390625,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 108,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 117.78125,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 54,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 320,
+        "scrollWidth": 320,
+        "heading": {
+          "x": 24,
+          "width": 272,
+          "height": 108,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 102.96875,
+          "width": 76,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 151.21875,
+          "width": 650.59375,
+          "height": 275.296875,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 218.6875,
+          "width": 583.125,
+          "height": 69.609375,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 425.921875,
+          "width": 375.890625,
+          "height": 136,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "status": 200,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 218.6875,
+          "width": 583.125,
+          "height": 69.609375,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "width": 844,
+        "scrollWidth": 844,
+        "heading": {
+          "x": 218.6875,
+          "width": 583.125,
+          "height": 139.21875,
+          "font": "Noto Sans Arabic Variable, Tahoma, Arial, sans-serif"
+        },
+        "switch": {
+          "x": 503.140625,
+          "width": 99.046875,
+          "height": 44,
+          "headerHeight": 82
+        },
+        "english": []
+      }
+    ],
+    "languageSwitch": true,
+    "cookiePersistence": true,
+    "assistantLanguages": [
+      "en",
+      "ar"
+    ],
+    "errors": []
+  }
+]

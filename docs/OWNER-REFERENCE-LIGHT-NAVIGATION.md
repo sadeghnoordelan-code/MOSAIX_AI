@@ -1,0 +1,9 @@
+# Reference light bundles and shared page entry — 2026-10-09
+
+Owner supplied three Hero screenshots and requested all their flowing light/highlight forms below the cards, plus the existing service-card symbolic entry motion for all secondary-page navigation. The next owner instruction increases count/thickness and adds a luminous halo.
+
+The floor now has six independently projected 3D wave bundles, each containing four cyan/white filaments, broad soft blue halos, moving beads and bright highlight heads. The paths rise away from both rings, weave through depth and accelerate on card selection. They replace the previous tightly wound small torus strands. Batched path sections reduce per-frame stroke work; hidden/offscreen/reduced-motion behavior remains. The animated sphere and glass/hover-video behavior are preserved. Extra space below the floor prevents the new wave crests from being clipped.
+
+The existing shared MOSAIX curtain is applied to same-origin public route links by a capture-phase navigation handler. About/People behind MOSAIX, Services, projects and Lab detail links, project request and meeting links use the same entry. Telephone/email/external links, downloads, modified clicks, admin/API and same-page anchors retain normal behavior. Generic pages reveal after the route arrives; service video worlds retain their readiness signal/fallback. Reduced motion skips the curtain.
+
+Final lint and production build/TypeScript passed. Actual Microsoft Edge checks cover About, Services, Lab, Start a project, the existing service card entry, mobile overflow and reduced-motion navigation. Screenshots of two animation phases, mobile and the About entry are in docs/evidence/reference-light-navigation/. Final desktop screenshot was inspected and the full lower wave arcs are visible. Local preview session 86773. No public deployment claimed.

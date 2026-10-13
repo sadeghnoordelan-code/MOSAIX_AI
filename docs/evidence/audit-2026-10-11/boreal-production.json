@@ -1,0 +1,70 @@
+[
+  {
+    "engine": "chromium",
+    "sourcePatched": true,
+    "boot": {
+      "ready": 0,
+      "y": 0,
+      "locked": true
+    },
+    "pending": {
+      "target": 91.52256684992504,
+      "y": 0
+    },
+    "decoded": {
+      "diag": {
+        "target": 91.52256684992504,
+        "current": 91.52256684992504,
+        "shown": 91.52256684992504,
+        "seeks": 1,
+        "done": 1,
+        "skipped": 0,
+        "mode": "video"
+      },
+      "time": 3.067418,
+      "ready": 3
+    },
+    "reverseTime": 2.967378,
+    "releasedScroll": true,
+    "errors": [],
+    "headers": {
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "csp": "UNSET",
+      "nosniff": "UNSET"
+    }
+  },
+  {
+    "engine": "webkit",
+    "sourcePatched": true,
+    "boot": {
+      "ready": 0,
+      "y": 0,
+      "locked": true
+    },
+    "pending": {
+      "target": 109.1321351251056,
+      "y": 0
+    },
+    "decoded": {
+      "diag": {
+        "target": 109.1321351251056,
+        "current": 109.1321351251056,
+        "shown": 109.12406921752273,
+        "seeks": 2,
+        "done": 2,
+        "skipped": 13,
+        "mode": "video"
+      },
+      "time": 3.6699705,
+      "ready": 4
+    },
+    "reverseTime": 3.5621339,
+    "releasedScroll": true,
+    "errors": [],
+    "headers": {
+      "hsts": "max-age=63072000; includeSubDomains; preload",
+      "csp": "UNSET",
+      "nosniff": "UNSET"
+    }
+  }
+]

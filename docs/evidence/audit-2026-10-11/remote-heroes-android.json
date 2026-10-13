@@ -1,0 +1,141 @@
+[
+  {
+    "name": "sarv",
+    "status": 200,
+    "title": "SARV — Cabinetry & Architectural Woodwork",
+    "url": "https://sarv-kitchen-and-wood-products.vercel.app/",
+    "codecs": {
+      "h264": "probably",
+      "aac": "probably"
+    },
+    "videos": [
+      {
+        "src": "https://sarv-kitchen-and-wood-products.vercel.app/media/sarv-hero.mp4",
+        "ready": 4,
+        "time": 5.444723,
+        "duration": 10.005333,
+        "paused": true,
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "canvas": [],
+    "text": "SARV\n01 / 06\n\nMATERIAL · DETAIL · SPACE\n\nMade for\nthe architecture.\n\nSCROLL TO MOVE THROUGH THE FILM\n\n55\n\n02 — FIELD OF WORKS\n\nSix areas of architectural woodwork.\nOPEN WORKSPACE\n01\nK\n\nKITCHEN\n\nOPEN WORKSPACE\n02\nW\n\nWARDROBE\n\nOPEN WORKSPACE\n06\nBV\n\nBATHROOM VANITY\n\nCURRENT DISCIPLINE\n\nKITCHEN\n01\n\nCABINETRY / ISLANDS / INTEGRATED STORAGE\n\n←\nPREVIOUS\nNEXT\n→\n\n01\n/\n06\n\n03 — SELECTED PROJECTS\n\nThree studies in material continuity.\n\nCOORDINATED EDITORIAL CONCEPT SETS. PROJECT FACTS REMAIN PENDING UNTIL FORMALLY APPROVED.\n\n01 / 03\nOPEN PROJECT BRIEF\n\nEDITORIAL CONCEPT STUDY\n\nCedar House\n↗\n02 / 03\nOPEN PROJECT BRIEF\n\nEDITORIAL CONCEPT STUDY\n\nPale Courtyard\n↗\n03 / 03\nOPEN PROJECT BRIEF\n\nEDITORIAL CONCEPT STUDY\n\nStone Frame\n↗\n\n04 — MAKING SARV\n\nFrom drawing to handover.\n\nTHREE COORDINATED DISCIPLINES CARRY EACH APPROVED PROJECT THROUGH TECHNICAL DEVELOPMENT, PRODUCTION, AND INSTALLATION.\n\nTEAMS / 03\n\nOne continuous line of responsibility.\n01\n\nPRODUCTION GROUP\n\nFactory Team\n\nSTAFF ROSTER PENDING CONFIRMATION\n\n02\n\nSITE EXECUTION GROUP\n\nExecution / Installation Team\n\nSTAFF ROSTER PENDING CONFIRMATION\n\n03\n\nTECHNICAL DEVELOPMENT GROUP\n\nTechnical / Design Team\n\nSTAFF ROSTER PENDING CONFIRMATION\n\nPROCESS / 09 STAGES\n\nA compact path from site to completion.\n01\n\nSITE MEASUREMENT\n\n02\n\nDESIGN\n\n03\n\nMATE",
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "boreal",
+    "status": 200,
+    "title": "BOREAL — Architectural Estates",
+    "url": "https://real-estate-website-blond-phi.vercel.app/",
+    "codecs": {
+      "h264": "probably",
+      "aac": "probably"
+    },
+    "videos": [
+      {
+        "src": "https://real-estate-website-blond-phi.vercel.app/assets/video/hero-sm.mp4",
+        "ready": 4,
+        "time": 0.016666,
+        "duration": 13.033333,
+        "paused": true,
+        "width": 960,
+        "height": 540
+      }
+    ],
+    "canvas": [
+      {
+        "width": 300,
+        "height": 150,
+        "rect": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    ],
+    "text": "SKIP TO THE PROJECTS\nBOREAL\nBOREAL — Architectural Estates. Arrival is the first room.\n\nEST. 2011 — OSLO & VIENNA\n\nArrival\nis the first room.\n\nA small studio placing a handful of houses each year, in forests, on coastlines, and at altitude.\n\n001 / 391\n\n59°21′06″N\n8°25′29″E\n\nVRÅDAL, NORWAY — 2023\n\n47°51′30″N\n13°31′25″E\n\nATTERSEE, AUSTRIA — 2024\n\n57°19′43″N\n18°42′19″E\n\nLJUGARN, SWEDEN — 2022\n\n01\n02\n03\n\nCONTEMPORARY A-FRAME — NORDIC VERNACULAR\n\nLima Cabin\n\nA single roof, drawn all the way to the ground.\n\nLima reduces the house to one gesture: a glulam A-frame that touches the forest floor on both sides and opens, at its north end, into a wall of triangulated glass.\n\nInternal area\n186 m²\nSite\n2.4 ha, private\nBedrooms\n3\n\nVRÅDAL, TELEMARK — NORWAY\n\nN59 — TLM — 014 · 612 m · Dfc\n\nStructure\nGlulam A-frame, 11.4 m ridge\nEnvelope\nCharred pine rainscreen, black brick core\nAperture\nTriangulated glazing, north elevation\nFoundation\nScrew-pile platform, zero excavation\nPRICE\n€2,450,000\nAvailable\nRESERVE TIME\n\nASYMMETRIC GABLE — ALPINE MODERNISM\n\nMaverick Cabin\n\nA house held level against a still sheet of water.\n\nMaverick sets a 34-metre asymmetric gable against a mirror pool that doubles the elevation and moderates the courtyard climate.\n\nInternal area\n642 m²\nSite\n1.8 ha, lakeside\nBedrooms\n6\n\nA",
+    "errors": [],
+    "failed": []
+  },
+  {
+    "name": "lumiere",
+    "status": 200,
+    "title": "Lumière Dental Studio — Aesthetic & Restorative Dentistry, London",
+    "url": "https://lumiere-dental-clinic-seven.vercel.app/",
+    "codecs": {
+      "h264": "probably",
+      "aac": "probably"
+    },
+    "videos": [
+      {
+        "src": "https://lumiere-dental-clinic-seven.vercel.app/assets/video/hero.mp4",
+        "ready": 4,
+        "time": 6.647861,
+        "duration": 10,
+        "paused": false,
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "canvas": [],
+    "text": "Skip to content\nEnglish\nفارسی\nLumière\nDENTAL STUDIO\nBook appointment\nNOW ACCEPTING NEW PATIENTS\nDentistry,\nquietly perfected.\n\nA calm, fully digital studio in Northbank. Two-hour appointments, no rushing, and a treatment plan you approve before anything begins.\n\nBook an appointment\nExplore treatments\nSCROLL\nCQC registered\nIndependently inspected and rated\nOpen until 22:00\nEvening appointments, six days a week\nFully digital\nScans and same-day ceramics in-house\nAnxiety-friendly\nSedation and extended slots available\nTREATMENTS\nEverything your smile needs, under one roof\n\nTransparent pricing, honest timings. Add anything that interests you to a treatment plan — we will price it live and hold a slot when you are ready.\n\nAll treatments\nPreventive\nCosmetic\nRestorative\nOrthodontics\nSurgical\nComprehensive Exam\n\nA full oral health assessment with low-dose digital radiographs, soft-tissue screening and a written treatment roadmap.\n\n45 min\nper visit\nFROM\n£95\nAdd to plan\nClick the card to book this treatment\nMOST BOOKED\nHygiene & Airflow Polish\n\nUltrasonic scaling followed by a guided airflow polish that lifts coffee, tea and wine staining without abrasion.\n\n1 hr\nper visit\nFROM\n£120\nAdd to plan\nClick the card to book this treatment\nPeriodontal Gum Therapy\n\nDeep sub-gingival debridement for bl",
+    "errors": [],
+    "failed": [
+      {
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/assets/video/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ]
+  },
+  {
+    "name": "harvest",
+    "status": 200,
+    "title": "HARVEST BLOOM — Gourmet Barberries, Nuts & Dried Fruit",
+    "url": "https://harvest-bloom.vercel.app/?v=2842544",
+    "codecs": {
+      "h264": "probably",
+      "aac": "probably"
+    },
+    "videos": [
+      {
+        "src": "blob:https://harvest-bloom.vercel.app/6c402764-5e05-4b89-be21-785d7b01b5f4",
+        "ready": 4,
+        "time": 1.659071,
+        "duration": 9.900023,
+        "paused": true,
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "canvas": [
+      {
+        "width": 390,
+        "height": 1309,
+        "rect": {
+          "width": 390,
+          "height": 1309.375
+        }
+      },
+      {
+        "width": 390,
+        "height": 1129,
+        "rect": {
+          "width": 390,
+          "height": 1129.40625
+        }
+      },
+      {
+        "width": 390,
+        "height": 1351,
+        "rect": {
+          "width": 390,
+          "height": 1351.453125
+        }
+      }
+    ],
+    "text": "Skip to the collection\nHARVEST\nBLOOM\n00\n$0.00\n\nESTABLISHED 1998 — SINGLE ORIGIN\n\nGrown slowly.\nSealed at harvest.\n\nA small house that buys one lot at a time, from growers we can name.\n\nSCROLL TO PLAY\nSKIP TO THE COLLECTION\n\nTHE HOUSE\n\nWe buy small,\nand we buy once.\n\nHARVEST BLOOM began with a single terrace of barberry in South Khorasan and a stubborn idea: that the best fruit is not the biggest, and that nothing should be added to it.\n\nEvery lot is bought whole from one grower, graded by hand on a lit table, and closed under nitrogen within days of picking. When a lot is gone, it is gone.\n\n01\nNamed growers\n\nOne lot, one family, one terrace. Traceable to the row.\n\n02\nHand-graded\n\nColour and calibre sorted on a lit table, never by machine alone.\n\n03\nSealed at source\n\nNitrogen-flushed, light-barrier pouches closed within the week.\n\n04\nNothing added\n\nNo sugar, no oil, no sulphur, no preservative. Ever.\n\nTHE COLLECTION\n\nSix lots, bought whole.\n\nScroll to bring each lot forward, or choose one. Set a weight, and the price follows.\n\n01\n06\n\nSIGNATURE\n\nBarberries\n\nزرشک پفکی ممتاز\n\nThe house signature — sun-jewelled, tart, impossibly light.\n\nHand-picked at first blush from the terraced groves of South Khorasan, then shade-dried whole so each berry keeps its lacquer-red skin and its clean, ",
+    "errors": [],
+    "failed": []
+  }
+]
