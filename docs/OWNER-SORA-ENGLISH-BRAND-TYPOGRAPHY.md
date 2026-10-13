@@ -1,0 +1,15 @@
+# Distinct English typography with preserved MOSAIX lettering — 2026-10-13
+
+Owner request supersedes the previous English body choice: keep the logo and every brand mention in the reference typeface; use a different, more modern face for the rest of the English UI with natural letter spacing and uppercase primary titles.
+
+Implemented Sora static weights300/400/500/600/700, locally hosted from pinned Fontsource5.3.0 with Latin/Latin-ext WOFF2 and OFL license. Josefin Sans remains the brand face; Changa remains Arabic. CMS default/allowlist and English/Latin font fallbacks are updated; valid previous owner font choices still work.
+
+Public English h1/h2/h3 titles are uppercase. The Hero is uppercase with calibrated desktop/mobile sizing. Descriptions and ordinary controls retain natural casing/spacing. BrandText safely marks MOSAIX inside React text with inline bdi isolation, preserving both original content and the Latin brand in Arabic text; code/form values and attributes are untouched. Semantic text, media sources, contact/portfolio URLs and original service card geometry remain intact. Card navigation now derives its announcement from actual rendered anchor text rather than React children.toString().
+
+Narrow WebKit inspection exposed min-content overflow after expanding studio/service titles to uppercase. Their mobile typography and containing widths were corrected. Closed mobile navigation is explicitly hidden to avoid phantom layout; branding uses bdi so decorative span rules cannot color/offset it as an icon.
+
+Validation: all34 existing registry/assistant/admin/OpenAI mock/motion/SEO/i18n tests passed after the rendering changes; lint passed, followed by successful final production builds/TypeScript after the typography fixes. Final44 Chromium/WebKit font/layout cases passed across English home, studio, website world, services, Lab, project request and meeting pages at widths1440/390/320, plus Arabic home at390 in both engines. No horizontal overflow or page errors. All524 observed English brand mentions retained Josefin Sans. Native semibold/light glyph coverage ratios were1.75 Chromium and1.74 WebKit. Original card widths/heights and open/closed mobile menus passed. Four final client flows passed assistant open/close, preserved branding, carousel looping and actual card-to-service navigation at1440/320 in both engines. Screenshots were visually inspected. Evidence: docs/evidence/sora-brand-2026-10-13/.
+
+This is browser-engine verification, not physical-all-handsets coverage, a new complete playback/security audit or real model conversation testing. No API configuration/domain/private publication changed. Earlier saved browser permission blocks remain; no workaround attempted. Older ZIP snapshots predate this font change.
+
+Current local preview: http://127.0.0.1:4180/?lang=en&preview=sora20261013. Background node PID16612, bound to127.0.0.1 only, hidden window, private logs in E:/MOSAIX-AI/.tools/mosaix-sora-preview.*.log. Verify real process/port state before starting another server.

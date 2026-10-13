@@ -1,0 +1,74 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "fallback": false,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": true,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "fallback": true,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": false,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "fallback": false,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": true,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "fallback": true,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": false,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "fallback": false,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": true,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "fallback": true,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": false,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "fallback": false,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": true,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "fallback": true,
+    "curtainWaitedForReady": true,
+    "fullLocalVideo": false,
+    "seekingOrFramesPassed": true,
+    "errors": []
+  }
+]
