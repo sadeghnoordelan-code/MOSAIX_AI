@@ -1,0 +1,46 @@
+[
+  {
+    "engine": "chromium",
+    "lang": "en",
+    "h1": "\"Space Grotesk Variable\", Arial, sans-serif",
+    "paragraph": "\"Space Grotesk Variable\", Arial, sans-serif",
+    "loaded": [
+      "Changa Variable",
+      "Space Grotesk Variable"
+    ],
+    "ownerFontControlsWholeContent": true
+  },
+  {
+    "engine": "chromium",
+    "lang": "ar",
+    "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+    "paragraph": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+    "loaded": [
+      "Changa Variable",
+      "Space Grotesk Variable"
+    ],
+    "ownerFontControlsWholeContent": true
+  },
+  {
+    "engine": "webkit",
+    "lang": "en",
+    "h1": "Space Grotesk Variable, Arial, sans-serif",
+    "paragraph": "Space Grotesk Variable, Arial, sans-serif",
+    "loaded": [
+      "Changa Variable",
+      "Space Grotesk Variable"
+    ],
+    "ownerFontControlsWholeContent": true
+  },
+  {
+    "engine": "webkit",
+    "lang": "ar",
+    "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+    "paragraph": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+    "loaded": [
+      "Changa Variable",
+      "Space Grotesk Variable"
+    ],
+    "ownerFontControlsWholeContent": true
+  }
+]

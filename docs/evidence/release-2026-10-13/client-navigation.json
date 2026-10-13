@@ -1,0 +1,14 @@
+[
+  {
+    "engine": "chromium",
+    "arabicMobileClientNavigation": true,
+    "worldPlayback": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "arabicMobileClientNavigation": true,
+    "worldPlayback": true,
+    "errors": []
+  }
+]

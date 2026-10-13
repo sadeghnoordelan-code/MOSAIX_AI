@@ -1,0 +1,1439 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "h1": "\"Space Grotesk Variable\", \"Helvetica Neue\", sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "h1": "\"Changa Variable\", \"Space Grotesk Variable\", Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 3,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/application-design-development",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/ai-automation",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ],
+        "worldPlaying": true
+      },
+      {
+        "route": "/projects",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/lab",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/book-a-meeting",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "h1": "Changa Variable, Space Grotesk Variable, Tahoma, Arial, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/about",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 5,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/services/website-design-development",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/start-a-project?service=website",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      },
+      {
+        "route": "/404",
+        "overflow": false,
+        "body": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "h1": "Space Grotesk Variable, Helvetica Neue, sans-serif",
+        "images": 2,
+        "fonts": [
+          "Changa Variable",
+          "Space Grotesk Variable"
+        ]
+      }
+    ],
+    "errors": []
+  }
+]
