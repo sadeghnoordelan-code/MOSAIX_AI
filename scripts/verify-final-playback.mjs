@@ -1,12 +1,13 @@
 import fs from 'node:fs/promises';import assert from 'node:assert/strict';import{createRequire}from'node:module';
 const require=createRequire(import.meta.url),{chromium,webkit}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),report=[];
-const folder='docs/evidence/final-playback-2026-10-12';await fs.mkdir(folder,{recursive:true});
+const folder=process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/final-playback-2026-10-12';await fs.mkdir(folder,{recursive:true});
 for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
  const b=await engine.launch(name==='chromium'?{headless:true,channel:'msedge',ignoreDefaultArgs:['--disable-back-forward-cache']}:{headless:true});
  try{
  for(const width of[1440,390]){
   const c=await b.newContext({viewport:{width,height:width>700?1000:844},...(width<700?{hasTouch:true,isMobile:true}:{})});
   await c.addInitScript(()=>{sessionStorage.setItem('mosaix-intro-seen','1');window.__documentId=crypto.randomUUID();});
+  if(process.argv.includes('--fixture-destinations'))await c.route('https://**.vercel.app/**',route=>route.request().resourceType()==='document'?route.fulfill({contentType:'text/html',body:'<!doctype html><title>External return fixture</title><p>External document for lifecycle verification.</p>'}):route.continue());
   const p=await c.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
   const home='http://127.0.0.1:4180/',world=home+'services/website-design-development';
   await p.goto(world,{waitUntil:'networkidle'});
@@ -72,7 +73,7 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
   await p.locator('#work-harvest button').click();await advancing(slug);
   await p.evaluate(()=>scrollTo(0,0));await p.waitForTimeout(1300);
   assert.equal(await p.locator('.work-preview video').evaluateAll(v=>v.filter(v=>!v.paused).length),0);
-  assert.deepEqual(errors,[]);report.push({engine:name,width,cases,missingPageshowRecovery:true,unresolvedPlayRecovery:true,userPauseRespected:true,offscreenPaused:true,errors});
+  assert.deepEqual(errors,[]);report.push({engine:name,width,externalDestinations:process.argv.includes('--fixture-destinations')?'isolated fixture documents':'live sites',cases,missingPageshowRecovery:true,unresolvedPlayRecovery:true,userPauseRespected:true,offscreenPaused:true,errors});
   await fs.writeFile(folder+'/regression.json',JSON.stringify(report,null,2));await c.close();
  }
  }finally{await b.close();}

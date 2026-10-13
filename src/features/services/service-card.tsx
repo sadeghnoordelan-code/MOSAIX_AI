@@ -6,6 +6,7 @@ import { memo, useEffect, useRef, useState } from 'react';
 import { Arrow } from '@/components/arrow';
 import { serviceHref, type Service } from '@/content/services';
 import { useContent } from '@/features/cms/context';
+import {BrandText} from '@/components/brand-text';
 
 type PreviewState = 'idle' | 'loading' | 'ready' | 'unavailable';
 export const ServiceCard=memo(function ServiceCard({ service, index }: { service: Service; index: number }) {
@@ -52,10 +53,10 @@ export const ServiceCard=memo(function ServiceCard({ service, index }: { service
     onBlur={event=>{if(!event.currentTarget.contains(event.relatedTarget as Node|null))cleanup.current();}} onKeyDown={event=>{if(event.key==='Escape')cleanup.current();}}>
     <ServiceEntryLink href={serviceHref(service)} className="card-world-surface" aria-label={service.title} /><div className="card-film" aria-hidden="true"><video ref={film} muted playsInline loop preload="none" disablePictureInPicture tabIndex={-1} /></div>
     <div className="card-material" aria-hidden="true" /><div className="card-readability" aria-hidden="true" />
-    <div className="card-top"><span className="card-index">{String(index+1).padStart(2,'0')}</span><Arrow diagonal /></div>
-    <div className="card-body"><svg className="service-symbol" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">{service.id==='website'?<><rect x="5" y="9" width="30" height="22" rx="2"/><path d="M5 15h30M10 12h1m3 0h1M14 21l-4 3 4 3m12-6 4 3-4 3"/></>:service.id==='application'?<><rect x="11" y="4" width="18" height="32" rx="3"/><path d="M17 8h6M17 31h6M15 16h10v8H15z"/></>:service.id==='automation'?<><path d="M20 5v8m0 14v8M5 20h8m14 0h8M9 9l6 6m10 10 6 6M9 31l6-6m10-10 6-6"/><circle cx="20" cy="20" r="7"/></>:service.id==='advertising'?<><rect x="5" y="9" width="30" height="23" rx="2"/><path d="M5 15h30M12 9l4 6m4-6 4 6m4-6 4 6M17 20l8 4-8 4z"/></>:<><path d="M15 5h10M17 5v11L8 32q-2 3 2 3h20q4 0 2-3l-9-16V5M13 25h14"/><circle cx="20" cy="29" r="1"/></>}</svg><h3>{service.shortTitle}</h3><p>{service.discipline}</p></div>
-    <div className="card-actions"><button type="button" className="card-preview" aria-label={`${t('Preview')} ${service.shortTitle}`} aria-pressed={preview} onClick={()=>toggle.current(!active.current)}>{preview?t("Close preview"):t("Preview")}<span aria-hidden="true">{preview?'−':'+'}</span></button><ServiceEntryLink href={serviceHref(service)} className="card-link">{t("Explore service")}<span aria-hidden="true">↗</span></ServiceEntryLink></div>
-    <span className="card-status" role="status">{state==='loading'?t("Preparing preview"):state==='unavailable'?t("Video preview unavailable"):''}</span>
+    <div className="card-top"><span className="card-index"><BrandText>{String(index+1).padStart(2,'0')}</BrandText></span><Arrow diagonal /></div>
+    <div className="card-body"><svg className="service-symbol" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">{service.id==='website'?<><rect x="5" y="9" width="30" height="22" rx="2"/><path d="M5 15h30M10 12h1m3 0h1M14 21l-4 3 4 3m12-6 4 3-4 3"/></>:service.id==='application'?<><rect x="11" y="4" width="18" height="32" rx="3"/><path d="M17 8h6M17 31h6M15 16h10v8H15z"/></>:service.id==='automation'?<><path d="M20 5v8m0 14v8M5 20h8m14 0h8M9 9l6 6m10 10 6 6M9 31l6-6m10-10 6-6"/><circle cx="20" cy="20" r="7"/></>:service.id==='advertising'?<><rect x="5" y="9" width="30" height="23" rx="2"/><path d="M5 15h30M12 9l4 6m4-6 4 6m4-6 4 6M17 20l8 4-8 4z"/></>:<><path d="M15 5h10M17 5v11L8 32q-2 3 2 3h20q4 0 2-3l-9-16V5M13 25h14"/><circle cx="20" cy="29" r="1"/></>}</svg><h3><BrandText>{service.shortTitle}</BrandText></h3><p><BrandText>{service.discipline}</BrandText></p></div>
+    <div className="card-actions"><button type="button" className="card-preview" aria-label={`${t('Preview')} ${service.shortTitle}`} aria-pressed={preview} onClick={()=>toggle.current(!active.current)}><BrandText>{preview?t("Close preview"):t("Preview")}</BrandText><span aria-hidden="true"><BrandText>{preview?'−':'+'}</BrandText></span></button><ServiceEntryLink href={serviceHref(service)} className="card-link"><BrandText>{t("Explore service")}</BrandText><span aria-hidden="true">↗</span></ServiceEntryLink></div>
+    <span className="card-status" role="status"><BrandText>{state==='loading'?t("Preparing preview"):state==='unavailable'?t("Video preview unavailable"):''}</BrandText></span>
   </article>;
 });
 

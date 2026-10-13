@@ -1,8 +1,9 @@
 import { messageBlocks } from './message-content';
+import {BrandText} from '@/components/brand-text';
 function InlineText({text}:{text:string}) {
   return text.split(/(\*\*[^*]+\*\*|`[^`]+`)/g).map((part,index)=>
-    part.startsWith('**')?<strong key={index}>{part.slice(2,-2)}</strong>:
-    part.startsWith('`')?<code key={index}>{part.slice(1,-1)}</code>:part);
+    part.startsWith('**')?<strong key={index}><BrandText>{part.slice(2,-2)}</BrandText></strong>:
+    part.startsWith('`')?<code key={index}>{part.slice(1,-1)}</code>:<BrandText key={index}>{part}</BrandText>);
 }
 export function MessageText({text}:{text:string}) {
   return <div className="ai-prose" dir="auto">{messageBlocks(text).map((block,index)=>{

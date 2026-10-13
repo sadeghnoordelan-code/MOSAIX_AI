@@ -1,5 +1,8 @@
 /** Approved Modern Standard Arabic copy. Identifiers, URLs and brand names stay stable. */
 export const arabic:Record<string,string>={
+ 'Scroll on cards to loop · Scroll beside them to continue':'مرّر فوق البطاقات لتدويرها · مرّر بجانبها لمتابعة الصفحة',
+ 'Bring service cards fully into view':'اعرض بطاقات الخدمات كاملةً',
+ 'View all of the card':'اعرض البطاقة كاملةً',
  'AUTOMATE A BRIGHTER TOMORROW':'نصنع بالأتمتة غداً أكثر إشراقاً',
  'AI Product Studio':'استوديو منتجات الذكاء الاصطناعي',
  'Design × AI × Technology':'التصميم × الذكاء الاصطناعي × التقنية',

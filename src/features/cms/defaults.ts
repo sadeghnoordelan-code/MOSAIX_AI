@@ -24,7 +24,7 @@ export const defaultContent={
  projectRequest:{eyebrow:'Start a project',title:'What comes next?',description:'A new website. An application. An intelligent workflow. A story worth telling.',note:'Tell us about your idea, the outcome you need and your preferred timing. We’ll discuss the scope and next steps with you.',button:'Email your project brief'},
  meeting:{eyebrow:'Book a meeting',title:'A conversation first.',description:'A separate space to discuss your project with MOSAIX.',note:'Contact us to arrange a conversation about your idea and a suitable meeting time.'},
  contact,
- appearance:{background:'#04060a',surface:'#0c1018',text:'#e8eef6',muted:'#a0a7b4',accent:'#4b8dff',font:'Raleway',textScale:1,cardRadius:24},
+ appearance:{background:'#04060a',surface:'#0c1018',text:'#e8eef6',muted:'#a0a7b4',accent:'#4b8dff',font:'Sora',textScale:1,cardRadius:24},
  assistant:{teaserMessage:'Hi, I am MOSAIX. How may I help you?',visible:true,enabled:true,greetingEnabled:true,welcomeDelaySeconds:120,welcomeMessage:'Hi, I am MOSAIX. How may I help you?',title:'A clearer next move.',description:'Tell me what you’re trying to build, improve or automate. We’ll shape the idea before deciding what you need.'},
  seo:{title:'MOSAIX — Design × AI × Technology',description:'MOSAIX is an AI Product Studio at the intersection of design, software, AI and digital experience.'}
 };

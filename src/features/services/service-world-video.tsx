@@ -2,6 +2,7 @@
 import {useTranslation} from '@/features/i18n/context';
 import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 import {useEffect,useRef,useState} from 'react';
+import {BrandText} from '@/components/brand-text';
 export function ServiceWorldVideo({src}:{src:string}){const t=useTranslation();
  const film=useRef<HTMLVideoElement>(null),retry=useRef<()=>void>(()=>{});
  const[ready,setReady]=useState(false),[status,setStatus]=useState('loading');
@@ -24,7 +25,7 @@ export function ServiceWorldVideo({src}:{src:string}){const t=useTranslation();
    video.removeAttribute('src');video.load();
   };
  },[src]);
- return <><div className="world-backdrop" data-video-ready={ready}><video ref={film} src={src} autoPlay muted playsInline loop preload="auto" aria-hidden="true" tabIndex={-1} disablePictureInPicture/><span className="world-video-status" role="status">{status==='blocked'?t("Background film unavailable: automatic playback is blocked."):status==='unavailable'?t("Background film is currently unavailable."):''}</span></div>{(status==='blocked'||status==='unavailable')&&<button className="world-film-retry" type="button" onClick={()=>retry.current()}>{t("Play background film ↻")}</button>}</>;
+ return <><div className="world-backdrop" data-video-ready={ready}><video ref={film} src={src} autoPlay muted playsInline loop preload="auto" aria-hidden="true" tabIndex={-1} disablePictureInPicture/><span className="world-video-status" role="status"><BrandText>{status==='blocked'?t("Background film unavailable: automatic playback is blocked."):status==='unavailable'?t("Background film is currently unavailable."):''}</BrandText></span></div>{(status==='blocked'||status==='unavailable')&&<button className="world-film-retry" type="button" onClick={()=>retry.current()}><BrandText>{t("Play background film ↻")}</BrandText></button>}</>;
 }
 
 

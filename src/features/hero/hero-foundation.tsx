@@ -8,6 +8,7 @@ import { Arrow } from '@/components/arrow';
 import { useContent } from '@/features/cms/context';
 import { mountHeroExperience, type HeroStatus } from './hero-experience';
 import styles from './hero.module.css';
+import {BrandText} from '@/components/brand-text';
 
 const statusCopy: Record<HeroStatus, string> = {
   loading: 'Preparing the hidden world',
@@ -41,31 +42,31 @@ export function HeroFoundation() {const t=useTranslation();
       </div>
       <div className={`${styles.content} shell`}>
         <div className={styles.topline}>
-          <p className="eyebrow"><span className="signal" aria-hidden="true" />{hero.eyebrow}</p>
-          <span className={styles.coordinates}>{hero.descriptor}</span>
+          <p className="eyebrow"><span className="signal" aria-hidden="true" /><BrandText>{hero.eyebrow}</BrandText></p>
+          <span className={styles.coordinates}><BrandText>{hero.descriptor}</BrandText></span>
         </div>
         <h1 id="hero-heading" className={styles.heading}>
-          <span>{hero.headline[0]}</span><span>{hero.headline[1]}</span><span className={styles.chrome}>{hero.headline[2]}</span>
+          <span><BrandText>{hero.headline[0]}</BrandText></span><span><BrandText>{hero.headline[1]}</BrandText></span><span className={styles.chrome}><BrandText>{hero.headline[2]}</BrandText></span>
         </h1>
         <div className={styles.bottom}>
-          <p>{hero.description}</p>
-          <Link href="#services" className="text-link">{hero.button} <Arrow /></Link>
+          <p><BrandText>{hero.description}</BrandText></p>
+          <Link href="#services" className="text-link"><BrandText>{hero.button}</BrandText> <Arrow /></Link>
         </div>
         <div className={styles.footer}>
-          <span className={styles.index}>01 / {brand.name}</span>
+          <span className={styles.index}>01 / <BrandText>{brand.name}</BrandText></span>
           <div className={styles.exploration}>
             <button ref={control} className={styles.control} type="button" aria-describedby="hero-instructions hero-media-status" aria-label={t("Explore the hidden film with light")}>
               <span className={styles.lightMark} aria-hidden="true"><i /><i /><i /></span>
-              <span className={styles.pointerCue}>{t("Move to reveal")}</span>
-              <span className={styles.touchCue}>{t("Drag to reveal")}</span>
-              <span className={styles.keyboardCue}>{t("Arrow keys to explore · Esc to exit")}</span>
+              <span className={styles.pointerCue}><BrandText>{t("Move to reveal")}</BrandText></span>
+              <span className={styles.touchCue}><BrandText>{t("Drag to reveal")}</BrandText></span>
+              <span className={styles.keyboardCue}><BrandText>{t("Arrow keys to explore · Esc to exit")}</BrandText></span>
             </button>
-            <span id="hero-media-status" className={styles.status} role="status" aria-live="polite">{t(statusCopy[status])}</span>
+            <span id="hero-media-status" className={styles.status} role="status" aria-live="polite"><BrandText>{t(statusCopy[status])}</BrandText></span>
           </div>
-          <Link href="#services" className={styles.scrollCue} aria-label={t("Scroll to our worlds")}>{t("Scroll to explore")}<span aria-hidden="true">↓</span></Link>
+          <Link href="#services" className={styles.scrollCue} aria-label={t("Scroll to our worlds")}><BrandText>{t("Scroll to explore")}</BrandText><span aria-hidden="true">↓</span></Link>
         </div>
-        <p id="hero-instructions" className="sr-only">{t("Move your pointer or drag horizontally to explore the film with light. On this button, use the arrow keys to move the light, Shift and an arrow for a larger step, Home to recenter, and Escape to exit. Vertical touch gestures scroll the page. The film plays independently of the light.")}</p>
-        <noscript><p className={styles.noScript}>{t("Light exploration requires JavaScript. Explore our worlds below.")}</p></noscript>
+        <p id="hero-instructions" className="sr-only"><BrandText>{t("Move your pointer or drag horizontally to explore the film with light. On this button, use the arrow keys to move the light, Shift and an arrow for a larger step, Home to recenter, and Escape to exit. Vertical touch gestures scroll the page. The film plays independently of the light.")}</BrandText></p>
+        <noscript><p className={styles.noScript}><BrandText>{t("Light exploration requires JavaScript. Explore our worlds below.")}</BrandText></p></noscript>
       </div>
     </section>
   );
