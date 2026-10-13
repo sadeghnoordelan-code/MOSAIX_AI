@@ -3,6 +3,7 @@ import Link from 'next/link';
 import {useTranslation} from '@/features/i18n/context';
 import { usePathname,useRouter } from 'next/navigation';
 import { createContext,useCallback,useContext,useEffect,useRef,useState,type ReactNode } from 'react';
+import {BrandText} from '@/components/brand-text';
 const EntryContext=createContext<((href:string,label:string)=>void)|null>(null);
 type Pending={href:string;startPath:string;routeReady:boolean;frameReady:boolean;revealing:boolean;routeAt:number};
 export function ServiceTransitionProvider({children}:{children:ReactNode}){const t=useTranslation();
@@ -45,11 +46,11 @@ export function ServiceTransitionProvider({children}:{children:ReactNode}){const
   document.addEventListener('click',navigate,true);
   return()=>document.removeEventListener('click',navigate,true);
  },[enter,pathname]);
- return <EntryContext.Provider value={enter}><div className="service-transition-root" data-entry-phase={phase}>{children}</div><div className="service-entry-curtain" data-phase={phase} aria-hidden="true"><div className="entry-curtain-edge"/><span className="entry-curtain-mark">MOSAIX</span></div><span className="sr-only" role="status" aria-live="polite">{phase==='idle'?'':`${t('Opening')} ${label}`}</span></EntryContext.Provider>;
+ return <EntryContext.Provider value={enter}><div className="service-transition-root" data-entry-phase={phase}>{children}</div><div className="service-entry-curtain" data-phase={phase} aria-hidden="true"><div className="entry-curtain-edge"/><span className="entry-curtain-mark">MOSAIX</span></div><span className="sr-only" role="status" aria-live="polite"><BrandText>{phase==='idle'?'':`${t('Opening')} ${label}`}</BrandText></span></EntryContext.Provider>;
 }
 export function ServiceEntryLink({href,className,children,'aria-label':ariaLabel}:{href:string;className?:string;children?:ReactNode;'aria-label'?:string}){
  const enter=useContext(EntryContext);
- return <Link href={href} className={className} aria-label={ariaLabel} onClick={event=>{if(!enter||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();enter(href,ariaLabel??children?.toString()??'MOSAIX');}}>{children}</Link>;
+ return <Link href={href} className={className} aria-label={ariaLabel} onClick={event=>{if(!enter||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();enter(href,ariaLabel??event.currentTarget.textContent?.trim()??'MOSAIX');}}>{children}</Link>;
 }
 
 

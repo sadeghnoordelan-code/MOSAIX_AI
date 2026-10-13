@@ -1,0 +1,38 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "assistantOpenClose": true,
+    "brandPreserved": true,
+    "carouselLoop": true,
+    "cardRoute": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "assistantOpenClose": true,
+    "brandPreserved": true,
+    "carouselLoop": true,
+    "cardRoute": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "assistantOpenClose": true,
+    "brandPreserved": true,
+    "carouselLoop": true,
+    "cardRoute": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "assistantOpenClose": true,
+    "brandPreserved": true,
+    "carouselLoop": true,
+    "cardRoute": true,
+    "errors": []
+  }
+]

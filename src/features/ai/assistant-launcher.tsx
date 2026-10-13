@@ -1,11 +1,12 @@
  'use client';
+import {BrandText} from '@/components/brand-text';
 import dynamic from 'next/dynamic';
 import {MosaixOrbVisual} from '@/components/mosaix-orb-visual';
 import { usePathname } from 'next/navigation';
 import { useCallback,useEffect,useRef,useState } from 'react';
 import { ASSISTANT_OPEN_EVENT } from './assistant-trigger';
 const Chat=dynamic(()=>import('./assistant-client').then(module=>module.AssistantClient),{ssr:false,loading:AssistantLoading});
-function AssistantLoading(){const t=useTranslation();return <p className="assistant-loading" role="status">{t('Opening MOSAIX…')}</p>;}
+function AssistantLoading(){const t=useTranslation();return <p className="assistant-loading" role="status"><BrandText>{t('Opening MOSAIX…')}</BrandText></p>;}
 const GREETED='mosaix-assistant-greeted';
 const DWELL='mosaix-assistant-dwell';
 import {useTranslation} from '@/features/i18n/context';
@@ -46,14 +47,14 @@ export function AssistantLauncher(){
  useEffect(()=>{if(previousRoute.current!==pathname){panel.current?.close();previousRoute.current=pathname;}},[pathname]);
  const close=()=>{setOpen(false);const target=returnFocus.current?.isConnected&&returnFocus.current.getClientRects().length&&!returnFocus.current.closest('details:not([open])')?returnFocus.current:launcher.current;requestAnimationFrame(()=>target?.focus());};
  return <><div className="assistant-dock" data-paused={hidden} hidden={open}>
-  {!greeting&&!teaserDismissed&&assistant.greetingEnabled&&<div className="assistant-teaser"><button type="button" className="assistant-teaser-dismiss" aria-label={t("Dismiss assistant introduction")} onClick={()=>setTeaserDismissed(true)}>×</button><button type="button" className="assistant-teaser-action" onClick={()=>show()}>{assistant.teaserMessage}<span aria-hidden="true">↗</span></button></div>}
-  {greeting&&<div className="assistant-greeting"><button className="assistant-greeting-dismiss" type="button" aria-label={t("Dismiss welcome message")} onClick={dismiss}>×</button><p role="status">{assistant.welcomeMessage}</p><button className="assistant-greeting-action" type="button" onClick={()=>show()}>{t('Let’s talk')} <span aria-hidden="true">↗</span></button></div>}
+  {!greeting&&!teaserDismissed&&assistant.greetingEnabled&&<div className="assistant-teaser"><button type="button" className="assistant-teaser-dismiss" aria-label={t("Dismiss assistant introduction")} onClick={()=>setTeaserDismissed(true)}>×</button><button type="button" className="assistant-teaser-action" onClick={()=>show()}><BrandText>{assistant.teaserMessage}</BrandText><span aria-hidden="true">↗</span></button></div>}
+  {greeting&&<div className="assistant-greeting"><button className="assistant-greeting-dismiss" type="button" aria-label={t("Dismiss welcome message")} onClick={dismiss}>×</button><p role="status"><BrandText>{assistant.welcomeMessage}</BrandText></p><button className="assistant-greeting-action" type="button" onClick={()=>show()}><BrandText>{t('Let’s talk')}</BrandText> <span aria-hidden="true">↗</span></button></div>}
   <button ref={launcher} className="mosaix-orb-button" type="button" aria-label={t("Open MOSAIX AI")} aria-haspopup="dialog" aria-expanded={open} aria-controls="mosaix-assistant-dialog" onClick={()=>show()}>
    <MosaixOrbVisual/>
    <span className="mosaix-orb-label">MOSAIX</span>
   </button>
  </div><dialog ref={panel} id="mosaix-assistant-dialog" className="assistant-dialog" aria-label={t("Chat with MOSAIX AI")} onClose={close} onCancel={()=>setOpen(false)} onClick={event=>{if(event.target===event.currentTarget){const rect=event.currentTarget.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)setOpen(false);}}}>
-  <div className="assistant-dialog-bar"><span><i aria-hidden="true"/>MOSAIX <b>AI</b></span><button type="button" autoFocus aria-label={t("Close MOSAIX AI")} onClick={()=>setOpen(false)}>×</button></div>
+  <div className="assistant-dialog-bar"><span><i aria-hidden="true"/><BrandText>{"MOSAIX "}</BrandText><b>AI</b></span><button type="button" autoFocus aria-label={t("Close MOSAIX AI")} onClick={()=>setOpen(false)}>×</button></div>
   {started&&<Chat route={context} embedded active={open}/>}
  </dialog></>;
 }

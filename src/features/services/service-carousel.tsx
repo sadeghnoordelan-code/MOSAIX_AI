@@ -5,6 +5,7 @@ import { useEffect, useRef, useState, type CSSProperties } from 'react';
 import { useContent } from '@/features/cms/context';
 import { ServiceCard } from './service-card';
 import { ServiceLightTrails } from './service-light-trails';
+import {BrandText} from '@/components/brand-text';
 export function ServiceCarousel() {const t=useTranslation(),locale=useLocale();
   const {services}=useContent();
   const [selected,setSelected]=useState(0);
@@ -72,9 +73,9 @@ export function ServiceCarousel() {const t=useTranslation(),locale=useLocale();
       </div>;})}
     </div>
     {needsAlignment&&<button type="button" className="carousel-align" onClick={alignCards} aria-label={t('Bring service cards fully into view')}>
-      <span>{t('View all of the card')}</span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 8v30M10 24l14 14 14-14" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"/></svg>
+      <span><BrandText>{t('View all of the card')}</BrandText></span><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 8v30M10 24l14 14 14-14" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"/></svg>
     </button>}
-    <div className="carousel-controls"><span className="carousel-count" role="status" aria-live="polite">{String(selected+1).padStart(2,'0')} / 05 · {services[selected].shortTitle}</span><div className="carousel-dots" aria-label={t("Choose a service")}>{services.map((service,index)=><button type="button" key={service.id} aria-label={`${t('Show')} ${service.shortTitle}`} aria-current={selected===index?'true':undefined} onClick={()=>move.current(index)} />)}</div><span className="carousel-hint">{t("Scroll on cards to loop · Scroll beside them to continue")}</span></div>
+    <div className="carousel-controls"><span className="carousel-count" role="status" aria-live="polite"><BrandText>{String(selected+1).padStart(2,'0')}</BrandText> / 05 · <BrandText>{services[selected].shortTitle}</BrandText></span><div className="carousel-dots" aria-label={t("Choose a service")}>{services.map((service,index)=><button type="button" key={service.id} aria-label={`${t('Show')} ${service.shortTitle}`} aria-current={selected===index?'true':undefined} onClick={()=>move.current(index)} />)}</div><span className="carousel-hint"><BrandText>{t("Scroll on cards to loop · Scroll beside them to continue")}</BrandText></span></div>
   </div>;
 }
 

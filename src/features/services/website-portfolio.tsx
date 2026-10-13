@@ -3,6 +3,7 @@ import {useTranslation} from '@/features/i18n/context';
 import {useCallback,useEffect,useRef,useState} from 'react';
 import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 import type {SiteContent} from '@/features/cms/defaults';
+import {BrandText} from '@/components/brand-text';
 
 type Item=SiteContent['websitePortfolio']['items'][number];
 function Preview({item,active,start,stop,labels}:{item:Item;active:boolean;start:(slug:string)=>void;stop:(slug:string)=>void;labels:SiteContent['websitePortfolio']}){const t=useTranslation();
@@ -22,9 +23,9 @@ function Preview({item,active,start,stop,labels}:{item:Item;active:boolean;start
  },[active,item.video]);
  return <div className="work-preview" ref={root} data-playing={playing} onPointerEnter={e=>{if(e.pointerType==='mouse'&&matchMedia('(hover: hover) and (pointer: fine)').matches)start(item.slug);}}>
  <video ref={video} poster={item.poster} muted loop playsInline preload="none" aria-label={item.title+' '+t('website preview')} onPlaying={()=>{setPlaying(true);setFailed(false);}} onPause={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
- <span className="work-preview-index" aria-hidden="true">MOSAIX / {item.category}</span>
- <button className="work-preview-control" type="button" aria-label={(active?labels.pauseLabel:labels.previewLabel)+' — '+item.title} aria-pressed={active} onClick={()=>active?stop(item.slug):start(item.slug)}><span aria-hidden="true">{active?'Ⅱ':'▶'}</span>{active?labels.pauseLabel:labels.previewLabel}</button>
- {failed&&<span className="work-preview-feedback" role="status">{t("Preview unavailable. Explore the live website below.")}</span>}
+ <span className="work-preview-index" aria-hidden="true"><BrandText>{"MOSAIX / "}</BrandText><BrandText>{item.category}</BrandText></span>
+ <button className="work-preview-control" type="button" aria-label={(active?labels.pauseLabel:labels.previewLabel)+' — '+item.title} aria-pressed={active} onClick={()=>active?stop(item.slug):start(item.slug)}><span aria-hidden="true"><BrandText>{active?'Ⅱ':'▶'}</BrandText></span><BrandText>{active?labels.pauseLabel:labels.previewLabel}</BrandText></button>
+ {failed&&<span className="work-preview-feedback" role="status"><BrandText>{t("Preview unavailable. Explore the live website below.")}</BrandText></span>}
  </div>;
 }
 export function WebsitePortfolio({content}:{content:SiteContent['websitePortfolio']}){const t=useTranslation();
@@ -32,8 +33,8 @@ export function WebsitePortfolio({content}:{content:SiteContent['websitePortfoli
  const start=useCallback((slug:string)=>setActive(slug),[]),stop=useCallback((slug:string)=>setActive(current=>current===slug?null:current),[]);
  const items=content.items.filter(item=>item.published);
  if(!items.length)return null;
- return <section className="website-portfolio shell" id="website-portfolio" aria-labelledby="portfolio-title"><header className="work-section-heading"><p className="eyebrow">{content.eyebrow}</p><h2 id="portfolio-title">{content.title}</h2><p>{content.description}</p><div className="work-index" aria-label={t("Jump to a website")}>{items.map((item,i)=><a key={item.slug} href={'#work-'+item.slug}><span>0{i+1}</span>{item.title}<span aria-hidden="true">↘</span></a>)}</div></header>
- <div className="work-collection">{items.map((item,i)=><article className="work-glass-card" id={'work-'+item.slug} key={item.slug} onPointerLeave={e=>{if(e.pointerType==='mouse'&&e.relatedTarget&&document.hasFocus()&&matchMedia('(hover: hover) and (pointer: fine)').matches)stop(item.slug);}}><Preview item={item} active={active===item.slug} start={start} stop={stop} labels={content}/><div className="work-copy"><p className="eyebrow"><span>0{i+1}</span> / {item.category}</p><h3>{item.title}</h3><p className="work-headline">{item.headline}</p><p className="work-summary">{item.summary}</p><ul className="work-features">{item.features.map(feature=><li key={feature.title}><strong>{feature.title}</strong><span>{feature.detail}</span></li>)}</ul><a className="work-visit" href={item.link} target="_blank" rel="noopener noreferrer" onClick={()=>start(item.slug)}>{content.visitLabel}<span aria-hidden="true">↗</span><span className="sr-only"> — {item.title} {t("(opens in a new tab)")}</span></a><p className="work-note">{item.note}</p></div></article>)}</div></section>;
+ return <section className="website-portfolio shell" id="website-portfolio" aria-labelledby="portfolio-title"><header className="work-section-heading"><p className="eyebrow"><BrandText>{content.eyebrow}</BrandText></p><h2 id="portfolio-title"><BrandText>{content.title}</BrandText></h2><p><BrandText>{content.description}</BrandText></p><div className="work-index" aria-label={t("Jump to a website")}>{items.map((item,i)=><a key={item.slug} href={'#work-'+item.slug}><span>0{i+1}</span><BrandText>{item.title}</BrandText><span aria-hidden="true">↘</span></a>)}</div></header>
+ <div className="work-collection">{items.map((item,i)=><article className="work-glass-card" id={'work-'+item.slug} key={item.slug} onPointerLeave={e=>{if(e.pointerType==='mouse'&&e.relatedTarget&&document.hasFocus()&&matchMedia('(hover: hover) and (pointer: fine)').matches)stop(item.slug);}}><Preview item={item} active={active===item.slug} start={start} stop={stop} labels={content}/><div className="work-copy"><p className="eyebrow"><span>0{i+1}</span> / <BrandText>{item.category}</BrandText></p><h3><BrandText>{item.title}</BrandText></h3><p className="work-headline"><BrandText>{item.headline}</BrandText></p><p className="work-summary"><BrandText>{item.summary}</BrandText></p><ul className="work-features">{item.features.map(feature=><li key={feature.title}><strong><BrandText>{feature.title}</BrandText></strong><span><BrandText>{feature.detail}</BrandText></span></li>)}</ul><a className="work-visit" href={item.link} target="_blank" rel="noopener noreferrer" onClick={()=>start(item.slug)}><BrandText>{content.visitLabel}</BrandText><span aria-hidden="true">↗</span><span className="sr-only"> — <BrandText>{item.title}</BrandText> <BrandText>{t("(opens in a new tab)")}</BrandText></span></a><p className="work-note"><BrandText>{item.note}</BrandText></p></div></article>)}</div></section>;
 }
 
 
