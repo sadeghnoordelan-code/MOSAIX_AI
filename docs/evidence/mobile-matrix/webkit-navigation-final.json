@@ -1,0 +1,12 @@
+{
+  "routes": [
+    "/about",
+    "/services",
+    "/lab",
+    "/start-a-project"
+  ],
+  "errors": [],
+  "failed": [],
+  "meaningful": [],
+  "sharedOrb": true
+}
