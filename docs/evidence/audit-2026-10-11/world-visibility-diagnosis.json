@@ -1,0 +1,14 @@
+{
+  "before": {
+    "opacity": "1",
+    "time": 1.4367686,
+    "width": 1500,
+    "ready": 4
+  },
+  "after": {
+    "opacity": "1",
+    "time": 4.5303888,
+    "width": 1500,
+    "ready": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+  "h264": "probably",
+  "aac": "probably",
+  "videos": [
+    {
+      "src": "blob:https://harvest-bloom.vercel.app/964ad6c1-30a8-4960-bde4-cd3758d1e478",
+      "error": "",
+      "code": 4,
+      "ready": 0
+    }
+  ]
+}

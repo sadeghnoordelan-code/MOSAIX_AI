@@ -1,0 +1,170 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "orbWidth": 132,
+    "teaser": true,
+    "chat": true,
+    "links": [
+      {
+        "slug": "sarv",
+        "pass": 0,
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/"
+      },
+      {
+        "slug": "boreal",
+        "pass": 0,
+        "url": "https://real-estate-website-blond-phi.vercel.app/"
+      },
+      {
+        "slug": "lumiere",
+        "pass": 0,
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/"
+      },
+      {
+        "slug": "harvest",
+        "pass": 0,
+        "url": "https://harvest-bloom.vercel.app/?v=2842544"
+      },
+      {
+        "slug": "sarv",
+        "pass": 1,
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/"
+      },
+      {
+        "slug": "boreal",
+        "pass": 1,
+        "url": "https://real-estate-website-blond-phi.vercel.app/"
+      },
+      {
+        "slug": "lumiere",
+        "pass": 1,
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/"
+      },
+      {
+        "slug": "harvest",
+        "pass": 1,
+        "url": "https://harvest-bloom.vercel.app/?v=2842544"
+      }
+    ],
+    "phoneFont": {
+      "family": "Arial, Helvetica, sans-serif",
+      "dir": "ltr",
+      "whiteSpace": "nowrap"
+    },
+    "errors": [],
+    "cspErrors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "orbWidth": 108,
+    "teaser": true,
+    "chat": true,
+    "links": [
+      {
+        "slug": "sarv",
+        "pass": 0,
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/"
+      },
+      {
+        "slug": "boreal",
+        "pass": 0,
+        "url": "https://real-estate-website-blond-phi.vercel.app/"
+      },
+      {
+        "slug": "lumiere",
+        "pass": 0,
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/"
+      },
+      {
+        "slug": "harvest",
+        "pass": 0,
+        "url": "https://harvest-bloom.vercel.app/?v=2842544"
+      },
+      {
+        "slug": "sarv",
+        "pass": 1,
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/"
+      },
+      {
+        "slug": "boreal",
+        "pass": 1,
+        "url": "https://real-estate-website-blond-phi.vercel.app/"
+      },
+      {
+        "slug": "lumiere",
+        "pass": 1,
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/"
+      },
+      {
+        "slug": "harvest",
+        "pass": 1,
+        "url": "https://harvest-bloom.vercel.app/?v=2842544"
+      }
+    ],
+    "phoneFont": {
+      "family": "Arial, Helvetica, sans-serif",
+      "dir": "ltr",
+      "whiteSpace": "nowrap"
+    },
+    "errors": [],
+    "cspErrors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "orbWidth": 132,
+    "teaser": true,
+    "chat": true,
+    "links": [
+      {
+        "slug": "sarv",
+        "pass": 0,
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/"
+      },
+      {
+        "slug": "boreal",
+        "pass": 0,
+        "url": "https://real-estate-website-blond-phi.vercel.app/"
+      },
+      {
+        "slug": "lumiere",
+        "pass": 0,
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/"
+      },
+      {
+        "slug": "harvest",
+        "pass": 0,
+        "url": "https://harvest-bloom.vercel.app/?v=2842544"
+      },
+      {
+        "slug": "sarv",
+        "pass": 1,
+        "url": "https://sarv-kitchen-and-wood-products.vercel.app/"
+      },
+      {
+        "slug": "boreal",
+        "pass": 1,
+        "url": "https://real-estate-website-blond-phi.vercel.app/"
+      },
+      {
+        "slug": "lumiere",
+        "pass": 1,
+        "url": "https://lumiere-dental-clinic-seven.vercel.app/"
+      },
+      {
+        "slug": "harvest",
+        "pass": 1,
+        "url": "https://harvest-bloom.vercel.app/?v=2842544"
+      }
+    ],
+    "phoneFont": {
+      "family": "Arial, Helvetica, sans-serif",
+      "dir": "ltr",
+      "whiteSpace": "nowrap"
+    },
+    "errors": [],
+    "cspErrors": []
+  }
+]
