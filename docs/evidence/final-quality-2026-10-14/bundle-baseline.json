@@ -1,0 +1,50 @@
+{
+  "kind": "all emitted JS/CSS assets, not initial route transfer",
+  "declaredByteBudgetFound": false,
+  "baselineOnly": true,
+  "files": 24,
+  "rawBytes": 1050589,
+  "gzipBytes": 320772,
+  "largest": [
+    {
+      "file": ".next/static/chunks/0a37caasaw7-7.js",
+      "bytes": 234172,
+      "gzip": 73278
+    },
+    {
+      "file": ".next/static/chunks/33af27uifnquh.js",
+      "bytes": 161369,
+      "gzip": 43928
+    },
+    {
+      "file": ".next/static/chunks/29rfif1-f_epx.js",
+      "bytes": 133296,
+      "gzip": 37836
+    },
+    {
+      "file": ".next/static/chunks/0cz1d0mv5g_q7.js",
+      "bytes": 112594,
+      "gzip": 39627
+    },
+    {
+      "file": ".next/static/chunks/1pi39-k-fm60c.css",
+      "bytes": 83602,
+      "gzip": 18426
+    },
+    {
+      "file": ".next/static/chunks/11vr5n8ojvv8t.js",
+      "bytes": 64643,
+      "gzip": 22309
+    },
+    {
+      "file": ".next/static/chunks/3qczxvkrshwe1.js",
+      "bytes": 56690,
+      "gzip": 18587
+    },
+    {
+      "file": ".next/static/chunks/1jw9rne0ge-2w.js",
+      "bytes": 50901,
+      "gzip": 18337
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "layoutRoutes": 216,
+  "layoutPageErrors": [],
+  "layoutConsoleMessages": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "layoutCancelledPrefetchWarnings": [],
+  "layoutFailedResponses": [],
+  "filmCases": 48,
+  "filmErrors": [],
+  "portfolioCases": 16,
+  "portfolioDestinations": "isolated fixture documents",
+  "portfolioErrors": [],
+  "firefoxRouteCases": 28,
+  "firefoxPageErrors": [],
+  "firefoxIdleWarnings": [],
+  "controlAndNativeContractContexts": 12,
+  "ownerEditorContexts": 4,
+  "physicalHandsetsTested": false,
+  "liveDeploymentVerified": false
+}

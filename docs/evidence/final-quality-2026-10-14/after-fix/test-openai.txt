@@ -1,0 +1,14 @@
+
+> mosaix-official-website@0.1.0 test:openai
+> node --test tests/openai.test.ts
+
+✔ Responses stream uses server key, store false and public text events only (59.4558ms)
+✔ structured context requests strict schema and incomplete streams fail (13.767ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1033.7544

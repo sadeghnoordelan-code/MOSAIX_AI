@@ -1,0 +1,198 @@
+[
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "lang": "en",
+    "narrowViewportNotPhysicalAndroid": false,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "noOverflow": true
+      }
+    ],
+    "allSixFilmsAutoplay": true,
+    "sound": true,
+    "fullscreenOrGracefulFallback": true,
+    "chatDialog": true,
+    "idleWarnings": [],
+    "errors": []
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "lang": "ar",
+    "narrowViewportNotPhysicalAndroid": false,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "noOverflow": true
+      }
+    ],
+    "allSixFilmsAutoplay": true,
+    "sound": true,
+    "fullscreenOrGracefulFallback": true,
+    "chatDialog": true,
+    "idleWarnings": [],
+    "errors": []
+  },
+  {
+    "engine": "firefox",
+    "width": 390,
+    "lang": "en",
+    "narrowViewportNotPhysicalAndroid": true,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "noOverflow": true
+      }
+    ],
+    "allSixFilmsAutoplay": true,
+    "sound": true,
+    "fullscreenOrGracefulFallback": true,
+    "chatDialog": true,
+    "idleWarnings": [],
+    "errors": []
+  },
+  {
+    "engine": "firefox",
+    "width": 390,
+    "lang": "ar",
+    "narrowViewportNotPhysicalAndroid": true,
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "noOverflow": true
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "noOverflow": true
+      }
+    ],
+    "allSixFilmsAutoplay": true,
+    "sound": true,
+    "fullscreenOrGracefulFallback": true,
+    "chatDialog": true,
+    "idleWarnings": [],
+    "errors": []
+  }
+]

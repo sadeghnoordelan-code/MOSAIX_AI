@@ -3,8 +3,10 @@ import fs from 'node:fs/promises';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
 const{chromium,webkit}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const out='docs/evidence/advertising-mobile-2026-10-14';await fs.mkdir(out,{recursive:true});
-const base='http://127.0.0.1:4180',report=[],slugs=['ara','nova','apex','aeterna','titeniester','apax-one-premium'],arabicOnly=process.argv.includes('--arabic-only');
+const out=process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/advertising-mobile-2026-10-14';await fs.mkdir(out,{recursive:true});
+const base='http://127.0.0.1:4180',report=[],slugs=['ara','nova','apex','aeterna','titeniester','apax-one-premium'],arabicOnly=process.argv.includes('--arabic-only'),filmsOnly=process.argv.includes('--films-only');
+// Owner-corrected film identity: the supplied file names did not match product names.
+const filmAssets={nova:'aeterna',aeterna:'nova'};
 for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
  const browser=await engine.launch(name==='chromium'?{headless:true,channel:'msedge'}:{headless:true});
  for(const[width,height,lang]of(arabicOnly?[[320,740,'ar']]:[[1440,1000,'en'],[390,844,'en'],[320,740,'ar'],[844,390,'en']])){
@@ -20,6 +22,9 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
     const card=page.locator('#film-'+slug),preview=card.locator('.advertising-preview'),video=card.locator('video');
     await preview.scrollIntoViewIfNeeded();
     await page.waitForFunction(slug=>{const v=document.querySelector('#film-'+slug+' video');return v&&!v.paused&&v.readyState>=2&&v.currentTime>.05;},slug,{timeout:25000});
+    const asset=filmAssets[slug]||slug,actualSource=await video.evaluate(v=>new URL(v.currentSrc).pathname);
+    assert.equal(actualSource,'/advertising/'+asset+'.mp4','incorrect product film assignment');
+    assert.equal(await video.getAttribute('poster'),'/advertising/'+asset+'.jpg','poster does not match film');
     const firstTime=await video.evaluate(v=>v.currentTime);await page.waitForTimeout(220);
     assert.notEqual(await video.evaluate(v=>v.currentTime),firstTime,'film stopped advancing');
     assert.equal(await video.evaluate(v=>v.muted),true,'film did not begin muted');
@@ -28,7 +33,7 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
     if(width>900)assert(order%2===0?bounds.video.x<bounds.copy.x:bounds.video.x>bounds.copy.x,'alternating placement failed');
     else assert(bounds.video.y<bounds.copy.y,'mobile film is not above copy');
     const sound=card.locator('.film-sound');await sound.click();assert.equal(await video.evaluate(v=>v.muted),false);await sound.click();assert.equal(await video.evaluate(v=>v.muted),true);
-    const controls=await preview.evaluate(el=>{const pause=el.querySelector('.work-preview-control').getBoundingClientRect(),expand=el.querySelector('.film-expand-mark').getBoundingClientRect();return{pauseRight:pause.right,expandLeft:expand.left};});assert(controls.pauseRight<=controls.expandLeft-4,'playback and fullscreen controls overlap');
+    const overlap=await preview.evaluate(el=>{const a=el.querySelector('.work-preview-control').getBoundingClientRect(),b=el.querySelector('.film-expand-mark').getBoundingClientRect();return a.left<b.right&&a.right>b.left&&a.top<b.bottom&&a.bottom>b.top;});assert.equal(overlap,false,'playback and fullscreen controls overlap');
     await card.locator('.work-preview-control').click();await page.waitForTimeout(250);assert.equal(await video.evaluate(v=>v.paused),true,'manual pause overridden');await card.locator('.work-preview-control').click();await page.waitForFunction(slug=>!document.querySelector('#film-'+slug+' video').paused,slug);
     if(order===0)await page.screenshot({path:out+'/'+name+'-'+width+'-'+lang+'.png'});
     let fullscreen='unsupported-with-feedback';
@@ -44,9 +49,10 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
      await card.locator('.film-expand-surface').click();assert.equal(await video.getAttribute('data-native-fullscreen-called'),'true');assert.equal(await video.evaluate(v=>v.controls),true);
      await video.evaluate(v=>{v.dispatchEvent(new Event('webkitendfullscreen'));delete v.webkitEnterFullscreen;delete document.fullscreenEnabled;});assert.equal(await video.evaluate(v=>v.controls),false);iosFallbackContract=true;
     }
-    films.push({slug,autoplay:true,advances:true,soundToggle:true,manualPause:true,fullscreen,iosFallbackContract,...bounds});
+    films.push({slug,actualSource,matchingPoster:true,autoplay:true,advances:true,soundToggle:true,manualPause:true,fullscreen,iosFallbackContract,...bounds});
    }
    await page.locator('footer').scrollIntoViewIfNeeded();await page.waitForTimeout(250);assert.equal(await page.locator('.advertising-preview video').evaluateAll(v=>v.some(f=>!f.paused)),false,'offscreen film kept playing');
+   if(filmsOnly){assert.deepEqual(errors,[]);report.push({engine:name,width,height,lang,films,offscreenPaused:true,errors});await fs.writeFile(out+'/film-matrix.json',JSON.stringify(report,null,2));console.log('PASSED films',name,width,height,lang);continue;}
    await page.goto(base+'/?lang='+lang,{waitUntil:'domcontentloaded'});
    const hero=page.locator('[data-hero-status]');await hero.waitFor();
    await page.waitForFunction(()=>{const v=document.querySelector('[data-hero-status] video');return v&&!v.paused&&v.readyState>=2;});
@@ -85,4 +91,4 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
  }
  await browser.close();
 }
-await fs.writeFile(out+(arabicOnly?'/arabic-controls-final.json':'/results.json'),JSON.stringify(report,null,2));
+await fs.writeFile(out+(filmsOnly?'/film-matrix.json':arabicOnly?'/arabic-controls-final.json':'/results.json'),JSON.stringify(report,null,2));

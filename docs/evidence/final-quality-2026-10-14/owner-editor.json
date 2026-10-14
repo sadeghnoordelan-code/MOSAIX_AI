@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "realLocalOwnerLogin": true,
+    "sixFilmEditors": true,
+    "contentNotModified": true,
+    "noOverflow": true,
+    "logout": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "realLocalOwnerLogin": true,
+    "sixFilmEditors": true,
+    "contentNotModified": true,
+    "noOverflow": true,
+    "logout": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "realLocalOwnerLogin": true,
+    "sixFilmEditors": true,
+    "contentNotModified": true,
+    "noOverflow": true,
+    "logout": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "realLocalOwnerLogin": true,
+    "sixFilmEditors": true,
+    "contentNotModified": true,
+    "noOverflow": true,
+    "logout": true,
+    "errors": []
+  }
+]

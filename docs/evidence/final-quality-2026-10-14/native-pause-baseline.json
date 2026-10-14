@@ -1,0 +1,5 @@
+{
+  "fixture": "native-fullscreen-user-pause-contract",
+  "pausedAfter600ms": false,
+  "expectedPaused": true
+}

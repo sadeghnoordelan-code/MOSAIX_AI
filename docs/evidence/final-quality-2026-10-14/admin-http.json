@@ -1,0 +1,11 @@
+{
+  "ownerLoginAndRead": true,
+  "privateCookies": true,
+  "originAndCsrfRejected": true,
+  "logoutInvalidatesSession": true,
+  "currentContentFont": "Sora",
+  "contentNotModified": true,
+  "apiState": "not_configured",
+  "fontCspSelf": true,
+  "noindex": true
+}

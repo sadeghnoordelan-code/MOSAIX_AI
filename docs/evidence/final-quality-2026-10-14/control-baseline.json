@@ -1,0 +1,246 @@
+[
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 740,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "assistant-teaser"
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "assistant-teaser"
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "height": 844,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": "work-preview-control"
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 430,
+    "height": 932,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": "work-preview-control"
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "height": 390,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": false,
+        "accessible": false
+      },
+      {
+        "control": "film-sound",
+        "inView": false,
+        "accessible": false
+      },
+      {
+        "control": "work-preview-control",
+        "inView": false,
+        "accessible": false
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": "work-preview-control"
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 740,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "intro-sphere intro-assistant-orb"
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "intro-brand"
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "intro-sphere intro-assistant-orb"
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "height": 844,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "site-introduction"
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "site-introduction"
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "intro-caption"
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 430,
+    "height": 932,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "site-introduction"
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "site-introduction"
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": null,
+        "actualTarget": "intro-caption"
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "height": 390,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": false,
+        "accessible": false
+      },
+      {
+        "control": "film-sound",
+        "inView": false,
+        "accessible": false
+      },
+      {
+        "control": "work-preview-control",
+        "inView": false,
+        "accessible": false
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "hit": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": {}
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "accessible": true,
+        "actualTarget": "work-preview-control"
+      }
+    ]
+  }
+]

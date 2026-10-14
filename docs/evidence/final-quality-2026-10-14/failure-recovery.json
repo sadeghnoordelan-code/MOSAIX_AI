@@ -1,0 +1,30 @@
+[
+  {
+    "engine": "chromium",
+    "failure": "AbortError",
+    "recovered": true,
+    "denialNoRetryLoop": false,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "failure": "NotAllowedError",
+    "recovered": true,
+    "denialNoRetryLoop": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "failure": "AbortError",
+    "recovered": true,
+    "denialNoRetryLoop": false,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "failure": "NotAllowedError",
+    "recovered": true,
+    "denialNoRetryLoop": true,
+    "errors": []
+  }
+]

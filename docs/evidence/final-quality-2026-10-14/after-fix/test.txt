@@ -1,0 +1,17 @@
+
+> mosaix-official-website@0.1.0 test
+> node --test tests/registries.test.ts
+
+✔ canonical media and relationships resolve without invented projects (4.3312ms)
+✔ duplicate routes and dangling references are rejected (0.6258ms)
+✔ GitHub repository cannot be presented as a live experience (0.6248ms)
+✔ unsafe destinations and unknown service relations fail closed (2.2028ms)
+✔ case study only cannot acquire an external destination (0.7856ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 333.3131

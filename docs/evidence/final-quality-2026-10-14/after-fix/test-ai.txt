@@ -1,0 +1,24 @@
+
+> mosaix-official-website@0.1.0 test:ai
+> node --test tests/assistant.test.ts
+
+✔ client cannot supply system messages, provider configuration, attachments or oversized input (2.7996ms)
+✔ page context is canonical and cannot turn query text into instructions (0.4527ms)
+✔ verified retrieval includes current contact and blocks invented portfolio assumptions (0.7044ms)
+✔ automation context retrieves actual matching service and keeps data below policy (0.5104ms)
+✔ state rejects malformed, oversized and extra fields (0.5325ms)
+✔ sessions are isolated, expire, delete and enforce request quotas (2.5227ms)
+✔ runtime cannot be pointed at an external hosted model (0.4224ms)
+✔ real stream parser handles split Unicode and never forwards hidden reasoning (6.1166ms)
+✔ same-origin validation uses approved browser host despite framework localhost URL normalization (2.96ms)
+✔ English plans render as paragraphs, headings and semantic lists without executing model markup (1.0623ms)
+✔ owner pricing policy forbids estimates and directs pricing to official contact channels (0.3497ms)
+✔ project handoff preserves exclusions and contact preferences without turning a budget into a quote (0.3378ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1951.3467

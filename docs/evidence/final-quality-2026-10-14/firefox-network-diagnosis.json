@@ -1,0 +1,30 @@
+[
+  {
+    "run": 0,
+    "idle": true,
+    "pending": [],
+    "state": {
+      "ready": "complete",
+      "title": "تصميم المواقع وتطويرها — MOSAIX",
+      "video": {
+        "paused": false,
+        "time": 0.639783,
+        "readyState": 4
+      }
+    }
+  },
+  {
+    "run": 1,
+    "idle": true,
+    "pending": [],
+    "state": {
+      "ready": "complete",
+      "title": "تصميم المواقع وتطويرها — MOSAIX",
+      "video": {
+        "paused": false,
+        "time": 0.629019,
+        "readyState": 4
+      }
+    }
+  }
+]

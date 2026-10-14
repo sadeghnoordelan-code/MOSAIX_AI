@@ -16,5 +16,5 @@ try{
   const after=await page.evaluate(()=>scrollY);assert(after>before+15,'vertical page scrolling was trapped');assert.equal(await page.locator('.carousel-count').innerText(),count,'vertical drag rotated a card');assert.equal(new URL(page.url()).pathname,'/');
   results.push({engine:'chromium',nativeTouch:true,width,height,before,after,verticalScrollPreserved:true,cardUnchanged:true});await cdp.detach();await context.close();
  }
- await fs.writeFile('docs/evidence/advertising-mobile-2026-10-14/vertical-touch.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));
+ await fs.writeFile((process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/advertising-mobile-2026-10-14')+'/vertical-touch.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));
 }finally{await browser.close();}

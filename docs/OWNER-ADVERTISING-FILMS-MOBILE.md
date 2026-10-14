@@ -17,15 +17,17 @@ Implemented locally in E:/MOSAIX_AI/Projects/MOSAIX-AI Website.
 | Supplied file | Published film |
 | --- | --- |
 | Door Reomte.mp4 | ARA |
-| AI Home Robot.mp4 | NOVA |
+| AI Home Robot.mp4 | AETERNA |
 | Ai Headset.mp4 | APEX |
-| Security robot.mp4 | AETERNA |
+| Security robot.mp4 | NOVA |
 | Sound Speaker.mp4 | TITENIESTER |
 | Desktop Case.mp4 | APAX ONE PREMIUM |
 
 Source folder: E:/MOSAIX_AI/Projects/MOSAIX-AI Website/Videos/Advertising Videos.
 Served films/posters: E:/MOSAIX_AI/Projects/MOSAIX-AI Website/public/advertising.
 Remuxed H.264/AAC with fast-start; no picture/audio re-encoding. All six original/served stream payload hashes match. Posters use product-reveal frames (6.5s; security film 8.3s).
+
+Owner identity correction after the initial milestone: NOVA now uses `/advertising/aeterna.mp4` and matching JPG; AETERNA uses `/advertising/nova.mp4` and matching JPG. Asset filenames retain their initial names to avoid unnecessary duplicated media. Product names, descriptions and ordering remain unchanged. Earlier mapping evidence is historical; see the final-quality film matrix for the corrected assignments.
 
 ## Verification
 
