@@ -2,6 +2,7 @@
 export function keepVideoPlaying(video: HTMLVideoElement, options: {
   source: string;
   visible?: () => boolean;
+  muted?: () => boolean;
   onFailure?: (error: unknown) => void;
 }) {
   let disposed = false, suspended = false, blocked = false, pending = false, generation = 0;
@@ -47,7 +48,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
     if (!wanted() || blocked || pending || !video.paused) return;
     source();
     if (video.error) { rebuild(); return; }
-    video.muted = true; video.defaultMuted = true; video.playsInline = true;
+    video.muted = options.muted?.() ?? true; video.defaultMuted = true; video.playsInline = true;
     const attempt = ++generation;
     pending = true; playAt = performance.now();
     void video.play().then(() => {

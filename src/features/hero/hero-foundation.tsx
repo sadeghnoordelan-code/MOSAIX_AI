@@ -6,7 +6,8 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { Arrow } from '@/components/arrow';
 import { useContent } from '@/features/cms/context';
-import { mountHeroExperience, type HeroStatus } from './hero-experience';
+import { mountHeroExperience, mountMobileHero, type HeroStatus } from './hero-experience';
+import {useMobileVideo} from '@/features/media/use-mobile-video';
 import styles from './hero.module.css';
 import {BrandText} from '@/components/brand-text';
 
@@ -19,6 +20,7 @@ const statusCopy: Record<HeroStatus, string> = {
 };
 
 export function HeroFoundation() {const t=useTranslation();
+  const mobile=useMobileVideo();
   const {hero,brand}=useContent();
   const root = useRef<HTMLElement>(null);
   const video = useRef<HTMLVideoElement>(null);
@@ -29,8 +31,8 @@ export function HeroFoundation() {const t=useTranslation();
   useEffect(() => {
     if (!root.current || !video.current || !canvas.current || !control.current) return;
     video.current.crossOrigin='anonymous';video.current.src = hero.video;
-    return mountHeroExperience({ root: root.current, video: video.current, canvas: canvas.current, control: control.current }, setStatus);
-  }, [hero.video]);
+    return (mobile?mountMobileHero:mountHeroExperience)({ root: root.current, video: video.current, canvas: canvas.current, control: control.current }, setStatus);
+  }, [hero.video,mobile]);
 
   return (
     <section ref={root} className={styles.hero} aria-labelledby="hero-heading" data-hero-status="loading" data-visual="concealed" data-light-active="false">
@@ -55,17 +57,17 @@ export function HeroFoundation() {const t=useTranslation();
         <div className={styles.footer}>
           <span className={styles.index}>01 / <BrandText>{brand.name}</BrandText></span>
           <div className={styles.exploration}>
-            <button ref={control} className={styles.control} type="button" aria-describedby="hero-instructions hero-media-status" aria-label={t("Explore the hidden film with light")}>
+            <button ref={control} className={styles.control} type="button" aria-describedby="hero-instructions hero-media-status" aria-label={t(mobile?'Play film':"Explore the hidden film with light")}>
               <span className={styles.lightMark} aria-hidden="true"><i /><i /><i /></span>
               <span className={styles.pointerCue}><BrandText>{t("Move to reveal")}</BrandText></span>
-              <span className={styles.touchCue}><BrandText>{t("Drag to reveal")}</BrandText></span>
+              <span className={styles.touchCue}><BrandText>{t(mobile?'Play film':"Drag to reveal")}</BrandText></span>
               <span className={styles.keyboardCue}><BrandText>{t("Arrow keys to explore · Esc to exit")}</BrandText></span>
             </button>
-            <span id="hero-media-status" className={styles.status} role="status" aria-live="polite"><BrandText>{t(statusCopy[status])}</BrandText></span>
+            <span id="hero-media-status" className={styles.status} role="status" aria-live="polite"><BrandText>{t(mobile?(status==='ready'?'Film playing':status==='loading'?'Preparing film':statusCopy[status]):statusCopy[status])}</BrandText></span>
           </div>
           <Link href="#services" className={styles.scrollCue} aria-label={t("Scroll to our worlds")}><BrandText>{t("Scroll to explore")}</BrandText><span aria-hidden="true">↓</span></Link>
         </div>
-        <p id="hero-instructions" className="sr-only"><BrandText>{t("Move your pointer or drag horizontally to explore the film with light. On this button, use the arrow keys to move the light, Shift and an arrow for a larger step, Home to recenter, and Escape to exit. Vertical touch gestures scroll the page. The film plays independently of the light.")}</BrandText></p>
+        <p id="hero-instructions" className="sr-only"><BrandText>{t(mobile?'The film plays automatically. Scroll to explore our worlds.':"Move your pointer or drag horizontally to explore the film with light. On this button, use the arrow keys to move the light, Shift and an arrow for a larger step, Home to recenter, and Escape to exit. Vertical touch gestures scroll the page. The film plays independently of the light.")}</BrandText></p>
         <noscript><p className={styles.noScript}><BrandText>{t("Light exploration requires JavaScript. Explore our worlds below.")}</BrandText></p></noscript>
       </div>
     </section>

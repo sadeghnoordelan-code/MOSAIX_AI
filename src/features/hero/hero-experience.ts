@@ -1,7 +1,21 @@
 import { createLightMaterial, type LightMaterial } from './light-material';
+import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 
 export type HeroStatus = 'loading' | 'ready' | 'blocked' | 'media-error' | 'graphics-error';
 type Elements = { root: HTMLElement; video: HTMLVideoElement; canvas: HTMLCanvasElement; control: HTMLButtonElement };
+
+/** Phones show the native film directly; no light mask or WebGL render loop. */
+export function mountMobileHero({root,video}:Elements,onStatus:(status:HeroStatus)=>void){
+  root.dataset.playbackMode='native';root.dataset.visual='ready';
+  const visible=()=>{const r=root.getBoundingClientRect();return r.bottom>0&&r.top<innerHeight&&!root.closest('.intro-site-body[data-intro-phase="presenting"],.intro-site-body[data-intro-phase="leaving"]');};
+  const status=(value:HeroStatus)=>{root.dataset.heroStatus=value;onStatus(value);};
+  const playback=keepVideoPlaying(video,{source:video.getAttribute('src')!,visible,onFailure:error=>status(error instanceof DOMException&&error.name==='NotAllowedError'?'blocked':'media-error')});
+  const playing=()=>status('ready');video.addEventListener('playing',playing);
+  const observer=new IntersectionObserver(()=>playback.refresh(),{threshold:0});observer.observe(root);
+  const intro=()=>playback.refresh();window.addEventListener('mosaix-intro-finished',intro);
+  const body=root.closest('.intro-site-body'),mutation=new MutationObserver(intro);if(body)mutation.observe(body,{attributes:true,attributeFilter:['data-intro-phase']});
+  return()=>{playback.dispose();observer.disconnect();mutation.disconnect();window.removeEventListener('mosaix-intro-finished',intro);video.removeEventListener('playing',playing);delete root.dataset.playbackMode;video.removeAttribute('src');video.load();};
+}
 
 // One owner for input, light integration and drawing. Playback never observes input.
 export function mountHeroExperience({ root, video, canvas, control }: Elements, onStatus: (status: HeroStatus) => void) {

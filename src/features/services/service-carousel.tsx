@@ -12,7 +12,7 @@ export function ServiceCarousel() {const t=useTranslation(),locale=useLocale();
   const [needsAlignment,setNeedsAlignment]=useState(false);
   const scene=useRef<HTMLDivElement>(null);
   const boostUntil=useRef(0);
-  const current=useRef(0), wheelLock=useRef(0), swipe=useRef<{x:number;y:number}|null>(null), suppressClick=useRef(0);
+  const current=useRef(0), wheelLock=useRef(0), suppressClick=useRef(0);
   const move=useRef<(index:number)=>void>(()=>{});
   useEffect(()=>{
     const element=scene.current;if(!element)return;
@@ -59,16 +59,30 @@ export function ServiceCarousel() {const t=useTranslation(),locale=useLocale();
     };
     element.addEventListener('wheel',wheel,{passive:false});return()=>element.removeEventListener('wheel',wheel);
   },[services.length]);
+  useEffect(()=>{
+    const element=scene.current;if(!element)return;
+    let gesture:{id:number;x:number;y:number;horizontal:boolean}|null=null;
+    const start=(event:TouchEvent)=>{if(event.touches.length!==1){gesture=null;return;}const touch=event.touches[0];suppressClick.current=0;gesture={id:touch.identifier,x:touch.clientX,y:touch.clientY,horizontal:false};};
+    const moveTouch=(event:TouchEvent)=>{
+      if(!gesture||event.touches.length!==1){gesture=null;return;}
+      const touch=Array.from(event.touches).find(t=>t.identifier===gesture!.id);if(!touch)return;
+      const dx=touch.clientX-gesture.x,dy=touch.clientY-gesture.y;
+      if(!gesture.horizontal&&Math.abs(dy)>10&&Math.abs(dy)>Math.abs(dx)){gesture=null;return;}
+      if(Math.abs(dx)>10&&Math.abs(dx)>Math.abs(dy))gesture.horizontal=true;
+      if(gesture.horizontal){if(event.cancelable)event.preventDefault();suppressClick.current=Date.now()+500;}
+    };
+    const end=(event:TouchEvent)=>{const previous=gesture;gesture=null;if(!previous)return;const touch=Array.from(event.changedTouches).find(t=>t.identifier===previous.id);if(!touch)return;const dx=touch.clientX-previous.x,dy=touch.clientY-previous.y;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)){if(event.cancelable)event.preventDefault();suppressClick.current=Date.now()+500;move.current(current.current+(dx<0?1:-1));}};
+    const cancel=()=>{gesture=null;};
+    element.addEventListener('touchstart',start,{passive:true});element.addEventListener('touchmove',moveTouch,{passive:false});element.addEventListener('touchend',end,{passive:false});element.addEventListener('touchcancel',cancel);
+    return()=>{element.removeEventListener('touchstart',start);element.removeEventListener('touchmove',moveTouch);element.removeEventListener('touchend',end);element.removeEventListener('touchcancel',cancel);};
+  },[]);
   return <div className="service-carousel" role="region" aria-label={t("Explore MOSAIX services")}>
     <div ref={scene} className="carousel-scene" dir="ltr" tabIndex={0} aria-label={t("Service cards. Use arrow keys, scroll, or select a side card.")}
       onKeyDown={event=>{if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();move.current(current.current+(event.key==='ArrowRight'?1:-1));}else if(event.key==='Home'||event.key==='End'){event.preventDefault();move.current(event.key==='Home'?0:services.length-1);}}}
-      onPointerDown={event=>{if(event.pointerType==='touch'){suppressClick.current=0;swipe.current={x:event.clientX,y:event.clientY};}}}
-      onPointerCancel={()=>{swipe.current=null;}}
-      onPointerUp={event=>{const start=swipe.current;swipe.current=null;if(!start)return;const dx=event.clientX-start.x,dy=event.clientY-start.y;if(Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)){suppressClick.current=Date.now()+400;move.current(current.current+(dx<0?1:-1));}}}
       onClickCapture={event=>{if(Date.now()<suppressClick.current){event.preventDefault();event.stopPropagation();}}}>
       <div className="carousel-light-ring" aria-hidden="true"><ServiceLightTrails boostUntil={boostUntil}/><span key={`pulse-${selected}`} className="ring-selection-pulse"/><span key={`beam-${selected}`} className="ring-selection-beam"/></div>
       {services.map((service,index)=>{const offset=(index-selected+services.length+2)%services.length-2;const visible=Math.abs(offset)<=1;return <div key={service.id} className="carousel-slot" onPointerEnter={event=>{if(visible&&event.pointerType==='mouse'&&matchMedia('(hover: hover) and (pointer: fine)').matches)window.dispatchEvent(new CustomEvent('mosaix-service-hover',{detail:{id:service.id,playing:true}}));}} onPointerLeave={event=>{if(event.pointerType==='mouse'&&matchMedia('(hover: hover) and (pointer: fine)').matches)window.dispatchEvent(new CustomEvent('mosaix-service-hover',{detail:{id:service.id,playing:false}}));}} data-offset={offset} data-active={offset===0} style={{'--offset':offset,'--depth':Math.abs(offset)} as CSSProperties}>
-        <div className="carousel-card-content" dir={locale} inert={offset!==0}><ServiceCard service={service} index={index}/></div>
+        <div className="carousel-card-content" dir={locale==='ar'?'rtl':'ltr'} inert={offset!==0}><ServiceCard service={service} index={index}/></div>
         {offset!==0&&visible&&<button type="button" className="carousel-side-select" aria-label={`${t('Select')} ${service.shortTitle}`} onClick={()=>move.current(index)} />}
       </div>;})}
     </div>
