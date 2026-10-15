@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),{firefox}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser=await firefox.launch({headless:true}),results=[];
+try{const context=await browser.newContext({viewport:{width:1440,height:900}});await context.addInitScript(()=>sessionStorage.setItem('mosaix-intro-seen','1'));const p=await context.newPage(),pending=new Map();p.on('request',r=>pending.set(r,{url:r.url(),type:r.resourceType()}));p.on('requestfinished',r=>pending.delete(r));p.on('requestfailed',r=>pending.delete(r));
+ for(let run=0;run<2;run++){await p.goto('http://127.0.0.1:4180/services/website-design-development?lang=ar',{waitUntil:'domcontentloaded'});let idle=true;try{await p.waitForLoadState('networkidle',{timeout:7000});}catch{idle=false;}const state=await p.evaluate(()=>{const v=document.querySelector('.world-backdrop video');return{ready:document.readyState,title:document.title,video:v?{paused:v.paused,time:v.currentTime,readyState:v.readyState,error:v.error?.message}:null};});results.push({run,idle,pending:[...pending.values()],state});}
+ await fs.writeFile('docs/evidence/final-quality-2026-10-14/firefox-network-diagnosis.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));await context.close();
+}finally{await browser.close();}

@@ -1,4 +1,5 @@
 import {websitePortfolioDefaults} from './website-portfolio.ts';
+import {advertisingPortfolioDefaults} from './advertising-portfolio.ts';
 import {services} from '../../content/services.ts';
 import {serviceWorlds} from '../../content/service-worlds.ts';
 import {contact} from '../../content/contact.ts';
@@ -17,6 +18,7 @@ export const defaultContent={
  servicesPage:{eyebrow:'Our worlds',title:'Five ways forward.',description:'Design, software, AI and visual storytelling, connected by one MOSAIX perspective.'},
  about:{eyebrow:'About us · Ideas / Systems / People / Impact',title:'People behind MOSAIX.',description:'We are architects, designers and AI enthusiasts, building digital solutions that connect design, technology and people to create smarter, faster and more inspiring possibilities for a brighter tomorrow.',visionTitle:'A smarter built world.',visionDescription:'By combining architectural thinking with artificial intelligence, we create digital tools and solutions that empower people to imagine, design and build a brighter future.',signature:'From ideas to impact',contactTitle:'Let’s build what’s next.',domain:'',founders:[{name:'MohammadHossein Rabanizadeh',role:'Co-Founder',portrait:'/brand/mohammadhossein-transparent-v1.png',width:1098,height:1432,skills:['Architect (M.Sc.)','Interior Design','3D Visualization','AI Specialist','Business Development']},{name:'Sadegh Noordelan',role:'Co-Founder',portrait:'/brand/sadegh-transparent-v1.png',width:1242,height:1266,skills:['Architect','Interior Design','3D Visualization','AI Specialist','Kitchen Design','Decorative Wood Design']}]},
  websitePortfolio:websitePortfolioDefaults,
+ advertisingPortfolio:advertisingPortfolioDefaults,
  projectsPage:{eyebrow:'Selected work',title:'Proof through experience.',description:'Project previews, case studies and verified live experiences.',empty:'Case studies will appear here as they are approved for publication.'},
  projects:[] as typeof projectExample[],
  labPage:{eyebrow:'Tools & experiments',title:'An open space for ideas.',description:'MOSAIX Lab is the home for MOSAIX-built tools, prototypes, experiments and emerging ideas.',empty:'Experiments will appear here when they are ready to share.'},

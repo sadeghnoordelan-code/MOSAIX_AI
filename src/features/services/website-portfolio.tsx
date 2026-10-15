@@ -4,15 +4,17 @@ import {useCallback,useEffect,useRef,useState} from 'react';
 import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 import type {SiteContent} from '@/features/cms/defaults';
 import {BrandText} from '@/components/brand-text';
+import {useMobileVideo} from '@/features/media/use-mobile-video';
 
 type Item=SiteContent['websitePortfolio']['items'][number];
 function Preview({item,active,start,stop,labels}:{item:Item;active:boolean;start:(slug:string)=>void;stop:(slug:string)=>void;labels:SiteContent['websitePortfolio']}){const t=useTranslation();
  const root=useRef<HTMLDivElement>(null),video=useRef<HTMLVideoElement>(null);
- const loaded=useRef(false);const[failed,setFailed]=useState(false),[playing,setPlaying]=useState(false);
+ const mobile=useMobileVideo();const[manualPause,setManualPause]=useState(false);
+ const selected=mobile?!manualPause:active;
+ const[failed,setFailed]=useState(false),[playing,setPlaying]=useState(false);
  useEffect(()=>{
   const v=video.current;if(!v)return;
-  if(!active){v.pause();return;}
-  if(!loaded.current||v.getAttribute('src')!==item.video){v.src=item.video;loaded.current=true;}
+  if(!selected){v.pause();return;}
   const playback=keepVideoPlaying(v,{source:item.video,
    visible:()=>{const r=root.current?.getBoundingClientRect();return !!r&&r.width>0&&r.height>0&&r.bottom>0&&r.top<innerHeight;},
    onFailure:()=>setFailed(true)
@@ -20,11 +22,11 @@ function Preview({item,active,start,stop,labels}:{item:Item;active:boolean;start
   const observer=new IntersectionObserver(()=>playback.refresh(),{threshold:0});
   if(root.current)observer.observe(root.current);
   return()=>{observer.disconnect();playback.dispose();};
- },[active,item.video]);
+ },[selected,item.video]);
  return <div className="work-preview" ref={root} data-playing={playing} onPointerEnter={e=>{if(e.pointerType==='mouse'&&matchMedia('(hover: hover) and (pointer: fine)').matches)start(item.slug);}}>
- <video ref={video} poster={item.poster} muted loop playsInline preload="none" aria-label={item.title+' '+t('website preview')} onPlaying={()=>{setPlaying(true);setFailed(false);}} onPause={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
+ <video ref={video} poster={item.poster} autoPlay={mobile} muted loop playsInline preload="none" aria-label={item.title+' '+t('website preview')} onPlaying={()=>{setPlaying(true);setFailed(false);}} onPause={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
  <span className="work-preview-index" aria-hidden="true"><BrandText>{"MOSAIX / "}</BrandText><BrandText>{item.category}</BrandText></span>
- <button className="work-preview-control" type="button" aria-label={(active?labels.pauseLabel:labels.previewLabel)+' — '+item.title} aria-pressed={active} onClick={()=>active?stop(item.slug):start(item.slug)}><span aria-hidden="true"><BrandText>{active?'Ⅱ':'▶'}</BrandText></span><BrandText>{active?labels.pauseLabel:labels.previewLabel}</BrandText></button>
+ <button className="work-preview-control" type="button" aria-label={(selected?labels.pauseLabel:labels.previewLabel)+' — '+item.title} aria-pressed={selected} onClick={()=>mobile?setManualPause(!manualPause):active?stop(item.slug):start(item.slug)}><span aria-hidden="true"><BrandText>{selected?'Ⅱ':'▶'}</BrandText></span><BrandText>{selected?labels.pauseLabel:labels.previewLabel}</BrandText></button>
  {failed&&<span className="work-preview-feedback" role="status"><BrandText>{t("Preview unavailable. Explore the live website below.")}</BrandText></span>}
  </div>;
 }

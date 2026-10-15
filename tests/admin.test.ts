@@ -16,3 +16,16 @@ test('content saves durably, rejects stale revisions and records recovery histor
 test('shared session lease prevents competing replies and context clears',async()=>{const a=await newSession();a.project.goal='Remember this only';await saveSession(a);assert.equal((await getSession(a.id))?.project.goal,'Remember this only');assert.equal(await acquireLease('lease-test','first',30),true);assert.equal(await acquireLease('lease-test','second',30),false);await releaseLease('lease-test','second');assert.equal(await readValue('lease-test'),'first');await releaseLease('lease-test','first');assert.equal(await readValue('lease-test'),null);await clearSession(a.id);assert.equal(await getSession(a.id),undefined);});
 
 test('website portfolio preserves safe links, preview media and publication controls',()=>{const c=structuredClone(defaultContent);assert.equal(c.websitePortfolio.items.length,4);c.websitePortfolio.items[0].published=false;assert.equal(publicContent(c).websitePortfolio.items.length,3);assert.equal(c.websitePortfolio.items.length,4);c.websitePortfolio.items[0].video='https://untrusted.example/video.mp4';assert.throws(()=>validateContent(c));c.websitePortfolio.items[0].video='/portfolio/sarv.mp4';c.websitePortfolio.items[0].link='javascript:alert(1)';assert.throws(()=>validateContent(c));c.websitePortfolio.items[0].link=defaultContent.websitePortfolio.items[0].link;c.websitePortfolio.items[1].slug=c.websitePortfolio.items[0].slug;assert.throws(()=>validateContent(c));c.websitePortfolio.items=[];assert.doesNotThrow(()=>validateContent(c));});
+
+test('advertising films enforce safe media, publication and legacy content overrides',()=>{
+ const c=structuredClone(defaultContent);c.advertisingPortfolio.items[0].published=false;
+ assert.equal(publicContent(c).advertisingPortfolio.items.length,5);
+ c.advertisingPortfolio.items[0].video='https://untrusted.example/film.mp4';assert.throws(()=>validateContent(c));
+ c.advertisingPortfolio.items[0].video=defaultContent.advertisingPortfolio.items[0].video;
+ c.advertisingPortfolio.items[0].poster='javascript:alert(1)';assert.throws(()=>validateContent(c));
+ c.advertisingPortfolio.items[0].poster=defaultContent.advertisingPortfolio.items[0].poster;
+ c.advertisingPortfolio.items[0].published=true;c.advertisingPortfolio.items[0].video='';assert.throws(()=>validateContent(c));c.advertisingPortfolio.items[0].video=defaultContent.advertisingPortfolio.items[0].video;
+ c.advertisingPortfolio.items[1].slug=c.advertisingPortfolio.items[0].slug;assert.throws(()=>validateContent(c));
+ const legacy=validateContent(merge(defaultContent,{hero:{description:'Owner copy remains intact'}}));
+ assert.equal(legacy.hero.description,'Owner copy remains intact');assert.equal(legacy.advertisingPortfolio.items.length,6);
+});

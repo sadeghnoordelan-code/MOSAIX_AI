@@ -91,3 +91,12 @@
 :global(html[lang='ar']) .bottom>p{line-height:1.95}
 :global(html[lang='ar']) .exploration{text-align:start}
 @media(max-width:700px){:global(html[lang='ar']) .heading{font-size:clamp(36px,10vw,68px);line-height:1.55;margin-top:46px;max-width:100%}:global(html[lang='ar']) .control{padding-left:10px;padding-right:0}:global(html[lang='ar']) .bottom{margin-top:28px;margin-bottom:30px}:global(html[lang='ar']) .footer{padding-inline-end:0;padding-inline-start:112px}}
+
+@media (max-width:700px), (hover:none) and (pointer:coarse) {
+  .material,.guard { display:none; }
+  .handoff { background:linear-gradient(180deg,#04060a33,transparent 25%,transparent 65%,#04060a99); }
+  .lightMark,.control { display:none; }
+  .hero:is([data-hero-status='blocked'],[data-hero-status='media-error']) .control { display:inline-flex; }
+  .pointerCue,.keyboardCue { display:none; }
+  .touchCue { display:inline; }
+}

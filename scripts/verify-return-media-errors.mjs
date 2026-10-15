@@ -41,5 +41,5 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
  }
  await browser.close();
 }
-await fs.writeFile('docs/evidence/playback-return-2026-10-12/failure-recovery.json',JSON.stringify(report,null,2));
+await fs.writeFile((process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/playback-return-2026-10-12')+'/failure-recovery.json',JSON.stringify(report,null,2));
 

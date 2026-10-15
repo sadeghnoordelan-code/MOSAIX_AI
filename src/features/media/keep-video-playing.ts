@@ -2,6 +2,9 @@
 export function keepVideoPlaying(video: HTMLVideoElement, options: {
   source: string;
   visible?: () => boolean;
+  muted?: () => boolean;
+  /** Native fullscreen players own their controls until returning inline. */
+  managed?: () => boolean;
   onFailure?: (error: unknown) => void;
 }) {
   let disposed = false, suspended = false, blocked = false, pending = false, generation = 0;
@@ -11,6 +14,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
   let lastTime = video.currentTime, lastProgress = performance.now();
   let restorePosition: (() => void) | undefined;
   const wanted = () => !disposed && !suspended && !document.hidden && (options.visible?.() ?? true);
+  const managed = () => options.managed?.() ?? true;
   const clearRetry = () => { clearTimeout(retry); retry = undefined; };
   const stopWatch = () => { clearInterval(watch); watch = undefined; clearRetry(); };
   const pause = () => { generation++; pending = false; stopWatch(); video.pause(); };
@@ -23,11 +27,11 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
     return false;
   };
   const schedule = () => {
-    if (!wanted() || blocked || retry !== undefined) return;
+    if (!managed() || !wanted() || blocked || retry !== undefined) return;
     retry = setTimeout(() => { retry = undefined; play(); }, 180);
   };
   const rebuild = () => {
-    if (!wanted() || blocked) return;
+    if (!managed() || !wanted() || blocked) return;
     if (rebuilds >= 2) { fail(new Error('Media playback could not recover')); return; }
     rebuilds++;
     generation++; pending = false; clearRetry();
@@ -44,10 +48,10 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
     lastProgress = performance.now(); play();
   };
   const play = () => {
-    if (!wanted() || blocked || pending || !video.paused) return;
+    if (!managed() || !wanted() || blocked || pending || !video.paused) return;
     source();
     if (video.error) { rebuild(); return; }
-    video.muted = true; video.defaultMuted = true; video.playsInline = true;
+    video.muted = options.muted?.() ?? true; video.defaultMuted = true; video.playsInline = true;
     const attempt = ++generation;
     pending = true; playAt = performance.now();
     void video.play().then(() => {
@@ -62,6 +66,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
     });
   };
   const check = () => {
+    if (!managed()) return;
     if (!wanted()) { pause(); return; }
     const now = performance.now();
     if (pending && video.paused && video.readyState >= 2 && now - playAt > 3000) {
@@ -77,7 +82,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
     }
   };
   const resume = () => {
-    if (disposed || document.hidden || suspended) return;
+    if (!managed() || disposed || document.hidden || suspended) return;
     if (!wanted()) { pause(); return; }
     if (source()) { generation++; pending = false; }
     if (watch === undefined) watch = setInterval(check, 1000);
@@ -85,7 +90,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
   };
   const hide = () => { suspended = true; pause(); };
   const show = () => {
-    if (disposed || document.hidden) return;
+    if (!managed() || disposed || document.hidden) return;
     suspended = false; blocked = false; rebuilds = 0;
     lastTime = video.currentTime; lastProgress = performance.now();
     if (video.error) rebuild();
@@ -97,6 +102,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
   const reenter = () => { if (suspended && !document.hidden) show(); };
   const mediaReady = () => { if (wanted()) play(); };
   const mediaPause = () => {
+    if (!managed()) return;
     if (!wanted()) return;
     generation++; pending = false;
     schedule();
@@ -117,7 +123,7 @@ export function keepVideoPlaying(video: HTMLVideoElement, options: {
   show();
   return {
     retry: show,
-    refresh: () => wanted() ? resume() : pause(),
+    refresh: () => { if(!managed()){generation++;pending=false;stopWatch();}else if(wanted())resume();else pause(); },
     dispose: () => {
       disposed = true; pause();
       if (restorePosition) video.removeEventListener('loadedmetadata', restorePosition);
