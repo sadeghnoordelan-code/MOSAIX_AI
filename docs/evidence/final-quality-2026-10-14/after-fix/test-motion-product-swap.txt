@@ -1,0 +1,14 @@
+
+> mosaix-official-website@0.1.0 test:motion
+> node --test tests/ring-geometry.test.ts
+
+✔ filaments wind around the actual torus tube in three axes (1.3964ms)
+✔ projection gives front and rear different scale and tube occlusion (0.317ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 285.7687

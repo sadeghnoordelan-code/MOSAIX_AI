@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "ara",
+    "original": "Videos/Advertising Videos/Door Reomte.mp4",
+    "served": "public/advertising/ara.mp4",
+    "bytes": 3558869,
+    "audioAndVideoPayloadIdentical": true,
+    "streamHashes": [
+      "0,v,SHA256=dbac7f5a0bde69b7ce32bdef64164f3b6dddba895448a643687857c4d81c4fb7",
+      "1,a,SHA256=2769b2aa60a1f4eff5a5fee29bbb6f98e74f7c10945ea7fd6b2cfb7ffc84845d"
+    ],
+    "fastStart": true,
+    "posterFrameSeconds": 6.5
+  },
+  {
+    "slug": "nova",
+    "original": "Videos/Advertising Videos/AI Home Robot.mp4",
+    "served": "public/advertising/nova.mp4",
+    "bytes": 3134528,
+    "audioAndVideoPayloadIdentical": true,
+    "streamHashes": [
+      "0,v,SHA256=b611be3fedd46e9c610f9e7d859e9d55ef79d9d75421a14fc46c11f5fa778287",
+      "1,a,SHA256=863c6946c7e56a07e28bee8492034cea5428d29109d4da8499b3cd02e153c49a"
+    ],
+    "fastStart": true,
+    "posterFrameSeconds": 6.5
+  },
+  {
+    "slug": "apex",
+    "original": "Videos/Advertising Videos/Ai Headset.mp4",
+    "served": "public/advertising/apex.mp4",
+    "bytes": 3414382,
+    "audioAndVideoPayloadIdentical": true,
+    "streamHashes": [
+      "0,v,SHA256=7f1bea6e70480af52f7c43527d2a6cf71ff87e2b06ce21e754e98ab2d7c9f62a",
+      "1,a,SHA256=9d6385afbc564cf48993cc8f1d01f6b28aa7fff42a2f74402d72ee1450b446e9"
+    ],
+    "fastStart": true,
+    "posterFrameSeconds": 6.5
+  },
+  {
+    "slug": "aeterna",
+    "original": "Videos/Advertising Videos/Security robot.mp4",
+    "served": "public/advertising/aeterna.mp4",
+    "bytes": 3054469,
+    "audioAndVideoPayloadIdentical": true,
+    "streamHashes": [
+      "0,v,SHA256=590732946788d1bf17fae97dd964b2b3a064aa4d4c96498c8f00fceea1ccdde2",
+      "1,a,SHA256=306f0671313776836aa6caacc263cdbbe1eb10b566cf7103bc83b50e013994bc"
+    ],
+    "fastStart": true,
+    "posterFrameSeconds": 8.3
+  },
+  {
+    "slug": "titeniester",
+    "original": "Videos/Advertising Videos/Sound Speaker.mp4",
+    "served": "public/advertising/titeniester.mp4",
+    "bytes": 3596104,
+    "audioAndVideoPayloadIdentical": true,
+    "streamHashes": [
+      "0,v,SHA256=7f2ed88c388e7247f66887cdca2c0baa36b1a7189efe89d5f4a64aaad16f3a4a",
+      "1,a,SHA256=0662e01331e2296f95fff8046c3a446731e050ef2ac97df5db4086fd9009d4a6"
+    ],
+    "fastStart": true,
+    "posterFrameSeconds": 6.5
+  },
+  {
+    "slug": "apax-one-premium",
+    "original": "Videos/Advertising Videos/Desktop Case.mp4",
+    "served": "public/advertising/apax-one-premium.mp4",
+    "bytes": 2713429,
+    "audioAndVideoPayloadIdentical": true,
+    "streamHashes": [
+      "0,v,SHA256=9e45420af25d2e5480074e41c9a766ce977835948da393998030741c45f21d36",
+      "1,a,SHA256=243e597d5cd954c79c85cb1a9ee7fa65bcb080439876b8d1efd721d7734ce995"
+    ],
+    "fastStart": true,
+    "posterFrameSeconds": 6.5
+  }
+]

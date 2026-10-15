@@ -1,0 +1,19 @@
+
+> mosaix-official-website@0.1.0 test:admin
+> node --test tests/admin.test.ts
+
+✔ content rejects unsafe links, unknown fields and altered fixed routes (8.3815ms)
+✔ unchanged defaults follow code while explicit overrides win (4.2066ms)
+✔ owner sessions enforce passwords, CSRF, origin, logout and credential rotation (378.0788ms)
+✔ content saves durably, rejects stale revisions and records recovery history (22.9966ms)
+✔ shared session lease prevents competing replies and context clears (3.1015ms)
+✔ website portfolio preserves safe links, preview media and publication controls (2.2111ms)
+✔ advertising films enforce safe media, publication and legacy content overrides (2.4086ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1013.3132

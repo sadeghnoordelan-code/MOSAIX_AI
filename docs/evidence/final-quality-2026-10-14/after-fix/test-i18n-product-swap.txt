@@ -1,0 +1,17 @@
+
+> mosaix-official-website@0.1.0 test:i18n
+> node --test tests/i18n.test.ts
+
+✔ Arabic covers every current public content string while preserving identifiers and contact destinations (4.0042ms)
+✔ only supported language choices are accepted; explicit selection overrides cookie/text (0.6404ms)
+✔ Arabic assistant prompt retains verified contact, pricing policy, memory and trust boundaries (1.3296ms)
+✔ Arabic handoff retains owner-supplied facts and no quote or submission is invented (0.3324ms)
+✔ Arabic canonical and language alternatives use only the approved domain (0.7597ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 347.0475

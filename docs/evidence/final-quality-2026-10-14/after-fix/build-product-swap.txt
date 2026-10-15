@@ -1,0 +1,51 @@
+
+> mosaix-official-website@0.1.0 build
+> next build
+
+▲ Next.js 16.3.8 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 199ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 63s
+  Running TypeScript ...
+  Finished TypeScript in 5.2s ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/9) ...
+  Generating static pages using 7 workers (2/9) 
+  Generating static pages using 7 workers (4/9) 
+  Generating static pages using 7 workers (6/9) 
+✓ Generating static pages using 7 workers (9/9) in 3.4s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ƒ /_not-found
+├ ƒ /404
+├ ƒ /about
+├ ƒ /admin/[[...path]]
+├ ƒ /ai
+├ ƒ /api/admin/connection
+├ ƒ /api/admin/content
+├ ƒ /api/admin/media
+├ ƒ /api/admin/session
+├ ƒ /api/ai/chat
+├ ƒ /book-a-meeting
+├ ○ /icon
+├ ƒ /lab
+├ ƒ /lab/[slug]
+├ ○ /opengraph-image
+├ ƒ /projects
+├ ƒ /projects/[slug]
+├ ○ /robots.txt
+├ ƒ /services
+├ ƒ /services/[slug]
+├ ƒ /sitemap.xml
+└ ƒ /start-a-project
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

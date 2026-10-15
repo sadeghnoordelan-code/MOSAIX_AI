@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "chromium",
+    "width": 390,
+    "lang": "en",
+    "nativeHero": true,
+    "accessibleAutoplayInstructions": true,
+    "filmAutoplay": true,
+    "separatePauseFullscreenControls": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "lang": "ar",
+    "nativeHero": true,
+    "accessibleAutoplayInstructions": true,
+    "filmAutoplay": true,
+    "separatePauseFullscreenControls": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "lang": "en",
+    "nativeHero": true,
+    "accessibleAutoplayInstructions": true,
+    "filmAutoplay": true,
+    "separatePauseFullscreenControls": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "lang": "ar",
+    "nativeHero": true,
+    "accessibleAutoplayInstructions": true,
+    "filmAutoplay": true,
+    "separatePauseFullscreenControls": true,
+    "errors": []
+  }
+]

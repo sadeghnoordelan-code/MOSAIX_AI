@@ -1,0 +1,422 @@
+[
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 568,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 740,
+    "lang": "ar",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 136.78125,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "height": 844,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 101.328125,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "height": 390,
+    "lang": "ar",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 101.328125,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 568,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 740,
+    "lang": "ar",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 136.78125,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "height": 844,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 105.5625,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "height": 390,
+    "lang": "ar",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 105.5625,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "chrome",
+    "width": 390,
+    "height": 844,
+    "lang": "en",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 101.328125,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  },
+  {
+    "engine": "chrome",
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "controls": [
+      {
+        "control": "film-expand-mark",
+        "inView": true,
+        "hit": true,
+        "width": 44,
+        "height": 44
+      },
+      {
+        "control": "film-sound",
+        "inView": true,
+        "hit": true,
+        "width": 48,
+        "height": 48
+      },
+      {
+        "control": "work-preview-control",
+        "inView": true,
+        "hit": true,
+        "width": 136.78125,
+        "height": 44
+      }
+    ],
+    "mutedReturn": true,
+    "nativePauseContract": true,
+    "exitAutoPauseRecovered": true,
+    "fullscreenHit": true,
+    "greetingReturns": true,
+    "errors": []
+  }
+]

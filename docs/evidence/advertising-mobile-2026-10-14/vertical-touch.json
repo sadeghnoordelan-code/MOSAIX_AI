@@ -1,0 +1,22 @@
+[
+  {
+    "engine": "chromium",
+    "nativeTouch": true,
+    "width": 390,
+    "height": 844,
+    "before": 1083,
+    "after": 1280,
+    "verticalScrollPreserved": true,
+    "cardUnchanged": true
+  },
+  {
+    "engine": "chromium",
+    "nativeTouch": true,
+    "width": 844,
+    "height": 390,
+    "before": 978,
+    "after": 1165,
+    "verticalScrollPreserved": true,
+    "cardUnchanged": true
+  }
+]
