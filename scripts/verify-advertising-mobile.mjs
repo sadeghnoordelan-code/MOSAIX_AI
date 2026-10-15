@@ -1,3 +1,4 @@
+import {mediaDelivery} from '../src/content/media-delivery.ts';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import {createRequire} from 'node:module';
@@ -22,8 +23,10 @@ for(const[name,engine]of[['chromium',chromium],['webkit',webkit]]){
     const card=page.locator('#film-'+slug),preview=card.locator('.advertising-preview'),video=card.locator('video');
     await preview.scrollIntoViewIfNeeded();
     await page.waitForFunction(slug=>{const v=document.querySelector('#film-'+slug+' video');return v&&!v.paused&&v.readyState>=2&&v.currentTime>.05;},slug,{timeout:25000});
-    const asset=filmAssets[slug]||slug,actualSource=await video.evaluate(v=>new URL(v.currentSrc).pathname);
-    assert.equal(actualSource,'/advertising/'+asset+'.mp4','incorrect product film assignment');
+    const asset=filmAssets[slug]||slug,actualSource=await video.getAttribute('data-delivery-source');
+    assert.equal(await video.getAttribute('data-media-source'),'/advertising/'+asset+'.mp4','incorrect product film assignment');
+    assert.equal(await video.getAttribute('data-complete-file'),'true','film must use a completely received file');
+    assert.equal(actualSource,mediaDelivery['/advertising/'+asset+'.mp4'][mobile?'mobile':'desktop'],'wrong delivery variant');
     assert.equal(await video.getAttribute('poster'),'/advertising/'+asset+'.jpg','poster does not match film');
     const firstTime=await video.evaluate(v=>v.currentTime);await page.waitForTimeout(220);
     assert.notEqual(await video.evaluate(v=>v.currentTime),firstTime,'film stopped advancing');

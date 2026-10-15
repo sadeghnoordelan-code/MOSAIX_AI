@@ -18,11 +18,13 @@
     "test:ai": "node --test tests/assistant.test.ts",
     "test:admin": "node --test tests/admin.test.ts",
     "setup:owner": "node scripts/setup-owner.mjs",
-    "build:verified": "npm run test && npm run test:ai && npm run test:admin && npm run test:openai && npm run test:motion && npm run test:seo && npm run test:i18n && npm run lint && npm run build",
+    "build:verified": "npm run test && npm run test:ai && npm run test:admin && npm run test:openai && npm run test:motion && npm run test:seo && npm run test:i18n && npm run test:media && npm run lint && npm run build",
     "test:openai": "node --test tests/openai.test.ts",
     "test:motion": "node --test tests/ring-geometry.test.ts",
     "test:seo": "node --test tests/seo.test.ts",
-    "test:i18n": "node --test tests/i18n.test.ts"
+    "test:i18n": "node --test tests/i18n.test.ts",
+    "optimize:media": "node scripts/optimize-media.mjs",
+    "test:media": "node --test tests/media-loading.test.ts"
   },
   "dependencies": {
     "@fontsource-variable/noto-sans-arabic": "5.3.0",

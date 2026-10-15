@@ -153,5 +153,20 @@ export const arabic:Record<string,string>={
 "Watch fullscreen":"مشاهدة بملء الشاشة",
 "Exit fullscreen":"الخروج من ملء الشاشة",
 "Fullscreen is unavailable in this browser. The film continues here.":"وضع ملء الشاشة غير متاح في هذا المتصفح. يستمر الفيلم هنا.",
-"The film plays automatically. Scroll to explore our worlds.":"يعمل الفيديو تلقائياً. مرّر الصفحة لاكتشاف مجالاتنا."
+"The film plays automatically. Scroll to explore our worlds.":"يعمل الفيديو تلقائياً. مرّر الصفحة لاكتشاف مجالاتنا.",
+"Preparing your first view.":"جارٍ تجهيز مشهدك الأول.",
+"The first film could not load.":"تعذّر تحميل الفيلم الأول.",
+"Ready to explore.":"جاهز للاستكشاف.",
+"Your connection is taking a little longer.":"يستغرق اتصالك وقتاً أطول قليلاً.",
+"More films prepare as you explore.":"تُجهّز بقية الأفلام أثناء استكشافك.",
+"Continue while videos load":"المتابعة أثناء تحميل الفيديوهات",
+"Preparing your experience":"جارٍ تجهيز تجربتك",
+"Preparing your next view.":"جارٍ تجهيز المشهد التالي.",
+"Continue to the page":"المتابعة إلى الصفحة",
+"Play film to enter":"تشغيل الفيلم للدخول",
+"Play film to continue":"تشغيل الفيلم للمتابعة",
+"Preparing the complete website.":"جارٍ تجهيز الموقع بالكامل.",
+"All films download completely before you enter.":"تُحمّل جميع الأفلام بالكامل قبل دخولك.",
+"Preparing complete films. Please keep this page open.":"جارٍ تحميل الأفلام بالكامل. يرجى إبقاء هذه الصفحة مفتوحة.",
+"Some films or images could not load. Retry to enter.":"تعذّر تحميل بعض الأفلام أو الصور. أعد المحاولة للدخول."
 };

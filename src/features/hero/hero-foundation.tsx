@@ -8,6 +8,7 @@ import { Arrow } from '@/components/arrow';
 import { useContent } from '@/features/cms/context';
 import { mountHeroExperience, mountMobileHero, type HeroStatus } from './hero-experience';
 import {useMobileVideo} from '@/features/media/use-mobile-video';
+import {usePlaybackSource,mediaPoster,preparedOrigin} from '@/features/media/media-delivery';
 import styles from './hero.module.css';
 import {BrandText} from '@/components/brand-text';
 
@@ -22,6 +23,7 @@ const statusCopy: Record<HeroStatus, string> = {
 export function HeroFoundation() {const t=useTranslation();
   const mobile=useMobileVideo();
   const {hero,brand}=useContent();
+  const playbackSource=usePlaybackSource(hero.video);
   const root = useRef<HTMLElement>(null);
   const video = useRef<HTMLVideoElement>(null);
   const canvas = useRef<HTMLCanvasElement>(null);
@@ -29,15 +31,15 @@ export function HeroFoundation() {const t=useTranslation();
   const [status, setStatus] = useState<HeroStatus>('loading');
 
   useEffect(() => {
-    if (!root.current || !video.current || !canvas.current || !control.current) return;
-    video.current.crossOrigin='anonymous';video.current.src = hero.video;
+    if (!playbackSource || !root.current || !video.current || !canvas.current || !control.current) return;
+    video.current.crossOrigin='anonymous';video.current.src = playbackSource;
     return (mobile?mountMobileHero:mountHeroExperience)({ root: root.current, video: video.current, canvas: canvas.current, control: control.current }, setStatus);
-  }, [hero.video,mobile]);
+  }, [playbackSource,mobile]);
 
   return (
     <section ref={root} className={styles.hero} aria-labelledby="hero-heading" data-hero-status="loading" data-visual="concealed" data-light-active="false">
       <div className={styles.media} aria-hidden="true">
-        <video ref={video} crossOrigin="anonymous" className={styles.film} src={hero.video} autoPlay muted playsInline loop preload="auto" disablePictureInPicture tabIndex={-1} />
+        <video ref={video} data-entry-media data-media-source={hero.video} data-delivery-source={preparedOrigin(playbackSource)} data-complete-file={!!playbackSource} poster={mediaPoster(hero.video)} crossOrigin="anonymous" className={styles.film} src={playbackSource} muted playsInline loop preload="auto" disablePictureInPicture tabIndex={-1} />
         <canvas ref={canvas} className={styles.material} />
         <div className={styles.guard} />
         <div className={styles.handoff} />
