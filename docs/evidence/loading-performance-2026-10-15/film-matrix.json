@@ -1,0 +1,1138 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 1000,
+    "lang": "en",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-desktop.711b36456499.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 184.140625,
+          "y": 170.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 655.296875,
+          "y": 212.15625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-desktop.64e5d365bb68.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 895.84375,
+          "y": 339.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 73,
+          "y": 363.125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-desktop.f774adcc082e.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 184.140625,
+          "y": 170.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 655.296875,
+          "y": 212.15625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-desktop.9727fbd139e1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 895.84375,
+          "y": 339.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 73,
+          "y": 362.625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-desktop.d6b07fabb301.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 184.140625,
+          "y": 170.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 655.296875,
+          "y": 212.65625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-desktop.38b63d550796.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 895.84375,
+          "y": 339.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 73,
+          "y": 362.625
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "height": 844,
+    "lang": "en",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": true,
+        "video": {
+          "x": 55,
+          "y": 163.359375,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 661.125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 163.171875,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.9375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 163.171875,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.9375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 163.359375,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 661.125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 163.546875,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 661.3125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 163.359375,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 661.125
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 740,
+    "lang": "ar",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": true,
+        "video": {
+          "x": 41,
+          "y": 148.90625,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 572.015625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.6875,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.796875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.65625,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.765625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.4375,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.546875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.59375,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.703125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.5625,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.671875
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "height": 390,
+    "lang": "en",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": true,
+        "video": {
+          "x": 346.0625,
+          "y": 50.203125,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 320.203125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 50.15625,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 320.15625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 50.109375,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 320.109375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 50.0625,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 320.0625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 50.015625,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 320.015625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 49.96875,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.96875
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 1000,
+    "lang": "en",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-desktop.711b36456499.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 184.140625,
+          "y": 169.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 655.296875,
+          "y": 210.90625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-desktop.64e5d365bb68.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 895.84375,
+          "y": 359.7421875,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 73,
+          "y": 383.4609375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-desktop.f774adcc082e.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 184.140625,
+          "y": 169.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 655.296875,
+          "y": 210.90625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-desktop.9727fbd139e1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 895.84375,
+          "y": 338.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 73,
+          "y": 361.375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-desktop.d6b07fabb301.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 184.140625,
+          "y": 169.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 655.296875,
+          "y": 211.65625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-desktop.38b63d550796.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "native-standard-api",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 895.84375,
+          "y": 338.40625,
+          "width": 360,
+          "height": 640
+        },
+        "copy": {
+          "x": 73,
+          "y": 361.375
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "height": 844,
+    "lang": "en",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": true,
+        "video": {
+          "x": 55,
+          "y": 162.34375,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.109375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 162.65625,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.421875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 162.65625,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.421875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 162.34375,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.109375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 163.03125,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.796875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 55,
+          "y": 162.84375,
+          "width": 280,
+          "height": 497.765625
+        },
+        "copy": {
+          "x": 25,
+          "y": 660.609375
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 740,
+    "lang": "ar",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": true,
+        "video": {
+          "x": 41,
+          "y": 147.90625,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.015625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.1875,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.296875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.15625,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.265625
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.4375,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.546875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.09375,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.203125
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 41,
+          "y": 148.0625,
+          "width": 238,
+          "height": 423.109375
+        },
+        "copy": {
+          "x": 25,
+          "y": 571.171875
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "height": 390,
+    "lang": "en",
+    "films": [
+      {
+        "slug": "ara",
+        "actualSource": "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": true,
+        "video": {
+          "x": 346.0625,
+          "y": 49.171875,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.171875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "nova",
+        "actualSource": "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 49.609375,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.609375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apex",
+        "actualSource": "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 49.546875,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.546875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "aeterna",
+        "actualSource": "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 49.984375,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.984375
+        },
+        "overflow": false
+      },
+      {
+        "slug": "titeniester",
+        "actualSource": "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 49.421875,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.421875
+        },
+        "overflow": false
+      },
+      {
+        "slug": "apax-one-premium",
+        "actualSource": "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+        "matchingPoster": true,
+        "autoplay": true,
+        "advances": true,
+        "soundToggle": true,
+        "manualPause": true,
+        "fullscreen": "unsupported-with-feedback",
+        "iosFallbackContract": false,
+        "video": {
+          "x": 346.0625,
+          "y": 49.359375,
+          "width": 151.875,
+          "height": 270
+        },
+        "copy": {
+          "x": 43.1875,
+          "y": 319.359375
+        },
+        "overflow": false
+      }
+    ],
+    "offscreenPaused": true,
+    "errors": []
+  }
+]

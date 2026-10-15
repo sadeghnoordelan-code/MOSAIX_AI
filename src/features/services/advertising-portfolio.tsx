@@ -3,19 +3,22 @@ import {useEffect,useRef,useState} from 'react';
 import {BrandText} from '@/components/brand-text';
 import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 import {useTranslation} from '@/features/i18n/context';
+import {usePlaybackSource,preparedOrigin} from '@/features/media/media-delivery';
+import {useMediaWarmup} from '@/features/media/use-media-warmup';
 import type {SiteContent} from '@/features/cms/defaults';
 
 type Film=SiteContent['advertisingPortfolio']['items'][number];
 function ProductFilm({item,index}:{item:Film;index:number}){
  const t=useTranslation(),root=useRef<HTMLDivElement>(null),film=useRef<HTMLVideoElement>(null);
+ const playbackSource=usePlaybackSource(item.video);useMediaWarmup(film,playbackSource);
  const audible=useRef(false),manualPause=useRef(false),nativePlayer=useRef(false),controller=useRef<ReturnType<typeof keepVideoPlaying>|null>(null);
  const[muted,setMuted]=useState(true),[paused,setPaused]=useState(false),[failed,setFailed]=useState(false),[expanded,setExpanded]=useState(false),[fullscreenFailed,setFullscreenFailed]=useState(false);
  useEffect(()=>{if(!fullscreenFailed)return;const timer=setTimeout(()=>setFullscreenFailed(false),4500);return()=>clearTimeout(timer);},[fullscreenFailed]);
  useEffect(()=>{
-  const video=film.current,element=root.current;if(!video||!element)return;
+  const video=film.current,element=root.current;if(!video||!element||!playbackSource)return;
   let pageActive=true;
   const visible=()=>{const r=element.getBoundingClientRect();return !manualPause.current&&r.bottom>40&&r.top<innerHeight-40&&r.width>0;};
-  const playback=keepVideoPlaying(video,{source:item.video,visible,muted:()=>!audible.current,managed:()=>!nativePlayer.current,onFailure:()=>setFailed(true)});controller.current=playback;
+  const playback=keepVideoPlaying(video,{source:playbackSource,visible,muted:()=>!audible.current,managed:()=>!nativePlayer.current,onFailure:()=>setFailed(true)});controller.current=playback;
   const observer=new IntersectionObserver(()=>{if(!visible()){audible.current=false;video.muted=true;setMuted(true);}playback.refresh();},{threshold:[0,.1,.5]});observer.observe(element);
   const silenceOthers=(event:Event)=>{if((event as CustomEvent<string>).detail!==item.slug){audible.current=false;video.muted=true;setMuted(true);}};
   const silence=()=>{pageActive=!document.hidden;if(document.hidden){audible.current=false;video.muted=true;setMuted(true);}};
@@ -32,7 +35,7 @@ function ProductFilm({item,index}:{item:Film;index:number}){
   window.addEventListener('pagehide',hide);window.addEventListener('pageshow',show);
   video.addEventListener('pause',nativePause);video.addEventListener('play',nativePlay);video.addEventListener('volumechange',nativeSound);
   return()=>{clearTimeout(pauseTimer);nativePlayer.current=false;observer.disconnect();window.removeEventListener('mosaix-film-sound',silenceOthers);window.removeEventListener('pagehide',hide);window.removeEventListener('pageshow',show);document.removeEventListener('visibilitychange',silence);document.removeEventListener('fullscreenchange',fullscreen);video.removeEventListener('webkitbeginfullscreen',beginNative);video.removeEventListener('webkitendfullscreen',endNative);video.removeEventListener('pause',nativePause);video.removeEventListener('play',nativePlay);video.removeEventListener('volumechange',nativeSound);playback.dispose();controller.current=null;video.removeAttribute('src');video.load();};
- },[item.slug,item.video]);
+ },[item.slug,playbackSource]);
  const toggleSound=()=>{const video=film.current;if(!video)return;const next=!audible.current;audible.current=next;video.muted=!next;setMuted(!next);if(next)window.dispatchEvent(new CustomEvent('mosaix-film-sound',{detail:item.slug}));if(!manualPause.current)controller.current?.retry();};
  const togglePlayback=()=>{manualPause.current=failed?false:!manualPause.current;setPaused(manualPause.current);if(manualPause.current)controller.current?.refresh();else controller.current?.retry();};
  const toggleFullscreen=async()=>{
@@ -46,7 +49,7 @@ function ProductFilm({item,index}:{item:Film;index:number}){
   }catch{if(video.webkitEnterFullscreen){try{video.controls=true;video.webkitEnterFullscreen();return;}catch{video.controls=false;}}setFullscreenFailed(true);}
  };
  return <div className="work-preview advertising-preview" ref={root}>
-  <video ref={film} poster={item.poster} autoPlay muted loop playsInline preload="none" aria-label={item.title+' — '+item.headline} onPlaying={()=>setFailed(false)}/>
+  <video crossOrigin="anonymous" ref={film} data-media-source={item.video} data-delivery-source={preparedOrigin(playbackSource)} data-complete-file={!!playbackSource} poster={item.poster} muted loop playsInline preload="none" aria-label={item.title+' — '+item.headline} onPlaying={()=>setFailed(false)}/>
   <button className="film-expand-surface" type="button" onClick={()=>void toggleFullscreen()} aria-label={t(expanded?'Exit fullscreen':'Watch fullscreen')+' — '+item.title} aria-pressed={expanded}><span className="film-expand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span></button>
   <span className="work-preview-index" aria-hidden="true">{String(index+1).padStart(2,'0')} / <BrandText>{t('MOSAIX FILMS')}</BrandText></span>
   <button className="film-sound" type="button" onClick={toggleSound} aria-label={t(muted?'Unmute film':'Mute film')+' — '+item.title} aria-pressed={!muted} title={t(muted?'Unmute film':'Mute film')}>

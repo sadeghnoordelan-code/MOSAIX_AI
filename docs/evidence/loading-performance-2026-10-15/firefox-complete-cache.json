@@ -1,0 +1,11 @@
+{
+  "engine": "firefox",
+  "result": {
+    "ready": 4,
+    "time": 8.928454,
+    "target": 8,
+    "advanced": true,
+    "pixelSum": 94831
+  },
+  "blockedOriginRequests": 0
+}

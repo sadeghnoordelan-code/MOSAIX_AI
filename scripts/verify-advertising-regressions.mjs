@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import assert from 'node:assert/strict';import {createRequire} from 'node:module';
-const require=createRequire(import.meta.url),{chromium,webkit}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),out='docs/evidence/final-quality-2026-10-14',results=[];
+const require=createRequire(import.meta.url),{chromium,webkit}=require('C:/Users/pc/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),out=process.env.MOSAIX_EVIDENCE_DIRECTORY||'docs/evidence/final-quality-2026-10-14',results=[];
 for(const[name,engine]of[['chromium',chromium],['webkit',webkit],['chrome',chromium]]){
  const browser=await engine.launch(name==='chromium'?{headless:true,channel:'msedge'}:name==='chrome'?{headless:true,channel:'chrome'}:{headless:true});
  try{for(const[width,height,lang]of(name==='chrome'?[[390,844,'en'],[1440,900,'ar']]:[[320,568,'en'],[320,740,'ar'],[390,844,'en'],[844,390,'ar'],[1440,900,'en']])){

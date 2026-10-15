@@ -13,4 +13,4 @@ export function proxy(request:NextRequest){
  if(process.env.VERCEL_ENV&&process.env.VERCEL_ENV!=='production'||process.env.SITE_INDEXABLE!=='true'||!process.env.SITE_URL)response.headers.set('X-Robots-Tag','noindex, nofollow');
  return response;
 }
-export const config={matcher:['/((?!api/|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|opengraph-image|brand/|media/|portfolio/).*)']};
+export const config={matcher:['/((?!api/|media-cache-worker.js|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|opengraph-image|brand/|media/|portfolio/|advertising/|optimized/).*)']};

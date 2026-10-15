@@ -1,0 +1,16 @@
+{
+  "files": 814,
+  "bytes": 333643622,
+  "large": [],
+  "secretFindings": [],
+  "privateDirectoriesExcluded": true,
+  "configured": {
+    "OPENAI_API_KEY": false,
+    "UPSTASH_REDIS_REST_URL": false,
+    "UPSTASH_REDIS_REST_TOKEN": false,
+    "BLOB_READ_WRITE_TOKEN": false,
+    "ADMIN_EMAIL": true,
+    "ADMIN_PASSWORD_HASH": true,
+    "ADMIN_SESSION_SECRET": true
+  }
+}
