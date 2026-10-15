@@ -1,0 +1,15 @@
+{
+  "media": {
+    "url": "/optimized/media/hero-mobile.fa5844be9d1b.mp4",
+    "status": 206,
+    "cache": "public, max-age=31536000, immutable",
+    "range": "bytes 0-1023/1062256"
+  },
+  "poster": 200,
+  "optimizedImage": {
+    "status": 200,
+    "format": "image/webp"
+  },
+  "nonceCspPreserved": true,
+  "noindexPreserved": true
+}

@@ -1,0 +1,11 @@
+{
+  "candidateFiles": 814,
+  "credentialValueFindings": [],
+  "privateValuesPrinted": false,
+  "bundle": {
+    "files": 24,
+    "raw": 1076725,
+    "gzip": 328847,
+    "note": "All emitted JS/CSS; not initial transfer or measured network timing."
+  }
+}

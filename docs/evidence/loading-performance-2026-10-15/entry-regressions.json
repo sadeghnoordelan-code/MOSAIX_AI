@@ -1,0 +1,151 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "delayedEntryHeld": true,
+    "firstSource": "/optimized/media/hero-desktop.b5dd39788417.mp4",
+    "routeSource": "/optimized/media/website-desktop.ffde4f1b8d3d.mp4",
+    "noDesktopDownloadOnPhone": true,
+    "overflow": false,
+    "cachedEntryMs": 2264,
+    "totalScenarioMs": 13951,
+    "pageErrors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 568,
+    "lang": "ar",
+    "delayedEntryHeld": true,
+    "firstSource": "/optimized/media/hero-mobile.fa5844be9d1b.mp4",
+    "routeSource": "/optimized/media/website-mobile.85003054cdec.mp4",
+    "noDesktopDownloadOnPhone": true,
+    "overflow": false,
+    "cachedEntryMs": 2141,
+    "totalScenarioMs": 11703,
+    "pageErrors": []
+  },
+  {
+    "engine": "chromium",
+    "case": "entry waits for an actual playing frame after autoplay denial",
+    "passed": true
+  },
+  {
+    "engine": "chromium",
+    "case": "all pages prepared",
+    "completeFileReuseVerified": true,
+    "seekAtEightyPercent": true,
+    "deniedOriginMediaRequests": 0,
+    "passed": true
+  },
+  {
+    "engine": "chromium",
+    "case": "failed request and retry",
+    "passed": true
+  },
+  {
+    "engine": "chromium",
+    "case": "slow connection cannot bypass complete loading",
+    "passed": true
+  },
+  {
+    "engine": "chromium",
+    "case": "no JavaScript",
+    "passed": true
+  },
+  {
+    "engine": "chromium",
+    "case": "reduced motion and navigation",
+    "passed": true
+  },
+  {
+    "engine": "chromium",
+    "case": "save data",
+    "requests": [
+      "/optimized/media/hero-mobile.fa5844be9d1b.mp4",
+      "/optimized/media/website-mobile.85003054cdec.mp4",
+      "/optimized/media/hero-mobile.fa5844be9d1b.mp4",
+      "/optimized/media/application-mobile.93c7ddc7d7cf.mp4",
+      "/optimized/media/automation-mobile.cc2445377fe6.mp4",
+      "/optimized/media/advertising-mobile.ef0e616b9e11.mp4",
+      "/optimized/media/lab-mobile.11013defab36.mp4",
+      "/optimized/media/website-sarv-mobile.88480739bd77.mp4",
+      "/optimized/media/website-boreal-mobile.6c581280697e.mp4",
+      "/optimized/media/website-lumiere-mobile.4dbf65fdf000.mp4",
+      "/optimized/media/website-harvest-mobile.9635cc497007.mp4",
+      "/optimized/media/film-ara-mobile.f06363742b96.mp4",
+      "/optimized/media/film-nova-mobile.7e7b04b24d0d.mp4",
+      "/optimized/media/film-apex-mobile.16d8f6c863d5.mp4",
+      "/optimized/media/film-aeterna-mobile.8cb4b9d71fd1.mp4",
+      "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+      "/optimized/media/film-apax-one-premium-mobile.f9831c223dca.mp4",
+      "/optimized/media/website-mobile.85003054cdec.mp4",
+      "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4",
+      "/optimized/media/film-titeniester-mobile.03b79b01cfbd.mp4"
+    ],
+    "passed": true
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "delayedEntryHeld": true,
+    "firstSource": "/optimized/media/hero-desktop.b5dd39788417.mp4",
+    "routeSource": "/optimized/media/website-desktop.ffde4f1b8d3d.mp4",
+    "noDesktopDownloadOnPhone": true,
+    "overflow": false,
+    "cachedEntryMs": 4051,
+    "totalScenarioMs": 22009,
+    "pageErrors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 568,
+    "lang": "ar",
+    "delayedEntryHeld": true,
+    "firstSource": "/optimized/media/hero-mobile.fa5844be9d1b.mp4",
+    "routeSource": "/optimized/media/website-mobile.85003054cdec.mp4",
+    "noDesktopDownloadOnPhone": true,
+    "overflow": false,
+    "cachedEntryMs": 3823,
+    "totalScenarioMs": 15237,
+    "pageErrors": []
+  },
+  {
+    "engine": "webkit",
+    "case": "entry waits for an actual playing frame after autoplay denial",
+    "passed": true
+  },
+  {
+    "engine": "webkit",
+    "case": "all pages prepared",
+    "completeFileReuseVerified": false,
+    "seekAtEightyPercent": true,
+    "qualification": "Windows WebKit native media bypasses service workers; online presentation only.",
+    "passed": true
+  },
+  {
+    "engine": "webkit",
+    "case": "failed request and retry",
+    "passed": true
+  },
+  {
+    "engine": "webkit",
+    "case": "slow connection cannot bypass complete loading",
+    "passed": true
+  },
+  {
+    "engine": "webkit",
+    "case": "no JavaScript",
+    "passed": true
+  },
+  {
+    "engine": "webkit",
+    "case": "reduced motion and navigation",
+    "passed": true
+  }
+]

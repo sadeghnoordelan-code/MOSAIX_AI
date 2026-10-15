@@ -1,0 +1,194 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "externalDestinations": "isolated fixture documents",
+    "cases": [
+      {
+        "slug": "sarv",
+        "href": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "boreal",
+        "href": "https://real-estate-website-blond-phi.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "lumiere",
+        "href": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "harvest",
+        "href": "https://harvest-bloom.vercel.app/?v=2842544",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      }
+    ],
+    "missingPageshowRecovery": true,
+    "unresolvedPlayRecovery": true,
+    "userPauseRespected": true,
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 390,
+    "externalDestinations": "isolated fixture documents",
+    "cases": [
+      {
+        "slug": "sarv",
+        "href": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "boreal",
+        "href": "https://real-estate-website-blond-phi.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "lumiere",
+        "href": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "harvest",
+        "href": "https://harvest-bloom.vercel.app/?v=2842544",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      }
+    ],
+    "missingPageshowRecovery": true,
+    "unresolvedPlayRecovery": true,
+    "userPauseRespected": true,
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "externalDestinations": "isolated fixture documents",
+    "cases": [
+      {
+        "slug": "sarv",
+        "href": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "boreal",
+        "href": "https://real-estate-website-blond-phi.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "lumiere",
+        "href": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "harvest",
+        "href": "https://harvest-bloom.vercel.app/?v=2842544",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      }
+    ],
+    "missingPageshowRecovery": true,
+    "unresolvedPlayRecovery": true,
+    "userPauseRespected": true,
+    "offscreenPaused": true,
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "externalDestinations": "isolated fixture documents",
+    "cases": [
+      {
+        "slug": "sarv",
+        "href": "https://sarv-kitchen-and-wood-products.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "boreal",
+        "href": "https://real-estate-website-blond-phi.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "lumiere",
+        "href": "https://lumiere-dental-clinic-seven.vercel.app/",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      },
+      {
+        "slug": "harvest",
+        "href": "https://harvest-bloom.vercel.app/?v=2842544",
+        "popupReturnWithoutReplay": true,
+        "homeCardReentryWithoutReload": true,
+        "nativeHistoryReturn": true,
+        "restoredDocument": false,
+        "decodedImages": true
+      }
+    ],
+    "missingPageshowRecovery": true,
+    "unresolvedPlayRecovery": true,
+    "userPauseRespected": true,
+    "offscreenPaused": true,
+    "errors": []
+  }
+]
