@@ -1,0 +1,2426 @@
+[
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 568,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Five ways forward. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Application Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "AI Automation Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "AI Tools — MOSAIX LAB"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Proof through experience. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "An open space for ideas. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Book a meeting — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "height": 568,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "خمسة مسارات إلى الأمام. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم التطبيقات وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم أتمتة الذكاء الاصطناعي وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "أدوات الذكاء الاصطناعي — مختبر MOSAIX"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "التجربة خير دليل. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "مساحة مفتوحة للأفكار. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "احجز لقاءً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "height": 390,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Five ways forward. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Application Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "AI Automation Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "AI Tools — MOSAIX LAB"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Proof through experience. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "An open space for ideas. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Book a meeting — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 844,
+    "height": 390,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "خمسة مسارات إلى الأمام. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم التطبيقات وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم أتمتة الذكاء الاصطناعي وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "أدوات الذكاء الاصطناعي — مختبر MOSAIX"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "التجربة خير دليل. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "مساحة مفتوحة للأفكار. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "احجز لقاءً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Five ways forward. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Application Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "AI Automation Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "AI Tools — MOSAIX LAB"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Proof through experience. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "An open space for ideas. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Book a meeting — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "خمسة مسارات إلى الأمام. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم التطبيقات وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم أتمتة الذكاء الاصطناعي وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "أدوات الذكاء الاصطناعي — مختبر MOSAIX"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "التجربة خير دليل. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "مساحة مفتوحة للأفكار. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "احجز لقاءً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "height": 1024,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "height": 1024,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "height": 1080,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1920,
+    "height": 1080,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "\"Changa Variable\", Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, \"Helvetica Neue\", sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 568,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Five ways forward. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Application Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "AI Automation Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "AI Tools — MOSAIX LAB"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Proof through experience. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "An open space for ideas. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Book a meeting — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 320,
+    "height": 568,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "خمسة مسارات إلى الأمام. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم التطبيقات وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم أتمتة الذكاء الاصطناعي وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "أدوات الذكاء الاصطناعي — مختبر MOSAIX"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "التجربة خير دليل. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "مساحة مفتوحة للأفكار. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "احجز لقاءً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "height": 390,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Five ways forward. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Application Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "AI Automation Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "AI Tools — MOSAIX LAB"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Proof through experience. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "An open space for ideas. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Book a meeting — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 844,
+    "height": 390,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "خمسة مسارات إلى الأمام. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم التطبيقات وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم أتمتة الذكاء الاصطناعي وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "أدوات الذكاء الاصطناعي — مختبر MOSAIX"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "التجربة خير دليل. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "مساحة مفتوحة للأفكار. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "احجز لقاءً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Five ways forward. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Application Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "AI Automation Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "AI Tools — MOSAIX LAB"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Proof through experience. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "An open space for ideas. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Book a meeting — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "خمسة مسارات إلى الأمام. — MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/application-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم التطبيقات وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/ai-automation",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم أتمتة الذكاء الاصطناعي وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/services/mosaix-lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "أدوات الذكاء الاصطناعي — مختبر MOSAIX"
+      },
+      {
+        "route": "/projects",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "التجربة خير دليل. — MOSAIX"
+      },
+      {
+        "route": "/lab",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "مساحة مفتوحة للأفكار. — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/book-a-meeting",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "احجز لقاءً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      },
+      {
+        "route": "/404",
+        "status": 404,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 768,
+    "height": 1024,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 768,
+    "height": 1024,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "height": 1080,
+    "lang": "en",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "MOSAIX — Design × AI × Technology"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "People behind MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Website Design & Development — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Advertising & Custom Video Design & Production — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Start a project — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  },
+  {
+    "engine": "webkit",
+    "width": 1920,
+    "height": 1080,
+    "lang": "ar",
+    "cases": [
+      {
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "MOSAIX — التصميم × الذكاء الاصطناعي × التقنية"
+      },
+      {
+        "route": "/about",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 5,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "الأشخاص وراء MOSAIX"
+      },
+      {
+        "route": "/services/website-design-development",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم المواقع وتطويرها — MOSAIX"
+      },
+      {
+        "route": "/services/advertising-video",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "تصميم الإعلانات والفيديوهات المخصصة وإنتاجها — MOSAIX"
+      },
+      {
+        "route": "/start-a-project?service=advertising",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 2,
+        "font": "Changa Variable, Sora, Tahoma, Arial, sans-serif",
+        "title": "ابدأ مشروعاً — MOSAIX"
+      },
+      {
+        "route": "/admin",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "main": true,
+        "images": 0,
+        "font": "Sora, Helvetica Neue, sans-serif",
+        "title": "Owner workspace — MOSAIX"
+      }
+    ],
+    "pageErrors": [],
+    "cancelledPrefetchWarnings": [],
+    "consoleErrors": [],
+    "failedResponses": []
+  }
+]

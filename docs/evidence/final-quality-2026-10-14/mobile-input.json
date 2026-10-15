@@ -1,0 +1,38 @@
+[
+  {
+    "lang": "en",
+    "nativeTouchBothDirections": true,
+    "fiveCardLoopEachWay": true,
+    "noAccidentalNavigation": true,
+    "keyboardSizedViewport": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "cpu4xBaseline": {
+      "median": 16.700000000000728,
+      "p95": 33.399999999999636,
+      "over50ms": 0,
+      "samples": 118
+    },
+    "errors": [],
+    "note": "Headless desktop-engine measurements and resized viewport; no real handset, OS keyboard or performance guarantee."
+  },
+  {
+    "lang": "ar",
+    "nativeTouchBothDirections": true,
+    "fiveCardLoopEachWay": true,
+    "noAccidentalNavigation": true,
+    "keyboardSizedViewport": {
+      "dialogFits": true,
+      "composerFits": true
+    },
+    "cpu4xBaseline": {
+      "median": 16.799999999999272,
+      "p95": 33.5,
+      "over50ms": 2,
+      "samples": 98
+    },
+    "errors": [],
+    "note": "Headless desktop-engine measurements and resized viewport; no real handset, OS keyboard or performance guarantee."
+  }
+]

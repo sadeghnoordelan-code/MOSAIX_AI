@@ -1,0 +1,35 @@
+{
+  "films": [
+    {
+      "slug": "ara",
+      "rangeStatus": 206,
+      "rangeHeader": "bytes 0-31/3558869"
+    },
+    {
+      "slug": "nova",
+      "rangeStatus": 206,
+      "rangeHeader": "bytes 0-31/3134528"
+    },
+    {
+      "slug": "apex",
+      "rangeStatus": 206,
+      "rangeHeader": "bytes 0-31/3414382"
+    },
+    {
+      "slug": "aeterna",
+      "rangeStatus": 206,
+      "rangeHeader": "bytes 0-31/3054469"
+    },
+    {
+      "slug": "titeniester",
+      "rangeStatus": 206,
+      "rangeHeader": "bytes 0-31/3596104"
+    },
+    {
+      "slug": "apax-one-premium",
+      "rangeStatus": 206,
+      "rangeHeader": "bytes 0-31/2713429"
+    }
+  ],
+  "legacyAIRedirect": true
+}

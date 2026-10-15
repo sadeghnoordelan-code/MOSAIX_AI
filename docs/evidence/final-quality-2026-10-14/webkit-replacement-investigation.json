@@ -1,0 +1,9 @@
+{
+  "observedMessage": "ttp://127.0.0.1:4180/4a1ee1c5-7a74-4d75-ae18-b6017646d5e9 due to access control checks.",
+  "observedServerMessage": "The destination stream closed early.",
+  "testMode": "Rapid repeated hard document navigation after DOMContentLoaded",
+  "hypothesis": "Document-replacement/stream cancellation; attribution requires settled-navigation rerun and independent real client-navigation tests.",
+  "settledNavigationRerun": "Passed: previously failing WebKit context plus remaining contexts; combined 216 route checks have no page errors or failed non-document responses.",
+  "realClientReturnRegression": "Passed: 16 portfolio cases across Chromium/WebKit desktop/mobile, each popup return, client home/card reentry and native history return; isolated external document fixtures.",
+  "assessment": "Consistent with test-induced document/stream cancellation, an inference rather than a proven application root cause. Raw warning retained; no application patch was made to hide it."
+}

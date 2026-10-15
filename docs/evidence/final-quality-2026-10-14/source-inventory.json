@@ -1,0 +1,141 @@
+{
+  "productionLogging": [],
+  "todoMarkers": [],
+  "mockOrDummyCandidates": [],
+  "configurationCandidates": [
+    {
+      "file": "src/app/api/ai/chat/route.ts",
+      "line": 17,
+      "text": "function attachCookie(response:NextResponse,id:string,request:NextRequest){response.cookies.set(COOKIE,id,{httpOnly:true,secure:(process.env.SITE_URL??request.url).startsWith('https://'),sameSite:'strict',path:'/api/ai',maxAge:SESSION_TTL/1000});return response;}"
+    },
+    {
+      "file": "src/app/api/ai/chat/route.ts",
+      "line": 33,
+      "text": " const timeout=setTimeout(abort,120000);session.busy=true;session.expires=Date.now()+SESSION_TTL;"
+    },
+    {
+      "file": "src/app/page.tsx",
+      "line": 12,
+      "text": "export default async function HomePage(){const content=await getContent(),c=content.home,origin=approvedOrigin();return <>{origin&&<StructuredData value={{'@context':'https://schema.org','@graph':[{'@type':'Organization','@id':new URL('/#organization',origin).toString(),name:cont"
+    },
+    {
+      "file": "src/app/services/[slug]/page.tsx",
+      "line": 23,
+      "text": " return <div className={`service-world world-${service.id}`}><ServiceWorldVideo src={service.video}/>{origin&&<StructuredData value={{'@context':'https://schema.org','@type':'Service',name:service.title,description:service.summary,url:new URL('/services/'+service.slug,origin).toS"
+    },
+    {
+      "file": "src/content/contact.ts",
+      "line": 1,
+      "text": "export const contact={email:'mosaix07@gmail.com',phone:'+49 177 6681427',tel:'tel:+491776681427',whatsapp:'https://wa.me/491776681427',instagram:'https://instagram.com/mosaix_ai',handle:'@mosaix_ai',location:'Wiesbaden, Germany'};"
+    },
+    {
+      "file": "src/features/admin/security.ts",
+      "line": 10,
+      "text": "export function allowedOrigin(request:Request){try{const origin=request.headers.get('origin');if(!origin)return false;const allowed=[process.env.SITE_URL,...[process.env.VERCEL_URL,process.env.VERCEL_BRANCH_URL].filter(Boolean).map(v=>'https://'+v),...(!process.env.VERCEL?['http:"
+    },
+    {
+      "file": "src/features/ai/assistant-launcher.tsx",
+      "line": 34,
+      "text": "  let last=Date.now();const timer=setInterval(()=>{"
+    },
+    {
+      "file": "src/features/ai/knowledge.ts",
+      "line": 12,
+      "text": " record({id:'truth-limits',title:'Verified information boundaries',type:'policies',status:'LIVE',summary:'Unconfirmed facts must remain unconfirmed.',body:'MOSAIX provides no service pricing through the website assistant: no amounts, estimates, ranges, packages, discounts or free"
+    },
+    {
+      "file": "src/features/ai/provider.ts",
+      "line": 6,
+      "text": "export function runtimeOrigin(){const value=new URL(process.env.MOSAIX_MODEL_URL??'http://127.0.0.1:11435');if(!['127.0.0.1','localhost','[::1]'].includes(value.hostname)||value.protocol!=='http:'||value.username||value.password||value.pathname!=='/'||value.search||value.hash)thr"
+    },
+    {
+      "file": "src/features/ai/request.ts",
+      "line": 10,
+      "text": "  const allowed=[...(siteUrl?[new URL(siteUrl).origin]:[]),...[process.env.VERCEL_URL,process.env.VERCEL_BRANCH_URL].filter(Boolean).map(v=>'https://'+v),...(!process.env.VERCEL?['http://127.0.0.1:4180','http://localhost:4180']:[])];"
+    },
+    {
+      "file": "src/features/ai/session.ts",
+      "line": 12,
+      "text": "const expiryTimer=setInterval(()=>{const now=Date.now();for(const[id,session]of sessions)if(session.expires<now&&!session.busy)sessions.delete(id);},60000);expiryTimer.unref();"
+    },
+    {
+      "file": "src/features/cms/website-portfolio.ts",
+      "line": 3,
+      "text": " {slug:'sarv',title:'SARV',category:'Cabinetry & architectural woodwork',headline:'Craft, made digital.',summary:'A design discovery experience for architectural woodwork. Clients filter concept studies to find the spaces, colours and styles that reflect their practical needs and"
+    },
+    {
+      "file": "src/features/cms/website-portfolio.ts",
+      "line": 4,
+      "text": " {slug:'boreal',title:'BOREAL',category:'Architectural estates',headline:'An address. An atmosphere.',summary:'Explore a property beyond its photographs. Geographic coordinates, architectural details and a step-by-step viewing interface connect digital discovery with an in-person"
+    },
+    {
+      "file": "src/features/cms/website-portfolio.ts",
+      "line": 5,
+      "text": " {slug:'lumiere',title:'Lumière',category:'Dental studio',headline:'Confidence, by design.',summary:'Discover treatments, compare before-and-after results and explore the clinician profile before building a treatment plan. A guided appointment and checkout interface brings the pa"
+    },
+    {
+      "file": "src/features/cms/website-portfolio.ts",
+      "line": 6,
+      "text": " {slug:'harvest',title:'Harvest Bloom',category:'Barberries, nuts & dried fruit',headline:'From harvest to experience.',summary:'Choose barberries, nuts and dried fruit by weight, see the amount update immediately and review a clear order summary. The storefront introduces a chec"
+    },
+    {
+      "file": "src/features/hero/hero-experience.ts",
+      "line": 148,
+      "text": "    loadTimeout = window.setTimeout(() => {"
+    },
+    {
+      "file": "src/features/hero/hero-experience.ts",
+      "line": 266,
+      "text": "    if (isActive()) loadTimeout = window.setTimeout(() => {"
+    },
+    {
+      "file": "src/features/intro/site-introduction.tsx",
+      "line": 12,
+      "text": " useEffect(()=>{let seen=false;try{seen=sessionStorage.getItem('mosaix-intro-seen')==='1';}catch{}const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;const entry=setTimeout(()=>setPhase(seen?'done':reduced?'leaving':'presenting'),0);const leave=setTimeout("
+    },
+    {
+      "file": "src/features/intro/site-introduction.tsx",
+      "line": 13,
+      "text": " useEffect(()=>{if(phase!=='leaving')return;try{sessionStorage.setItem('mosaix-intro-seen','1');}catch{}timer.current=setTimeout(()=>setPhase('done'),1000);return()=>{if(timer.current)clearTimeout(timer.current);};},[phase]);"
+    },
+    {
+      "file": "src/features/media/keep-video-playing.ts",
+      "line": 31,
+      "text": "    retry = setTimeout(() => { retry = undefined; play(); }, 180);"
+    },
+    {
+      "file": "src/features/media/keep-video-playing.ts",
+      "line": 88,
+      "text": "    if (watch === undefined) watch = setInterval(check, 1000);"
+    },
+    {
+      "file": "src/features/services/advertising-portfolio.tsx",
+      "line": 25,
+      "text": "  const nativePause=()=>{clearTimeout(pauseTimer);pauseTimer=setTimeout(()=>{if(nativePlayer.current&&pageActive&&!document.hidden){manualPause.current=true;setPaused(true);}},0);};"
+    },
+    {
+      "file": "src/features/services/service-entry-transition.tsx",
+      "line": 14,
+      "text": " const schedule=useCallback((fn:()=>void,delay:number)=>{const id=setTimeout(()=>{timers.current.delete(id);fn();},delay);timers.current.add(id);},[]);"
+    },
+    {
+      "file": "src/features/services/service-world-video.tsx",
+      "line": 20,
+      "text": "  const timeout=setTimeout(()=>{if(!disposed&&video.readyState<2)setStatus('unavailable');},15000);"
+    },
+    {
+      "file": "src/proxy.ts",
+      "line": 5,
+      "text": " const csp=[\"default-src 'self'\", \"script-src 'self' 'nonce-\"+nonce+\"' 'strict-dynamic'\"+(production?'':\" 'unsafe-eval'\"),\"style-src 'self' 'unsafe-inline'\",\"img-src 'self' data: https://*.public.blob.vercel-storage.com\",\"font-src 'self' data:\",\"media-src 'self' blob: https://*.p"
+    }
+  ],
+  "unreachableFromFrameworkRoots": [
+    "src/content/projects.ts",
+    "src/lib/validate-registries.ts"
+  ],
+  "unreferencedProductionDependencies": [
+    "@fontsource-variable/noto-sans-arabic",
+    "react-dom"
+  ],
+  "note": "Static candidates require interpretation; intentional asset URLs, animation timings, empty published collections and guarded unavailable states are not declared defects."
+}
