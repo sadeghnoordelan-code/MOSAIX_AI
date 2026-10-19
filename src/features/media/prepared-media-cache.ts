@@ -39,8 +39,15 @@ export function createPreparedMediaCache(options:Options={}){
   }
   finally{clearTimeout(timer);emit(true);}
  };
- const prepare=(sources:string[])=>{
-  for(const source of new Set(sources)){if(!source||entries.has(source))continue;const entry:Entry={source,state:'queued',loaded:0,total:0,attempts:0};entries.set(source,entry);queue.push(entry);}
+ const prepare=(sources:string[],priority=false)=>{
+  const preferred:Entry[]=[];
+  for(const source of new Set(sources)){
+   if(!source)continue;
+   let entry=entries.get(source);
+   if(!entry){entry={source,state:'queued',loaded:0,total:0,attempts:0};entries.set(source,entry);queue.push(entry);}
+   if(priority&&entry.state==='queued'){const index=queue.indexOf(entry);if(index!==-1)queue.splice(index,1);preferred.push(entry);}
+  }
+  queue.unshift(...preferred);
   drain();
  };
  return{

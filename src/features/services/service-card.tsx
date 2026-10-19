@@ -10,6 +10,7 @@ import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 import {useMobileVideo} from '@/features/media/use-mobile-video';
 import {usePlaybackSource,mediaPoster,preparedOrigin} from '@/features/media/media-delivery';
 import {useMediaWarmup} from '@/features/media/use-media-warmup';
+import {FilmPreparation} from '@/features/media/film-preparation';
 import {BrandText} from '@/components/brand-text';
 
 type PreviewState = 'idle' | 'loading' | 'ready' | 'unavailable';
@@ -52,7 +53,8 @@ export const ServiceCard=memo(function ServiceCard({ service, index }: { service
     <div className="card-material" aria-hidden="true" /><div className="card-readability" aria-hidden="true" />
     <div className="card-top"><span className="card-index"><BrandText>{String(index+1).padStart(2,'0')}</BrandText></span><Arrow diagonal /></div>
     <div className="card-body"><svg className="service-symbol" viewBox="0 0 40 40" fill="none" stroke="currentColor" strokeWidth="1" aria-hidden="true">{service.id==='website'?<><rect x="5" y="9" width="30" height="22" rx="2"/><path d="M5 15h30M10 12h1m3 0h1M14 21l-4 3 4 3m12-6 4 3-4 3"/></>:service.id==='application'?<><rect x="11" y="4" width="18" height="32" rx="3"/><path d="M17 8h6M17 31h6M15 16h10v8H15z"/></>:service.id==='automation'?<><path d="M20 5v8m0 14v8M5 20h8m14 0h8M9 9l6 6m10 10 6 6M9 31l6-6m10-10 6-6"/><circle cx="20" cy="20" r="7"/></>:service.id==='advertising'?<><rect x="5" y="9" width="30" height="23" rx="2"/><path d="M5 15h30M12 9l4 6m4-6 4 6m4-6 4 6M17 20l8 4-8 4z"/></>:<><path d="M15 5h10M17 5v11L8 32q-2 3 2 3h20q4 0 2-3l-9-16V5M13 25h14"/><circle cx="20" cy="29" r="1"/></>}</svg><h3><BrandText>{service.shortTitle}</BrandText></h3><p><BrandText>{service.discipline}</BrandText></p></div>
-    <div className="card-actions"><button type="button" className="card-preview" aria-label={`${t('Preview')} ${service.shortTitle}`} aria-pressed={preview} onClick={()=>toggle.current(!preview)}><BrandText>{preview?t("Close preview"):t("Preview")}</BrandText><span aria-hidden="true"><BrandText>{preview?'−':'+'}</BrandText></span></button><ServiceEntryLink href={serviceHref(service)} className="card-link"><BrandText>{t("Explore service")}</BrandText><span aria-hidden="true">↗</span></ServiceEntryLink></div>
+    <div className="card-actions"><button type="button" className="card-preview" disabled={!playbackSource} aria-label={`${t('Preview')} ${service.shortTitle}`} aria-pressed={preview} onClick={()=>toggle.current(!preview)}><BrandText>{preview?t("Close preview"):t("Preview")}</BrandText><span aria-hidden="true"><BrandText>{preview?'−':'+'}</BrandText></span></button><ServiceEntryLink href={serviceHref(service)} className="card-link"><BrandText>{t("Explore service")}</BrandText><span aria-hidden="true">↗</span></ServiceEntryLink></div>
+    <FilmPreparation source={source}/>
     <span className="card-status" role="status"><BrandText>{state==='loading'?t("Preparing preview"):state==='unavailable'?t("Video preview unavailable"):''}</BrandText></span>
   </article>;
 });

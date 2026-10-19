@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import {usePathname} from 'next/navigation';
 import {useEffect,useMemo,useRef,useState,useSyncExternalStore,type ReactNode} from 'react';
 import {MosaixOrbVisual} from '@/components/mosaix-orb-visual';
 import {BrandText} from '@/components/brand-text';
@@ -8,14 +9,16 @@ import {useTranslation} from '@/features/i18n/context';
 import {measureMediaReadiness} from '@/features/media/media-readiness';
 import {useDeliveryDevice} from '@/features/media/media-delivery';
 import {preparedMedia} from '@/features/media/prepared-media-cache';
-import {siteMediaSources,siteImageSources} from '@/features/media/prepare-site-media';
+import {siteMediaSources,entryMediaSources,entryImageSources} from '@/features/media/prepare-site-media';
 
 export function SiteIntroduction({children}:{children:ReactNode}){
  const t=useTranslation(),content=useContent(),{brand,intro}=content;
  const{hydrated,mobile}=useDeliveryDevice();
  useSyncExternalStore(preparedMedia.subscribe,preparedMedia.snapshot,preparedMedia.serverSnapshot);
- const sources=useMemo(()=>siteMediaSources(content,mobile),[content,mobile]);
- const images=useMemo(()=>siteImageSources(content),[content]);
+ const pathname=usePathname();
+ const sources=useMemo(()=>entryMediaSources(content,mobile,pathname),[content,mobile,pathname]);
+ const backgroundSources=useMemo(()=>siteMediaSources(content,mobile),[content,mobile]);
+ const images=useMemo(()=>entryImageSources(content,pathname),[content,pathname]);
  const [phase,setPhase]=useState<'presenting'|'leaving'|'done'>('presenting');
  const [progress,setProgress]=useState(0),[ready,setReady]=useState(false),[failed,setFailed]=useState(false),[slow,setSlow]=useState(false),[attempt,setAttempt]=useState(0);
  const[prepared,setPrepared]=useState(false),[needsPlay,setNeedsPlay]=useState(false);
@@ -23,7 +26,8 @@ export function SiteIntroduction({children}:{children:ReactNode}){
  const[imagesReady,setImagesReady]=useState(false),[imageFailed,setImageFailed]=useState(false);
  const overlay=useRef<HTMLElement>(null),restoreFocus=useRef(false);
  const leave=()=>{if(ready){restoreFocus.current=true;setPhase('leaving');}};
- useEffect(()=>{if(hydrated)preparedMedia.prepare(sources);},[hydrated,sources]);
+ useEffect(()=>{if(hydrated)preparedMedia.prepare(sources,true);},[hydrated,sources]);
+ useEffect(()=>{if(hydrated&&phase==='done')preparedMedia.prepare(backgroundSources);},[hydrated,phase,backgroundSources]);
  useEffect(()=>{
   let cancelled=false;const pending:HTMLImageElement[]=[],timers:ReturnType<typeof setTimeout>[]=[];
   const load=(source:string)=>new Promise<void>((resolve,reject)=>{
@@ -86,7 +90,7 @@ export function SiteIntroduction({children}:{children:ReactNode}){
   return()=>{document.body.style.overflow=original;};
  },[phase]);
  const retry=()=>{preparedMedia.retry(sources);document.querySelector<HTMLVideoElement>('video[data-entry-media]')?.load();setFailed(false);setSlow(false);setImageFailed(false);setImagesReady(false);setAttempt(value=>value+1);};
- const message=failed?'Some films or images could not load. Retry to enter.':ready?'Ready to explore.':slow?'Preparing complete films. Please keep this page open.':'Preparing the complete website.';
+ const message=failed?'The opening film or image could not load. Retry to enter.':ready?'Ready to explore.':slow?'Preparing the opening film. Please keep this page open.':'Preparing your first view.';
  return <>
   <div className="intro-site-body" inert={phase!=='done'&&hydrated} data-intro-phase={phase} data-media-prepared={prepared}>{children}</div>
   {phase!=='done'&&<section ref={overlay} className="site-introduction" data-phase={phase} aria-label={t('Welcome to MOSAIX')} aria-busy={!ready&&!failed}>
@@ -94,8 +98,8 @@ export function SiteIntroduction({children}:{children:ReactNode}){
    <div className="intro-sphere intro-assistant-orb" aria-hidden="true"><MosaixOrbVisual/></div>
    <div className="intro-loading">
     <div className="intro-loading-copy"><span role="status"><BrandText>{t(message)}</BrandText></span><bdi dir="ltr" aria-hidden="true">{progress}%</bdi></div>
-    <div className="intro-loading-track" role="progressbar" aria-label={t('Preparing the complete website.')} aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress}><span style={{transform:'scaleX('+(progress/100)+')'}}/></div>
-    <p><BrandText>{t('All films download completely before you enter.')}</BrandText></p>
+    <div className="intro-loading-track" role="progressbar" aria-label={t('Preparing your first view.')} aria-valuemin={0} aria-valuemax={100} aria-valuenow={progress}><span style={{transform:'scaleX('+(progress/100)+')'}}/></div>
+    <p><BrandText>{t('More films prepare as you explore.')}</BrandText></p>
     {needsPlay&&!failed&&<div className="intro-loading-actions"><button type="button" onClick={()=>{const video=document.querySelector<HTMLVideoElement>('video[data-entry-media]');if(video){video.muted=true;void video.play().catch(()=>{});}}}><BrandText>{t('Play film to enter')}</BrandText> ▷</button></div>}
     {failed&&<div className="intro-loading-actions"><button type="button" onClick={retry}><BrandText>{t('Try again')}</BrandText> ↻</button></div>}
    </div>

@@ -120,6 +120,8 @@
 .world-backdrop { position:fixed; inset:0; width:100%; height:100svh; z-index:-1; background:#03070d; pointer-events:none; }
 .world-backdrop video { width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity 900ms ease; }
 .world-backdrop[data-video-ready='true'] video { opacity:1; }
+.film-preparation{position:absolute;inset:auto 12px 72px;z-index:6;display:flex;justify-content:center;align-items:center;gap:8px;width:max-content;max-width:calc(100% - 24px);margin-inline:auto;padding:8px 12px;border:1px solid #ffffff24;border-radius:12px;background:#07111ce8;color:#e8eef6;font-size:12px;pointer-events:none}
+.film-preparation button{pointer-events:auto;background:transparent;border:0;color:inherit;cursor:pointer;padding:4px}
 .world-backdrop::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,#02060bec 0%,#040a12ad 52%,#040a125e),linear-gradient(180deg,#02060b75,transparent 25%,#02060b65); }
 .world-video-status { position:absolute; right:24px; bottom:18px; z-index:1; color:#d5dfef; font-size:11px; }
 .world-intro { min-height:calc(100svh - 104px); padding-block:45px 70px; display:flex; flex-direction:column; align-items:flex-start; }

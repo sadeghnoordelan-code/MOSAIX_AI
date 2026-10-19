@@ -46,7 +46,7 @@ test('web variants are content-addressed, smaller than originals and never rewri
 });
 
 import {createPreparedMediaCache} from '../src/features/media/prepared-media-cache.ts';
-import {siteMediaSources} from '../src/features/media/prepare-site-media.ts';
+import {siteMediaSources,entryMediaSources,entryImageSources} from '../src/features/media/prepare-site-media.ts';
 import {defaultContent} from '../src/features/cms/defaults.ts';
 const settle=async(check:()=>boolean)=>{for(let i=0;i<100;i++){if(check())return;await new Promise(resolve=>setTimeout(resolve,10));}assert(check(),'cache state did not settle');};
 
@@ -82,6 +82,35 @@ test('complete-site preparation includes all sixteen published films using the s
  }
  const content=structuredClone(defaultContent);content.advertisingPortfolio.items[0].published=false;
  assert.equal(siteMediaSources(content,true).length,15);
+});
+
+test('entry waits only for the current first view, while the full collection remains available for background preparation',()=>{
+ for(const mobile of [false,true]){
+  assert.deepEqual(entryMediaSources(defaultContent,mobile,'/'),[playbackSource(defaultContent.hero.video,mobile)]);
+  for(const service of defaultContent.services)assert.deepEqual(entryMediaSources(defaultContent,mobile,'/services/'+service.slug),[playbackSource(service.video,mobile)]);
+  for(const route of ['/about','/services','/projects','/lab','/start-a-project'])assert.deepEqual(entryMediaSources(defaultContent,mobile,route),[]);
+  assert.equal(siteMediaSources(defaultContent,mobile).length,16);
+ }
+ assert.deepEqual(entryImageSources(defaultContent,'/'),[defaultContent.brand.logo,mediaPoster(defaultContent.hero.video)]);
+ assert.deepEqual(entryImageSources(defaultContent,'/about'),[defaultContent.brand.logo]);
+ const custom=structuredClone(defaultContent);custom.hero.video='https://owner.example/opening.mp4';
+ assert.deepEqual(entryMediaSources(custom,true,'/'),[custom.hero.video]);
+});
+
+test('a newly requested view moves ahead of queued background films and can become ready while unrelated downloads remain unfinished',async()=>{
+ const streams=new Map<string,ReadableStreamDefaultController<Uint8Array>>(),calls:string[]=[];
+ const cache=createPreparedMediaCache({createUrl:(_blob,source)=>source,fetcher:async source=>{
+  const name=String(source);calls.push(name);return new Response(new ReadableStream<Uint8Array>({start(controller){streams.set(name,controller);}}),{headers:{'content-length':'1'}});
+ }});
+ cache.prepare(['/background-one','/background-two','/background-three','/next-view']);
+ cache.prepare(['/next-view'],true);
+ const finish=(source:string)=>{streams.get(source)!.enqueue(new Uint8Array([1]));streams.get(source)!.close();};
+ finish('/background-one');await settle(()=>calls.length===3);
+ assert.equal(calls[2],'/next-view');assert.equal(cache.getUrl('/next-view'),undefined);
+ finish('/next-view');await settle(()=>cache.status(['/next-view']).ready);
+ assert.equal(cache.status(['/background-two','/background-three']).ready,false);
+ finish('/background-two');finish('/background-three');
+ await settle(()=>cache.status(['/background-two','/background-three']).ready);
 });
 
 test('content-addressed films reject corrupted bytes even when the response length is complete',async()=>{

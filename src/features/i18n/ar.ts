@@ -168,5 +168,7 @@ export const arabic:Record<string,string>={
 "Preparing the complete website.":"جارٍ تجهيز الموقع بالكامل.",
 "All films download completely before you enter.":"تُحمّل جميع الأفلام بالكامل قبل دخولك.",
 "Preparing complete films. Please keep this page open.":"جارٍ تحميل الأفلام بالكامل. يرجى إبقاء هذه الصفحة مفتوحة.",
-"Some films or images could not load. Retry to enter.":"تعذّر تحميل بعض الأفلام أو الصور. أعد المحاولة للدخول."
+"Some films or images could not load. Retry to enter.":"تعذّر تحميل بعض الأفلام أو الصور. أعد المحاولة للدخول.",
+"Preparing the opening film. Please keep this page open.":"جارٍ تجهيز الفيلم الافتتاحي. يرجى إبقاء هذه الصفحة مفتوحة.",
+"The opening film or image could not load. Retry to enter.":"تعذّر تحميل الفيلم الافتتاحي أو الصورة. أعد المحاولة للدخول."
 };

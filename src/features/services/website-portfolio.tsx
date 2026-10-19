@@ -7,6 +7,7 @@ import {BrandText} from '@/components/brand-text';
 import {useMobileVideo} from '@/features/media/use-mobile-video';
 import {usePlaybackSource,preparedOrigin} from '@/features/media/media-delivery';
 import {useMediaWarmup} from '@/features/media/use-media-warmup';
+import {FilmPreparation} from '@/features/media/film-preparation';
 
 
 type Item=SiteContent['websitePortfolio']['items'][number];
@@ -31,6 +32,7 @@ function Preview({item,active,start,stop,labels}:{item:Item;active:boolean;start
  <video crossOrigin="anonymous" ref={video} data-media-source={item.video} data-delivery-source={preparedOrigin(playbackSource)} data-complete-file={!!playbackSource} poster={item.poster} muted loop playsInline preload="none" aria-label={item.title+' '+t('website preview')} onPlaying={()=>{setPlaying(true);setFailed(false);}} onPause={()=>setPlaying(false)} onError={()=>setFailed(true)}/>
  <span className="work-preview-index" aria-hidden="true"><BrandText>{"MOSAIX / "}</BrandText><BrandText>{item.category}</BrandText></span>
  <button className="work-preview-control" type="button" aria-label={(selected?labels.pauseLabel:labels.previewLabel)+' — '+item.title} aria-pressed={selected} onClick={()=>mobile?setManualPause(!manualPause):active?stop(item.slug):start(item.slug)}><span aria-hidden="true"><BrandText>{selected?'Ⅱ':'▶'}</BrandText></span><BrandText>{selected?labels.pauseLabel:labels.previewLabel}</BrandText></button>
+ <FilmPreparation source={item.video}/>
  {failed&&<span className="work-preview-feedback" role="status"><BrandText>{t("Preview unavailable. Explore the live website below.")}</BrandText></span>}
  </div>;
 }

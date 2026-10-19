@@ -5,6 +5,7 @@ import {keepVideoPlaying} from '@/features/media/keep-video-playing';
 import {useTranslation} from '@/features/i18n/context';
 import {usePlaybackSource,preparedOrigin} from '@/features/media/media-delivery';
 import {useMediaWarmup} from '@/features/media/use-media-warmup';
+import {FilmPreparation} from '@/features/media/film-preparation';
 import type {SiteContent} from '@/features/cms/defaults';
 
 type Film=SiteContent['advertisingPortfolio']['items'][number];
@@ -50,12 +51,13 @@ function ProductFilm({item,index}:{item:Film;index:number}){
  };
  return <div className="work-preview advertising-preview" ref={root}>
   <video crossOrigin="anonymous" ref={film} data-media-source={item.video} data-delivery-source={preparedOrigin(playbackSource)} data-complete-file={!!playbackSource} poster={item.poster} muted loop playsInline preload="none" aria-label={item.title+' — '+item.headline} onPlaying={()=>setFailed(false)}/>
-  <button className="film-expand-surface" type="button" onClick={()=>void toggleFullscreen()} aria-label={t(expanded?'Exit fullscreen':'Watch fullscreen')+' — '+item.title} aria-pressed={expanded}><span className="film-expand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span></button>
+  <button className="film-expand-surface" type="button" disabled={!playbackSource} onClick={()=>void toggleFullscreen()} aria-label={t(expanded?'Exit fullscreen':'Watch fullscreen')+' — '+item.title} aria-pressed={expanded}><span className="film-expand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></span></button>
   <span className="work-preview-index" aria-hidden="true">{String(index+1).padStart(2,'0')} / <BrandText>{t('MOSAIX FILMS')}</BrandText></span>
-  <button className="film-sound" type="button" onClick={toggleSound} aria-label={t(muted?'Unmute film':'Mute film')+' — '+item.title} aria-pressed={!muted} title={t(muted?'Unmute film':'Mute film')}>
+  <button className="film-sound" type="button" disabled={!playbackSource} onClick={toggleSound} aria-label={t(muted?'Unmute film':'Mute film')+' — '+item.title} aria-pressed={!muted} title={t(muted?'Unmute film':'Mute film')}>
    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/>{muted?<path d="m16 9 6 6m0-6-6 6"/>:<><path d="M15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14"/></>}</svg>
   </button>
-  <button className="work-preview-control" type="button" onClick={togglePlayback} aria-label={t(paused||failed?'Play film':'Pause film')+' — '+item.title}><span aria-hidden="true">{paused||failed?'▶':'Ⅱ'}</span><span className="film-playback-label">{t(paused||failed?'Play film':'Pause film')}</span></button>
+  <button className="work-preview-control" type="button" disabled={!playbackSource} onClick={togglePlayback} aria-label={t(paused||failed?'Play film':'Pause film')+' — '+item.title}><span aria-hidden="true">{paused||failed?'▶':'Ⅱ'}</span><span className="film-playback-label">{t(paused||failed?'Play film':'Pause film')}</span></button>
+  <FilmPreparation source={item.video}/>
   {failed&&<span className="work-preview-feedback" role="status">{t('Tap play to start the film.')}</span>}
   {fullscreenFailed&&<span className="film-fullscreen-feedback" role="status">{t('Fullscreen is unavailable in this browser. The film continues here.')}</span>}
  </div>;

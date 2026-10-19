@@ -7,7 +7,7 @@ import {BrandText} from '@/components/brand-text';
 export function ServiceWorldVideo({src}:{src:string}){const t=useTranslation();
  const film=useRef<HTMLVideoElement>(null),retry=useRef<()=>void>(()=>{});
  const[ready,setReady]=useState(false),[status,setStatus]=useState('loading');
- const playbackSource=usePlaybackSource(src),poster=mediaPoster(src);
+ const playbackSource=usePlaybackSource(src,true),poster=mediaPoster(src);
  useEffect(()=>{
   const video=film.current;if(!video||!playbackSource)return;
   let disposed=false,frame:number|undefined;
