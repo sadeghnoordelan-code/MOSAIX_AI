@@ -12,11 +12,12 @@ export const dynamic='force-dynamic';
 const COOKIE='mosaix_ai_session';
 import {acquireLease,releaseLease} from '@/lib/storage';
 import {getContent} from '@/features/cms/store';
+import {secureSessionCookie} from '@/lib/request-security';
 const json=(value:unknown,status=200)=>NextResponse.json(value,{status,headers:{'Cache-Control':'no-store'}});
 
-function attachCookie(response:NextResponse,id:string,request:NextRequest){response.cookies.set(COOKIE,id,{httpOnly:true,secure:(process.env.SITE_URL??request.url).startsWith('https://'),sameSite:'strict',path:'/api/ai',maxAge:SESSION_TTL/1000});return response;}
+function attachCookie(response:NextResponse,id:string){response.cookies.set(COOKIE,id,{httpOnly:true,secure:secureSessionCookie(),sameSite:'strict',path:'/api/ai',maxAge:SESSION_TTL/1000});return response;}
 export async function GET(request:NextRequest){try{const session=await getSession(request.cookies.get(COOKIE)?.value),content=await getContent();return json({available:content.assistant.enabled&&configured()?(await getProvider().health()).available:false,messages:session?.messages??[],canDraft:Boolean(session?.project.commissioning),privacy:'temporary-context'});}catch{return json({available:false,messages:[],canDraft:false},503);}}
-export async function DELETE(request:NextRequest){if(!isAllowedOrigin(request))return json({code:'origin'},403);const id=request.cookies.get(COOKIE)?.value;if(id)await clearSession(id);const response=json({cleared:true});response.cookies.set(COOKIE,'',{httpOnly:true,sameSite:'strict',path:'/api/ai',maxAge:0});return response;}
+export async function DELETE(request:NextRequest){if(!isAllowedOrigin(request))return json({code:'origin'},403);const id=request.cookies.get(COOKIE)?.value;if(id)await clearSession(id);const response=json({cleared:true});response.cookies.set(COOKIE,'',{httpOnly:true,secure:secureSessionCookie(),sameSite:'strict',path:'/api/ai',maxAge:0});return response;}
 async function handlePost(request:NextRequest){
  const requestId=randomUUID(),started=Date.now();
  if(!isAllowedOrigin(request))return json({code:'origin'},403);
@@ -34,7 +35,7 @@ async function handlePost(request:NextRequest){
  const stableSession=session;
  const finish=async()=>{clearTimeout(timeout);request.signal.removeEventListener('abort',abort);stableSession.busy=false;await releaseLease(lease,requestId).catch(()=>{});};
  if(input.action==='brief'){
-  try{const brief=projectBrief(session.project,input.language);return attachCookie(json({brief,submitted:false}),session.id,request);}finally{await finish();}
+  try{const brief=projectBrief(session.project,input.language);return attachCookie(json({brief,submitted:false}),session.id);}finally{await finish();}
  }
  const encoder=new TextEncoder();let cancelled=false;
  const stream=new ReadableStream<Uint8Array>({
@@ -56,7 +57,7 @@ async function handlePost(request:NextRequest){
    finally{await finish();if(!cancelled)output.close();}
   },cancel(){cancelled=true;controller.abort();}
  });
- return attachCookie(new NextResponse(stream,{headers:{'Content-Type':'application/x-ndjson; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','X-Accel-Buffering':'no'}}),session.id,request);
+ return attachCookie(new NextResponse(stream,{headers:{'Content-Type':'application/x-ndjson; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff','X-Accel-Buffering':'no'}}),session.id);
 }
 
 export async function POST(request:NextRequest){try{return await handlePost(request);}catch{return json({code:"unavailable"},503);}}

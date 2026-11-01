@@ -1,13 +1,14 @@
 import { createHash,createHmac,randomBytes,scrypt,timingSafeEqual } from 'node:crypto';
 import { promisify } from 'node:util';
 import { readValue,writeValue,deleteValue,takeLimit } from '../../lib/storage.ts';
+export {allowedRequestOrigin as allowedOrigin} from '../../lib/request-security.ts';
+import {allowedRequestOrigin as allowedOrigin} from '../../lib/request-security.ts';
 export const ADMIN_COOKIE='mosaix_owner';
 type Owner={email:string;csrf:string;version:string;expires:number};
 const hash=(text:string)=>createHash('sha256').update(text).digest('hex');
 const signature=(id:string)=>createHmac('sha256',process.env.ADMIN_SESSION_SECRET||'').update(id).digest('hex');
 export function equal(a:string,b:string){const x=Buffer.from(a),y=Buffer.from(b);return x.length===y.length&&timingSafeEqual(x,y);}
 export function adminConfigured(){return Boolean(process.env.ADMIN_EMAIL&&/^scrypt:[a-f0-9]{32}:[a-f0-9]{128}$/.test(process.env.ADMIN_PASSWORD_HASH||'')&&(process.env.ADMIN_SESSION_SECRET||'').length>=32);}
-export function allowedOrigin(request:Request){try{const origin=request.headers.get('origin');if(!origin)return false;const allowed=[process.env.SITE_URL,...[process.env.VERCEL_URL,process.env.VERCEL_BRANCH_URL].filter(Boolean).map(v=>'https://'+v),...(!process.env.VERCEL?['http://127.0.0.1:4180','http://localhost:4180']:[])].filter(Boolean).map(v=>new URL(v!).origin);return allowed.includes(origin)&&request.headers.get('host')===new URL(origin).host;}catch{return false;}}
 export async function verifyPassword(password:string){if(password.length>256)return false;const parts=(process.env.ADMIN_PASSWORD_HASH||'').split(':');if(parts.length!==3)return false;const digest=await promisify(scrypt)(password,Buffer.from(parts[1],'hex'),64) as Buffer;return equal(digest.toString('hex'),parts[2]);}
 export async function loginOwner(request:Request,email:string,password:string){if(!adminConfigured())throw new Error('not_configured');const ip=hash(request.headers.get('x-forwarded-for')?.split(',')[0]||'local');if(!await takeLimit('owner-login:'+ip,8,900)||!await takeLimit('owner-login-global',40,900))throw new Error('limited');const valid=await verifyPassword(password);if(!valid||!equal(email.toLowerCase(),process.env.ADMIN_EMAIL!.toLowerCase()))throw new Error('credentials');const id=randomBytes(32).toString('hex');await writeValue('owner:'+id,{email:process.env.ADMIN_EMAIL!,csrf:randomBytes(24).toString('hex'),version:hash(process.env.ADMIN_PASSWORD_HASH!),expires:Date.now()+28800000},28800);return id+'.'+signature(id);}
 export function token(request:Request){return request.headers.get('cookie')?.split(';').map(s=>s.trim()).find(s=>s.startsWith(ADMIN_COOKIE+'='))?.slice(ADMIN_COOKIE.length+1)||'';}
