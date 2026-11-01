@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element -- ImageResponse requires native image nodes. */
 import {ImageResponse} from 'next/og';
 import {readFile} from 'node:fs/promises';
 import path from 'node:path';
